@@ -1,0 +1,4 @@
+<svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="oc·vault mark">
+  <circle cx="512" cy="512" r="512" fill="#f97316"/>
+  <g transform="scale(42.666667 42.666667)"><path d="M8 9 L8 6.5 Q8 3.5 12 3.5 Q16 3.5 16 6.5 L16 9" fill="none" stroke="#fafafa" stroke-width="2" stroke-linecap="square"/><rect x="4" y="9" width="16" height="12" fill="#fafafa" stroke="#fafafa" stroke-width="0.75"/><circle cx="12" cy="14.5" r="2.75" fill="none" stroke="#fafafa" stroke-width="1.5"/><rect x="11.4" y="14.5" width="1.2" height="3.25" fill="#fafafa"/><rect x="5.5" y="19" width="2.25" height="1.5" fill="#fafafa"/><rect x="16.25" y="19" width="2.25" height="1.5" fill="#fafafa"/></g>
+</svg>

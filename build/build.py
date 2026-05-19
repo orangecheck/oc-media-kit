@@ -186,60 +186,122 @@ def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
         variant_circle(brand, ORANGE, LIGHT, DARK, label),
         (CANVAS, CANVAS),
     ))
+    # ---- white/black on orange (every brand) ----
+    # For glyph-only brands (single-color shape) this is "white glyph on orange"
+    # or "black glyph on orange" — the natural inversion.
+    # For full-mark brands (which already have an orange surface) we render the
+    # whole mark as a single-color silhouette on the orange backdrop, accepting
+    # the loss of inner detail as a deliberate stylization. The orange-on-orange
+    # blend it would otherwise produce is unusable.
+    out.append((
+        "square-white-on-orange",
+        variant_square(brand, LIGHT, ORANGE, LIGHT, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "square-black-on-orange",
+        variant_square(brand, DARK, ORANGE, DARK, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "rounded-white-on-orange",
+        variant_rounded(brand, LIGHT, ORANGE, LIGHT, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "rounded-black-on-orange",
+        variant_rounded(brand, DARK, ORANGE, DARK, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "circle-white-on-orange",
+        variant_circle(brand, LIGHT, ORANGE, LIGHT, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "circle-black-on-orange",
+        variant_circle(brand, DARK, ORANGE, DARK, label),
+        (CANVAS, CANVAS),
+    ))
+
+    # ---- transparent matrix (every brand) ----
+    #
+    # Eight flavors. The naming is uniform across every brand even when two
+    # entries technically render identically (e.g. for glyph-only brands the
+    # mono and outline variants are the same since there's no outer surface
+    # to drop). The duplication is deliberate — consumers can pick by
+    # semantic intent without per-brand lookup tables.
+    #
+    #   transparent           — natural bicolor (orange surface + dark detail).
+    #                            Default · use on light surfaces.
+    #   transparent-light-ink — bicolor with light detail (orange + light).
+    #                            Use on dark surfaces where dark ink would die.
+    #   transparent-mono-orange — full silhouette in orange (filled). Useful
+    #                              as a watermark / mask layer.
+    #   transparent-mono-dark   — full silhouette in dark.
+    #   transparent-mono-light  — full silhouette in light.
+    #   transparent-outline-orange — outer surface dropped, only the distinct
+    #                                inner detail in orange. Useful when the
+    #                                family chrome (orange square) would
+    #                                duplicate a chrome the host already provides.
+    #   transparent-outline-dark
+    #   transparent-outline-light
+    #
+    # For glyph-only brands (orangecheck §, vote bars) the "outline" rendering
+    # collapses to the same as "mono" (there's no outer surface to drop) —
+    # but we still emit the file so every brand has identical surface.
     out.append((
         "transparent",
         variant_transparent(brand, ORANGE, DARK, label),
         (CANVAS, CANVAS),
     ))
-
-    # ---- glyph-only brands (root §, vote bars) get inverted variants ----
-    # White glyph on orange backdrop, black glyph on orange backdrop — these
-    # only read for marks that are a single-color shape with no internal
-    # contrast. Full-mark brands (which already contain an orange surface)
-    # would just blend into the orange backdrop, so we omit them there.
-    if brand.is_glyph_only:
-        out.append((
-            "square-white-on-orange",
-            variant_square(brand, LIGHT, ORANGE, ORANGE, label),
-            (CANVAS, CANVAS),
-        ))
-        out.append((
-            "square-black-on-orange",
-            variant_square(brand, DARK, ORANGE, ORANGE, label),
-            (CANVAS, CANVAS),
-        ))
-        out.append((
-            "rounded-white-on-orange",
-            variant_rounded(brand, LIGHT, ORANGE, ORANGE, label),
-            (CANVAS, CANVAS),
-        ))
-        out.append((
-            "rounded-black-on-orange",
-            variant_rounded(brand, DARK, ORANGE, ORANGE, label),
-            (CANVAS, CANVAS),
-        ))
-        out.append((
-            "circle-white-on-orange",
-            variant_circle(brand, LIGHT, ORANGE, ORANGE, label),
-            (CANVAS, CANVAS),
-        ))
-        out.append((
-            "circle-black-on-orange",
-            variant_circle(brand, DARK, ORANGE, ORANGE, label),
-            (CANVAS, CANVAS),
-        ))
-        out.append((
-            "transparent-dark",
-            variant_transparent(brand, DARK, DARK, label),
-            (CANVAS, CANVAS),
-        ))
-        out.append((
-            "transparent-light",
-            variant_transparent(brand, LIGHT, LIGHT, label),
-            (CANVAS, CANVAS),
-        ))
+    out.append((
+        "transparent-light-ink",
+        variant_transparent(brand, ORANGE, LIGHT, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "transparent-mono-orange",
+        variant_transparent(brand, ORANGE, ORANGE, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "transparent-mono-dark",
+        variant_transparent(brand, DARK, DARK, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "transparent-mono-light",
+        variant_transparent(brand, LIGHT, LIGHT, label),
+        (CANVAS, CANVAS),
+    ))
+    # Outline variants drop the outer "surface" by passing fg="none" to the
+    # glyph. For most brands this strips the filled orange square and leaves
+    # only the distinctive inner detail (frame + glyph). For glyph-only
+    # brands the glyph IS the surface, so fg="none" would erase everything
+    # — we fall back to mono rendering in that case.
+    outline_fg_orange = ORANGE if brand.is_glyph_only else "none"
+    outline_fg_dark = DARK if brand.is_glyph_only else "none"
+    outline_fg_light = LIGHT if brand.is_glyph_only else "none"
+    out.append((
+        "transparent-outline-orange",
+        variant_transparent(brand, outline_fg_orange, ORANGE, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "transparent-outline-dark",
+        variant_transparent(brand, outline_fg_dark, DARK, label),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "transparent-outline-light",
+        variant_transparent(brand, outline_fg_light, LIGHT, label),
+        (CANVAS, CANVAS),
+    ))
 
     # ---- OG cards (every brand) ----
+    # Bicolor on dark and light backdrops, plus a mono white-on-orange OG
+    # for the share surface where you want the family color to fill-bleed.
     out.append((
         "og-on-dark",
         variant_og(brand, ORANGE, DARK, DARK, label),
@@ -250,12 +312,16 @@ def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
         variant_og(brand, ORANGE, LIGHT, DARK, label),
         (OG_W, OG_H),
     ))
-    if brand.is_glyph_only:
-        out.append((
-            "og-white-on-orange",
-            variant_og(brand, LIGHT, ORANGE, ORANGE, label),
-            (OG_W, OG_H),
-        ))
+    out.append((
+        "og-white-on-orange",
+        variant_og(brand, LIGHT, ORANGE, LIGHT, label),
+        (OG_W, OG_H),
+    ))
+    out.append((
+        "og-black-on-orange",
+        variant_og(brand, DARK, ORANGE, DARK, label),
+        (OG_W, OG_H),
+    ))
 
     return out
 
@@ -333,9 +399,13 @@ def build_brand(brand: Brand) -> dict:
                 v["png"][f"{s}x{s}"] = str(p.relative_to(REPO))
 
     # ---- favicon bundle ----
-    # Pick the canonical "favicon SVG" — square-on-dark is the family default.
-    canonical_svg = svg_paths["square-on-dark"]
-    rounded_svg = svg_paths["rounded-on-dark"]
+    # Brand.favicon_variant / Brand.apple_touch_variant override the default.
+    # The family default is square-on-dark (orange detail on dark) but
+    # glyph-only brands (orangecheck §, vote bars) override to
+    # rounded-white-on-orange — at 16×16 the orange tile reads as the family
+    # color where a tiny orange glyph on dark backdrop disappears.
+    canonical_svg = svg_paths[brand.favicon_variant]
+    rounded_svg = svg_paths[brand.apple_touch_variant]
 
     # favicon.svg (canonical, modern browsers)
     fav_svg = fav_dir / "favicon.svg"

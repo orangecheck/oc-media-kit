@@ -82,15 +82,21 @@ def orangecheck_glyph_svg(fg: str, bg: str, ink: str, canvas: int = 1024,
 # variants (rounded corners, circle, safe-area padding, etc.) by wrapping.
 # ---------------------------------------------------------------------------
 
-def attest_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
-    """attest.ochk.io — BadgeCheck (orange scalloped badge + checkmark).
-    Lifted from lucide-react BadgeCheck. The hexagonal scalloped silhouette
-    IS the OrangeCheck-protocol identity (an orange check badge)."""
+def attest_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001  # noqa: D205
+    # attest.ochk.io — BadgeCheck (orange scalloped badge + checkmark).
+    # Outline mode (fg="none"): the scalloped badge becomes a stroke
+    # outline in `ink`, the check stroke stays. Preserves the scalloped
+    # silhouette so the mark stays recognizable.
+    """Lifted from lucide-react BadgeCheck. The hexagonal scalloped
+    silhouette IS the OrangeCheck-protocol identity (an orange check
+    badge)."""
     s = canvas / 24.0
+    body_fill = fg if fg != "none" else "none"
+    body_stroke = fg if fg != "none" else ink
     return (
         f'<g transform="scale({s:.6f} {s:.6f})">'
         f'<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" '
-        f'fill="{fg}"/>'
+        f'fill="{body_fill}" stroke="{body_stroke}" stroke-width="0.5"/>'
         f'<path d="M9 12 l2 2 l4 -4" fill="none" stroke="{ink}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
         f'</g>'
     )
@@ -124,14 +130,20 @@ def me_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
     )
 
 
-def vault_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
-    """vault.ochk.io — shackle over safe body with dial + feet."""
+def vault_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
+    """vault.ochk.io — shackle over safe body with dial + feet.
+
+    When `fg="none"` (outline mode), the safe body would otherwise vanish.
+    We swap to a stroke-only treatment: shackle and body outlined in `ink`,
+    dial + feet rendered as before. Preserves the safe silhouette."""
     s = canvas / 24.0
+    body_fill = fg if fg != "none" else "none"
+    body_stroke = fg if fg != "none" else ink
     return (
         f'<g transform="scale({s:.6f} {s:.6f})">'
         f'<path d="M8 9 L8 6.5 Q8 3.5 12 3.5 Q16 3.5 16 6.5 L16 9" '
-        f'fill="none" stroke="{fg}" stroke-width="2" stroke-linecap="square"/>'
-        f'<rect x="4" y="9" width="16" height="12" fill="{fg}"/>'
+        f'fill="none" stroke="{body_stroke}" stroke-width="2" stroke-linecap="square"/>'
+        f'<rect x="4" y="9" width="16" height="12" fill="{body_fill}" stroke="{body_stroke}" stroke-width="0.75"/>'
         f'<circle cx="12" cy="14.5" r="2.75" fill="none" stroke="{ink}" stroke-width="1.5"/>'
         f'<rect x="11.4" y="14.5" width="1.2" height="3.25" fill="{ink}"/>'
         f'<rect x="5.5" y="19" width="2.25" height="1.5" fill="{ink}"/>'
@@ -154,13 +166,18 @@ def fleet_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
     )
 
 
-def lock_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
-    """lock.ochk.io — padlock (shackle + body + keyhole)."""
+def lock_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
+    """lock.ochk.io — padlock (shackle + body + keyhole).
+
+    Outline mode (fg="none"): shackle + body become stroke-only in `ink`,
+    keyhole rendered as before. The padlock silhouette stays intact."""
     s = canvas / 24.0
+    body_fill = fg if fg != "none" else "none"
+    body_stroke = fg if fg != "none" else ink
     return (
         f'<g transform="scale({s:.6f} {s:.6f})">'
-        f'<path d="M7 11V7.5a5 5 0 0 1 10 0V11" fill="none" stroke="{fg}" stroke-width="2" stroke-linecap="square"/>'
-        f'<rect x="4" y="11" width="16" height="10" fill="{fg}" stroke="{fg}" stroke-width="0.5"/>'
+        f'<path d="M7 11V7.5a5 5 0 0 1 10 0V11" fill="none" stroke="{body_stroke}" stroke-width="2" stroke-linecap="square"/>'
+        f'<rect x="4" y="11" width="16" height="10" fill="{body_fill}" stroke="{body_stroke}" stroke-width="0.75"/>'
         f'<rect x="11" y="14" width="2" height="4" fill="{ink}"/>'
         f'<rect x="10.25" y="14" width="3.5" height="1.5" fill="{ink}"/>'
         f'</g>'
@@ -194,12 +211,18 @@ def stamp_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
     )
 
 
-def agent_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
-    """agent.ochk.io — "A" pennant with crossbar + authority seal."""
+def agent_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
+    """agent.ochk.io — "A" pennant with crossbar + authority seal.
+
+    Outline mode (fg="none"): the "A" body becomes a stroke triangle in
+    `ink`, crossbar + dot rendered as before. Keeps the triangle outline
+    so the brand still reads."""
     s = canvas / 24.0
+    body_fill = fg if fg != "none" else "none"
+    body_stroke = fg if fg != "none" else ink
     return (
         f'<g transform="scale({s:.6f} {s:.6f})">'
-        f'<path d="M4 20 L12 4 L20 20 Z" fill="{fg}" stroke="{fg}" stroke-width="1.25" stroke-linejoin="miter"/>'
+        f'<path d="M4 20 L12 4 L20 20 Z" fill="{body_fill}" stroke="{body_stroke}" stroke-width="1.5" stroke-linejoin="miter"/>'
         f'<rect x="7.5" y="13.5" width="9" height="2" fill="{ink}"/>'
         f'<rect x="11" y="9" width="2" height="2" fill="{ink}"/>'
         f'</g>'
@@ -248,6 +271,12 @@ class Brand:
     # or three vote bars). The standard sub-brand glyphs ARE the full mark
     # (filled square + frame + detail) and ignore this flag.
     is_glyph_only: bool = False
+    # Which variant to use as the canonical favicon source. Defaults to
+    # the dark-bg square mark, but brands whose identity is orange-dominant
+    # (orangecheck §, vote bars) override to a rounded white-on-orange tile
+    # so the family color reads at favicon scale.
+    favicon_variant: str = "square-on-dark"
+    apple_touch_variant: str = "rounded-on-dark"
 
 
 BRANDS: list[Brand] = [
@@ -259,6 +288,12 @@ BRANDS: list[Brand] = [
         glyph=lambda fg, bg, ink, canvas=1024: orangecheck_glyph_svg(fg, bg, ink, canvas, 0.78),
         glyph_frac=0.78,
         is_glyph_only=True,
+        # The brand IS the orange tile. § rendered in white on an orange
+        # rounded square reads at favicon scale and matches the family-
+        # wide identity color — same look as the existing attest BadgeCheck
+        # but with the canonical § glyph instead of a check.
+        favicon_variant="rounded-white-on-orange",
+        apple_touch_variant="rounded-white-on-orange",
     ),
     Brand(
         slug="attest",
@@ -309,6 +344,10 @@ BRANDS: list[Brand] = [
         tagline="sat-weighted polls, anchored to bitcoin",
         glyph=vote_glyph,
         is_glyph_only=True,
+        # Same reasoning as orangecheck: three bars on a dark backdrop
+        # disappear at 16×16. White bars on rounded orange tile pops.
+        favicon_variant="rounded-white-on-orange",
+        apple_touch_variant="rounded-white-on-orange",
     ),
     Brand(
         slug="stamp",

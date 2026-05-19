@@ -69,28 +69,50 @@ dist/<slug>/
 
 ## Variants
 
-Standard set (every brand):
+Every brand ships the same 26-variant set:
 
-| Variant            | Use                                            |
-|--------------------|------------------------------------------------|
-| `square-on-dark`   | canonical mark · favicon source · dark surface |
-| `square-on-light`  | same, light surface                            |
-| `rounded-on-dark`  | iOS home-screen · apple-touch-icon             |
-| `rounded-on-light` | rounded, light surface                         |
-| `safearea-on-dark` | OAuth tiles · chrome-extension store (28% pad) |
-| `safearea-on-light`| same, light surface                            |
-| `circle-on-dark`   | social avatars (X / GitHub / npm)              |
-| `circle-on-light`  | circular, light surface                        |
-| `transparent`      | overlays · watermarks · README headers         |
-| `og-on-dark`       | OpenGraph share card · 1200×630                |
-| `og-on-light`      | same, light                                    |
+| Variant                       | Use                                            |
+|-------------------------------|------------------------------------------------|
+| `square-on-dark`              | canonical mark · dark surface                  |
+| `square-on-light`             | mark on light surface                          |
+| `square-white-on-orange`      | white silhouette on orange tile                |
+| `square-black-on-orange`      | dark silhouette on orange tile                 |
+| `rounded-on-dark`             | iOS home-screen · apple-touch source           |
+| `rounded-on-light`            | rounded, light surface                         |
+| `rounded-white-on-orange`     | rounded orange tile · canonical favicon for §/vote |
+| `rounded-black-on-orange`     | rounded orange tile · dark glyph               |
+| `safearea-on-dark`            | OAuth tiles · ext store (28% pad)              |
+| `safearea-on-light`           | safe-area, light surface                       |
+| `circle-on-dark`              | social avatars (X / GitHub / npm)              |
+| `circle-on-light`             | circular, light surface                        |
+| `circle-white-on-orange`      | orange avatar tile · white mark                |
+| `circle-black-on-orange`      | orange avatar tile · dark mark                 |
+| `transparent`                 | natural bicolor on no bg · light surfaces      |
+| `transparent-light-ink`       | bicolor with light ink · dark surfaces         |
+| `transparent-mono-orange`     | full filled silhouette in orange · masks       |
+| `transparent-mono-dark`       | full filled silhouette in dark                 |
+| `transparent-mono-light`      | full filled silhouette in light                |
+| `transparent-outline-orange`  | outline only · drops the orange chrome         |
+| `transparent-outline-dark`    | outline only in dark                           |
+| `transparent-outline-light`   | outline only in light                          |
+| `og-on-dark`                  | OpenGraph share card · 1200×630                |
+| `og-on-light`                 | OG, light backdrop                             |
+| `og-white-on-orange`          | OG, orange backdrop · white mark               |
+| `og-black-on-orange`          | OG, orange backdrop · dark mark                |
 
-Glyph-only brands (`orangecheck` §, `vote` bars — single-color shapes
-with no internal contrast) additionally ship inverted variants:
-`square-white-on-orange`, `square-black-on-orange`,
-`rounded-white-on-orange`, `rounded-black-on-orange`,
-`circle-white-on-orange`, `circle-black-on-orange`,
-`transparent-dark`, `transparent-light`, `og-white-on-orange`.
+### Pick by intent
+
+- **favicon** — the favicon bundle ships ready. Just `cp` `dist/<brand>/favicon/*`.
+- **mark for a dark surface** — `transparent-light-ink` (bicolor) or
+  `transparent-mono-light` (silhouette).
+- **mark for a light surface** — `transparent` (bicolor) or
+  `transparent-mono-dark` (silhouette).
+- **mark on photo / colored backdrop** — `transparent-outline-{orange|dark|light}`
+  (the family chrome drops away; only the distinguishing inner detail remains).
+- **social avatar (X, GitHub, npm)** — `circle-on-dark` 512px (most contexts)
+  or `circle-white-on-orange` 512px (orange-dominant).
+- **OG share card** — `og-on-dark` 1200×630 (most contexts) or
+  `og-white-on-orange` for posts where the family color should lead.
 
 ## PNG size ladder
 

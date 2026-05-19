@@ -135,21 +135,6 @@
             "1024x1024": "dist/orangecheck/png/circle-on-light-1024x1024.png"
           }
         },
-        "transparent": {
-          "svg": "dist/orangecheck/svg/transparent.svg",
-          "png": {
-            "16x16": "dist/orangecheck/png/transparent-16x16.png",
-            "32x32": "dist/orangecheck/png/transparent-32x32.png",
-            "48x48": "dist/orangecheck/png/transparent-48x48.png",
-            "64x64": "dist/orangecheck/png/transparent-64x64.png",
-            "128x128": "dist/orangecheck/png/transparent-128x128.png",
-            "180x180": "dist/orangecheck/png/transparent-180x180.png",
-            "192x192": "dist/orangecheck/png/transparent-192x192.png",
-            "256x256": "dist/orangecheck/png/transparent-256x256.png",
-            "512x512": "dist/orangecheck/png/transparent-512x512.png",
-            "1024x1024": "dist/orangecheck/png/transparent-1024x1024.png"
-          }
-        },
         "square-white-on-orange": {
           "svg": "dist/orangecheck/svg/square-white-on-orange.svg",
           "png": {
@@ -240,34 +225,124 @@
             "1024x1024": "dist/orangecheck/png/circle-black-on-orange-1024x1024.png"
           }
         },
-        "transparent-dark": {
-          "svg": "dist/orangecheck/svg/transparent-dark.svg",
+        "transparent": {
+          "svg": "dist/orangecheck/svg/transparent.svg",
           "png": {
-            "16x16": "dist/orangecheck/png/transparent-dark-16x16.png",
-            "32x32": "dist/orangecheck/png/transparent-dark-32x32.png",
-            "48x48": "dist/orangecheck/png/transparent-dark-48x48.png",
-            "64x64": "dist/orangecheck/png/transparent-dark-64x64.png",
-            "128x128": "dist/orangecheck/png/transparent-dark-128x128.png",
-            "180x180": "dist/orangecheck/png/transparent-dark-180x180.png",
-            "192x192": "dist/orangecheck/png/transparent-dark-192x192.png",
-            "256x256": "dist/orangecheck/png/transparent-dark-256x256.png",
-            "512x512": "dist/orangecheck/png/transparent-dark-512x512.png",
-            "1024x1024": "dist/orangecheck/png/transparent-dark-1024x1024.png"
+            "16x16": "dist/orangecheck/png/transparent-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-1024x1024.png"
           }
         },
-        "transparent-light": {
-          "svg": "dist/orangecheck/svg/transparent-light.svg",
+        "transparent-light-ink": {
+          "svg": "dist/orangecheck/svg/transparent-light-ink.svg",
           "png": {
-            "16x16": "dist/orangecheck/png/transparent-light-16x16.png",
-            "32x32": "dist/orangecheck/png/transparent-light-32x32.png",
-            "48x48": "dist/orangecheck/png/transparent-light-48x48.png",
-            "64x64": "dist/orangecheck/png/transparent-light-64x64.png",
-            "128x128": "dist/orangecheck/png/transparent-light-128x128.png",
-            "180x180": "dist/orangecheck/png/transparent-light-180x180.png",
-            "192x192": "dist/orangecheck/png/transparent-light-192x192.png",
-            "256x256": "dist/orangecheck/png/transparent-light-256x256.png",
-            "512x512": "dist/orangecheck/png/transparent-light-512x512.png",
-            "1024x1024": "dist/orangecheck/png/transparent-light-1024x1024.png"
+            "16x16": "dist/orangecheck/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/orangecheck/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/orangecheck/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/orangecheck/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/orangecheck/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/orangecheck/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/orangecheck/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-outline-light-1024x1024.png"
           }
         },
         "og-on-dark": {
@@ -287,6 +362,12 @@
           "png": {
             "1200x630": "dist/orangecheck/og/og-white-on-orange-1200x630.png"
           }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/orangecheck/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/orangecheck/og/og-black-on-orange-1200x630.png"
+          }
         }
       },
       "favicon": {
@@ -303,7 +384,8 @@
       "og": {
         "og-on-dark": "dist/orangecheck/og/og-on-dark-1200x630.png",
         "og-on-light": "dist/orangecheck/og/og-on-light-1200x630.png",
-        "og-white-on-orange": "dist/orangecheck/og/og-white-on-orange-1200x630.png"
+        "og-white-on-orange": "dist/orangecheck/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/orangecheck/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -432,6 +514,96 @@
             "1024x1024": "dist/attest/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/attest/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/attest/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/attest/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/attest/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/attest/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/attest/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/attest/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/attest/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/attest/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/attest/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/attest/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/attest/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/attest/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/attest/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/attest/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/attest/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/attest/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/attest/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/attest/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/attest/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/attest/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/attest/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/attest/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/attest/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/attest/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/attest/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/attest/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/attest/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/attest/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/attest/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/attest/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/attest/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/attest/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/attest/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/attest/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/attest/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/attest/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/attest/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/attest/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/attest/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/attest/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/attest/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/attest/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/attest/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/attest/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/attest/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/attest/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/attest/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/attest/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/attest/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/attest/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/attest/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/attest/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/attest/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/attest/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/attest/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/attest/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/attest/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/attest/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/attest/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/attest/svg/transparent.svg",
           "png": {
@@ -447,6 +619,111 @@
             "1024x1024": "dist/attest/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/attest/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/attest/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/attest/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/attest/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/attest/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/attest/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/attest/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/attest/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/attest/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/attest/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/attest/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/attest/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/attest/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/attest/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/attest/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/attest/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/attest/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/attest/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/attest/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/attest/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/attest/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/attest/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/attest/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/attest/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/attest/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/attest/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/attest/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/attest/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/attest/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/attest/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/attest/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/attest/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/attest/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/attest/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/attest/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/attest/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/attest/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/attest/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/attest/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/attest/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/attest/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/attest/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/attest/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/attest/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/attest/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/attest/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/attest/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/attest/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/attest/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/attest/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/attest/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/attest/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/attest/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/attest/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/attest/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/attest/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/attest/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/attest/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/attest/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/attest/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/attest/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/attest/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/attest/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/attest/svg/og-on-dark.svg",
           "png": {
@@ -457,6 +734,18 @@
           "svg": "dist/attest/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/attest/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/attest/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/attest/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/attest/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/attest/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -473,7 +762,9 @@
       },
       "og": {
         "og-on-dark": "dist/attest/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/attest/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/attest/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/attest/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/attest/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -602,6 +893,96 @@
             "1024x1024": "dist/docs/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/docs/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/docs/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/docs/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/docs/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/docs/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/docs/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/docs/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/docs/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/docs/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/docs/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/docs/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/docs/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/docs/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/docs/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/docs/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/docs/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/docs/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/docs/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/docs/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/docs/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/docs/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/docs/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/docs/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/docs/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/docs/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/docs/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/docs/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/docs/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/docs/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/docs/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/docs/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/docs/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/docs/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/docs/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/docs/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/docs/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/docs/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/docs/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/docs/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/docs/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/docs/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/docs/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/docs/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/docs/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/docs/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/docs/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/docs/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/docs/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/docs/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/docs/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/docs/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/docs/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/docs/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/docs/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/docs/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/docs/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/docs/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/docs/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/docs/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/docs/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/docs/svg/transparent.svg",
           "png": {
@@ -617,6 +998,111 @@
             "1024x1024": "dist/docs/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/docs/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/docs/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/docs/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/docs/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/docs/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/docs/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/docs/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/docs/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/docs/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/docs/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/docs/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/docs/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/docs/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/docs/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/docs/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/docs/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/docs/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/docs/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/docs/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/docs/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/docs/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/docs/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/docs/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/docs/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/docs/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/docs/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/docs/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/docs/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/docs/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/docs/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/docs/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/docs/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/docs/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/docs/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/docs/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/docs/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/docs/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/docs/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/docs/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/docs/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/docs/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/docs/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/docs/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/docs/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/docs/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/docs/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/docs/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/docs/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/docs/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/docs/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/docs/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/docs/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/docs/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/docs/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/docs/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/docs/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/docs/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/docs/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/docs/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/docs/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/docs/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/docs/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/docs/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/docs/svg/og-on-dark.svg",
           "png": {
@@ -627,6 +1113,18 @@
           "svg": "dist/docs/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/docs/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/docs/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/docs/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/docs/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/docs/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -643,7 +1141,9 @@
       },
       "og": {
         "og-on-dark": "dist/docs/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/docs/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/docs/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/docs/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/docs/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -772,6 +1272,96 @@
             "1024x1024": "dist/me/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/me/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/me/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/me/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/me/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/me/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/me/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/me/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/me/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/me/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/me/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/me/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/me/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/me/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/me/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/me/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/me/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/me/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/me/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/me/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/me/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/me/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/me/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/me/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/me/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/me/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/me/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/me/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/me/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/me/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/me/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/me/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/me/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/me/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/me/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/me/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/me/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/me/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/me/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/me/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/me/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/me/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/me/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/me/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/me/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/me/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/me/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/me/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/me/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/me/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/me/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/me/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/me/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/me/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/me/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/me/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/me/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/me/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/me/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/me/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/me/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/me/svg/transparent.svg",
           "png": {
@@ -787,6 +1377,111 @@
             "1024x1024": "dist/me/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/me/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/me/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/me/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/me/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/me/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/me/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/me/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/me/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/me/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/me/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/me/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/me/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/me/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/me/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/me/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/me/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/me/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/me/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/me/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/me/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/me/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/me/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/me/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/me/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/me/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/me/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/me/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/me/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/me/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/me/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/me/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/me/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/me/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/me/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/me/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/me/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/me/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/me/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/me/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/me/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/me/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/me/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/me/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/me/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/me/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/me/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/me/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/me/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/me/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/me/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/me/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/me/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/me/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/me/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/me/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/me/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/me/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/me/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/me/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/me/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/me/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/me/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/me/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/me/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/me/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/me/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/me/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/me/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/me/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/me/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/me/svg/og-on-dark.svg",
           "png": {
@@ -797,6 +1492,18 @@
           "svg": "dist/me/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/me/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/me/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/me/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/me/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/me/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -813,7 +1520,9 @@
       },
       "og": {
         "og-on-dark": "dist/me/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/me/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/me/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/me/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/me/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -942,6 +1651,96 @@
             "1024x1024": "dist/vault/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/vault/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/vault/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/vault/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/vault/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/vault/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/vault/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/vault/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/vault/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/vault/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/vault/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/vault/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/vault/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/vault/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/vault/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/vault/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/vault/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/vault/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/vault/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/vault/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/vault/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/vault/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/vault/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/vault/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/vault/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/vault/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/vault/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/vault/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/vault/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/vault/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/vault/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/vault/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/vault/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/vault/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/vault/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/vault/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/vault/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/vault/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/vault/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/vault/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/vault/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/vault/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/vault/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/vault/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/vault/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/vault/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/vault/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/vault/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/vault/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/vault/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/vault/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/vault/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/vault/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/vault/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/vault/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/vault/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/vault/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/vault/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/vault/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/vault/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/vault/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/vault/svg/transparent.svg",
           "png": {
@@ -957,6 +1756,111 @@
             "1024x1024": "dist/vault/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/vault/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/vault/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/vault/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/vault/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/vault/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/vault/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/vault/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/vault/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/vault/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/vault/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/vault/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/vault/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/vault/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/vault/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/vault/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/vault/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/vault/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/vault/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/vault/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/vault/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/vault/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/vault/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/vault/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/vault/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/vault/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/vault/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/vault/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/vault/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/vault/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/vault/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/vault/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/vault/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/vault/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/vault/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/vault/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/vault/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/vault/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/vault/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/vault/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/vault/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/vault/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/vault/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/vault/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/vault/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/vault/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/vault/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/vault/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/vault/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/vault/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/vault/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/vault/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/vault/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/vault/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/vault/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/vault/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/vault/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/vault/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/vault/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/vault/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/vault/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/vault/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/vault/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/vault/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/vault/svg/og-on-dark.svg",
           "png": {
@@ -967,6 +1871,18 @@
           "svg": "dist/vault/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/vault/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/vault/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/vault/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/vault/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/vault/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -983,7 +1899,9 @@
       },
       "og": {
         "og-on-dark": "dist/vault/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/vault/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/vault/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/vault/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/vault/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -1112,6 +2030,96 @@
             "1024x1024": "dist/fleet/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/fleet/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/fleet/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/fleet/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/fleet/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/fleet/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/fleet/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/fleet/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/fleet/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/fleet/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/fleet/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/fleet/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/fleet/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/fleet/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/fleet/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/fleet/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/fleet/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/fleet/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/fleet/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/fleet/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/fleet/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/fleet/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/fleet/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/fleet/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/fleet/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/fleet/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/fleet/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/fleet/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/fleet/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/fleet/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/fleet/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/fleet/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/fleet/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/fleet/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/fleet/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/fleet/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/fleet/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/fleet/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/fleet/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/fleet/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/fleet/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/fleet/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/fleet/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/fleet/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/fleet/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/fleet/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/fleet/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/fleet/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/fleet/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/fleet/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/fleet/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/fleet/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/fleet/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/fleet/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/fleet/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/fleet/svg/transparent.svg",
           "png": {
@@ -1127,6 +2135,111 @@
             "1024x1024": "dist/fleet/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/fleet/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/fleet/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/fleet/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/fleet/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/fleet/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/fleet/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/fleet/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/fleet/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/fleet/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/fleet/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/fleet/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/fleet/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/fleet/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/fleet/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/fleet/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/fleet/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/fleet/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/fleet/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/fleet/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/fleet/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/fleet/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/fleet/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/fleet/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/fleet/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/fleet/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/fleet/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/fleet/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/fleet/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/fleet/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/fleet/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/fleet/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/fleet/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/fleet/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/fleet/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/fleet/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/fleet/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/fleet/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/fleet/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/fleet/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/fleet/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/fleet/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/fleet/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/fleet/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/fleet/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/fleet/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/fleet/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/fleet/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/fleet/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/fleet/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/fleet/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/fleet/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/fleet/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/fleet/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/fleet/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/fleet/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/fleet/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/fleet/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/fleet/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/fleet/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/fleet/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/fleet/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/fleet/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/fleet/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/fleet/svg/og-on-dark.svg",
           "png": {
@@ -1137,6 +2250,18 @@
           "svg": "dist/fleet/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/fleet/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/fleet/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/fleet/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/fleet/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/fleet/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -1153,7 +2278,9 @@
       },
       "og": {
         "og-on-dark": "dist/fleet/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/fleet/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/fleet/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/fleet/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/fleet/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -1282,6 +2409,96 @@
             "1024x1024": "dist/lock/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/lock/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/lock/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/lock/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/lock/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/lock/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/lock/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/lock/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/lock/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/lock/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/lock/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/lock/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/lock/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/lock/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/lock/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/lock/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/lock/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/lock/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/lock/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/lock/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/lock/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/lock/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/lock/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/lock/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/lock/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/lock/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/lock/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/lock/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/lock/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/lock/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/lock/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/lock/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/lock/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/lock/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/lock/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/lock/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/lock/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/lock/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/lock/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/lock/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/lock/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/lock/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/lock/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/lock/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/lock/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/lock/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/lock/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/lock/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/lock/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/lock/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/lock/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/lock/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/lock/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/lock/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/lock/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/lock/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/lock/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/lock/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/lock/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/lock/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/lock/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/lock/svg/transparent.svg",
           "png": {
@@ -1297,6 +2514,111 @@
             "1024x1024": "dist/lock/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/lock/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/lock/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/lock/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/lock/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/lock/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/lock/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/lock/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/lock/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/lock/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/lock/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/lock/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/lock/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/lock/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/lock/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/lock/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/lock/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/lock/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/lock/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/lock/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/lock/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/lock/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/lock/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/lock/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/lock/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/lock/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/lock/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/lock/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/lock/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/lock/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/lock/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/lock/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/lock/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/lock/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/lock/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/lock/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/lock/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/lock/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/lock/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/lock/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/lock/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/lock/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/lock/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/lock/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/lock/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/lock/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/lock/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/lock/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/lock/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/lock/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/lock/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/lock/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/lock/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/lock/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/lock/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/lock/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/lock/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/lock/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/lock/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/lock/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/lock/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/lock/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/lock/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/lock/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/lock/svg/og-on-dark.svg",
           "png": {
@@ -1307,6 +2629,18 @@
           "svg": "dist/lock/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/lock/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/lock/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/lock/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/lock/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/lock/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -1323,7 +2657,9 @@
       },
       "og": {
         "og-on-dark": "dist/lock/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/lock/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/lock/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/lock/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/lock/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -1452,21 +2788,6 @@
             "1024x1024": "dist/vote/png/circle-on-light-1024x1024.png"
           }
         },
-        "transparent": {
-          "svg": "dist/vote/svg/transparent.svg",
-          "png": {
-            "16x16": "dist/vote/png/transparent-16x16.png",
-            "32x32": "dist/vote/png/transparent-32x32.png",
-            "48x48": "dist/vote/png/transparent-48x48.png",
-            "64x64": "dist/vote/png/transparent-64x64.png",
-            "128x128": "dist/vote/png/transparent-128x128.png",
-            "180x180": "dist/vote/png/transparent-180x180.png",
-            "192x192": "dist/vote/png/transparent-192x192.png",
-            "256x256": "dist/vote/png/transparent-256x256.png",
-            "512x512": "dist/vote/png/transparent-512x512.png",
-            "1024x1024": "dist/vote/png/transparent-1024x1024.png"
-          }
-        },
         "square-white-on-orange": {
           "svg": "dist/vote/svg/square-white-on-orange.svg",
           "png": {
@@ -1557,34 +2878,124 @@
             "1024x1024": "dist/vote/png/circle-black-on-orange-1024x1024.png"
           }
         },
-        "transparent-dark": {
-          "svg": "dist/vote/svg/transparent-dark.svg",
+        "transparent": {
+          "svg": "dist/vote/svg/transparent.svg",
           "png": {
-            "16x16": "dist/vote/png/transparent-dark-16x16.png",
-            "32x32": "dist/vote/png/transparent-dark-32x32.png",
-            "48x48": "dist/vote/png/transparent-dark-48x48.png",
-            "64x64": "dist/vote/png/transparent-dark-64x64.png",
-            "128x128": "dist/vote/png/transparent-dark-128x128.png",
-            "180x180": "dist/vote/png/transparent-dark-180x180.png",
-            "192x192": "dist/vote/png/transparent-dark-192x192.png",
-            "256x256": "dist/vote/png/transparent-dark-256x256.png",
-            "512x512": "dist/vote/png/transparent-dark-512x512.png",
-            "1024x1024": "dist/vote/png/transparent-dark-1024x1024.png"
+            "16x16": "dist/vote/png/transparent-16x16.png",
+            "32x32": "dist/vote/png/transparent-32x32.png",
+            "48x48": "dist/vote/png/transparent-48x48.png",
+            "64x64": "dist/vote/png/transparent-64x64.png",
+            "128x128": "dist/vote/png/transparent-128x128.png",
+            "180x180": "dist/vote/png/transparent-180x180.png",
+            "192x192": "dist/vote/png/transparent-192x192.png",
+            "256x256": "dist/vote/png/transparent-256x256.png",
+            "512x512": "dist/vote/png/transparent-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-1024x1024.png"
           }
         },
-        "transparent-light": {
-          "svg": "dist/vote/svg/transparent-light.svg",
+        "transparent-light-ink": {
+          "svg": "dist/vote/svg/transparent-light-ink.svg",
           "png": {
-            "16x16": "dist/vote/png/transparent-light-16x16.png",
-            "32x32": "dist/vote/png/transparent-light-32x32.png",
-            "48x48": "dist/vote/png/transparent-light-48x48.png",
-            "64x64": "dist/vote/png/transparent-light-64x64.png",
-            "128x128": "dist/vote/png/transparent-light-128x128.png",
-            "180x180": "dist/vote/png/transparent-light-180x180.png",
-            "192x192": "dist/vote/png/transparent-light-192x192.png",
-            "256x256": "dist/vote/png/transparent-light-256x256.png",
-            "512x512": "dist/vote/png/transparent-light-512x512.png",
-            "1024x1024": "dist/vote/png/transparent-light-1024x1024.png"
+            "16x16": "dist/vote/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/vote/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/vote/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/vote/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/vote/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/vote/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/vote/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/vote/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/vote/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/vote/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/vote/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/vote/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/vote/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/vote/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/vote/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/vote/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/vote/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/vote/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/vote/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/vote/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/vote/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/vote/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/vote/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/vote/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/vote/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/vote/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/vote/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/vote/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/vote/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/vote/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/vote/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/vote/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/vote/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/vote/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/vote/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/vote/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/vote/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/vote/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/vote/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/vote/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/vote/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/vote/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/vote/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/vote/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/vote/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/vote/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/vote/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/vote/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/vote/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/vote/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/vote/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/vote/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/vote/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/vote/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/vote/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/vote/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/vote/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/vote/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/vote/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/vote/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/vote/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/vote/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/vote/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-outline-light-1024x1024.png"
           }
         },
         "og-on-dark": {
@@ -1604,6 +3015,12 @@
           "png": {
             "1200x630": "dist/vote/og/og-white-on-orange-1200x630.png"
           }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/vote/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/vote/og/og-black-on-orange-1200x630.png"
+          }
         }
       },
       "favicon": {
@@ -1620,7 +3037,8 @@
       "og": {
         "og-on-dark": "dist/vote/og/og-on-dark-1200x630.png",
         "og-on-light": "dist/vote/og/og-on-light-1200x630.png",
-        "og-white-on-orange": "dist/vote/og/og-white-on-orange-1200x630.png"
+        "og-white-on-orange": "dist/vote/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/vote/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -1749,6 +3167,96 @@
             "1024x1024": "dist/stamp/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/stamp/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/stamp/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/stamp/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/stamp/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/stamp/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/stamp/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/stamp/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/stamp/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/stamp/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/stamp/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/stamp/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/stamp/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/stamp/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/stamp/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/stamp/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/stamp/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/stamp/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/stamp/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/stamp/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/stamp/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/stamp/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/stamp/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/stamp/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/stamp/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/stamp/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/stamp/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/stamp/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/stamp/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/stamp/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/stamp/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/stamp/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/stamp/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/stamp/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/stamp/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/stamp/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/stamp/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/stamp/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/stamp/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/stamp/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/stamp/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/stamp/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/stamp/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/stamp/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/stamp/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/stamp/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/stamp/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/stamp/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/stamp/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/stamp/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/stamp/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/stamp/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/stamp/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/stamp/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/stamp/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/stamp/svg/transparent.svg",
           "png": {
@@ -1764,6 +3272,111 @@
             "1024x1024": "dist/stamp/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/stamp/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/stamp/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/stamp/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/stamp/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/stamp/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/stamp/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/stamp/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/stamp/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/stamp/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/stamp/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/stamp/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/stamp/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/stamp/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/stamp/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/stamp/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/stamp/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/stamp/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/stamp/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/stamp/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/stamp/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/stamp/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/stamp/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/stamp/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/stamp/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/stamp/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/stamp/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/stamp/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/stamp/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/stamp/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/stamp/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/stamp/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/stamp/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/stamp/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/stamp/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/stamp/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/stamp/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/stamp/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/stamp/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/stamp/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/stamp/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/stamp/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/stamp/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/stamp/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/stamp/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/stamp/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/stamp/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/stamp/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/stamp/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/stamp/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/stamp/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/stamp/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/stamp/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/stamp/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/stamp/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/stamp/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/stamp/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/stamp/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/stamp/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/stamp/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/stamp/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/stamp/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/stamp/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/stamp/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/stamp/svg/og-on-dark.svg",
           "png": {
@@ -1774,6 +3387,18 @@
           "svg": "dist/stamp/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/stamp/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/stamp/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/stamp/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/stamp/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/stamp/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -1790,7 +3415,9 @@
       },
       "og": {
         "og-on-dark": "dist/stamp/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/stamp/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/stamp/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/stamp/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/stamp/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -1919,6 +3546,96 @@
             "1024x1024": "dist/agent/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/agent/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/agent/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/agent/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/agent/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/agent/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/agent/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/agent/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/agent/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/agent/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/agent/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/agent/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/agent/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/agent/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/agent/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/agent/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/agent/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/agent/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/agent/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/agent/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/agent/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/agent/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/agent/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/agent/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/agent/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/agent/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/agent/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/agent/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/agent/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/agent/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/agent/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/agent/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/agent/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/agent/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/agent/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/agent/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/agent/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/agent/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/agent/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/agent/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/agent/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/agent/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/agent/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/agent/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/agent/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/agent/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/agent/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/agent/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/agent/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/agent/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/agent/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/agent/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/agent/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/agent/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/agent/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/agent/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/agent/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/agent/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/agent/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/agent/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/agent/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/agent/svg/transparent.svg",
           "png": {
@@ -1934,6 +3651,111 @@
             "1024x1024": "dist/agent/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/agent/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/agent/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/agent/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/agent/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/agent/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/agent/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/agent/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/agent/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/agent/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/agent/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/agent/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/agent/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/agent/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/agent/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/agent/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/agent/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/agent/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/agent/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/agent/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/agent/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/agent/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/agent/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/agent/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/agent/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/agent/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/agent/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/agent/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/agent/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/agent/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/agent/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/agent/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/agent/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/agent/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/agent/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/agent/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/agent/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/agent/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/agent/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/agent/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/agent/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/agent/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/agent/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/agent/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/agent/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/agent/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/agent/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/agent/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/agent/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/agent/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/agent/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/agent/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/agent/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/agent/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/agent/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/agent/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/agent/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/agent/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/agent/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/agent/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/agent/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/agent/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/agent/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/agent/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/agent/svg/og-on-dark.svg",
           "png": {
@@ -1944,6 +3766,18 @@
           "svg": "dist/agent/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/agent/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/agent/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/agent/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/agent/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/agent/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -1960,7 +3794,9 @@
       },
       "og": {
         "og-on-dark": "dist/agent/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/agent/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/agent/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/agent/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/agent/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -2089,6 +3925,96 @@
             "1024x1024": "dist/pledge/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/pledge/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/pledge/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/pledge/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/pledge/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/pledge/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/pledge/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/pledge/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/pledge/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/pledge/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/pledge/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/pledge/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/pledge/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/pledge/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/pledge/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/pledge/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/pledge/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/pledge/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/pledge/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/pledge/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/pledge/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/pledge/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/pledge/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/pledge/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/pledge/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/pledge/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/pledge/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/pledge/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/pledge/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/pledge/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/pledge/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/pledge/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/pledge/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/pledge/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/pledge/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/pledge/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/pledge/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/pledge/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/pledge/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/pledge/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/pledge/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/pledge/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/pledge/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/pledge/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/pledge/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/pledge/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/pledge/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/pledge/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/pledge/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/pledge/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/pledge/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/pledge/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/pledge/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/pledge/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/pledge/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/pledge/svg/transparent.svg",
           "png": {
@@ -2104,6 +4030,111 @@
             "1024x1024": "dist/pledge/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/pledge/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/pledge/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/pledge/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/pledge/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/pledge/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/pledge/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/pledge/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/pledge/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/pledge/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/pledge/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/pledge/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/pledge/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/pledge/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/pledge/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/pledge/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/pledge/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/pledge/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/pledge/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/pledge/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/pledge/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/pledge/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/pledge/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/pledge/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/pledge/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/pledge/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/pledge/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/pledge/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/pledge/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/pledge/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/pledge/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/pledge/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/pledge/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/pledge/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/pledge/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/pledge/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/pledge/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/pledge/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/pledge/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/pledge/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/pledge/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/pledge/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/pledge/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/pledge/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/pledge/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/pledge/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/pledge/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/pledge/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/pledge/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/pledge/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/pledge/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/pledge/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/pledge/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/pledge/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/pledge/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/pledge/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/pledge/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/pledge/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/pledge/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/pledge/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/pledge/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/pledge/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/pledge/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/pledge/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/pledge/svg/og-on-dark.svg",
           "png": {
@@ -2114,6 +4145,18 @@
           "svg": "dist/pledge/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/pledge/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/pledge/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/pledge/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/pledge/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/pledge/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -2130,7 +4173,9 @@
       },
       "og": {
         "og-on-dark": "dist/pledge/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/pledge/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/pledge/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/pledge/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/pledge/og/og-black-on-orange-1200x630.png"
       }
     },
     {
@@ -2259,6 +4304,96 @@
             "1024x1024": "dist/analytics/png/circle-on-light-1024x1024.png"
           }
         },
+        "square-white-on-orange": {
+          "svg": "dist/analytics/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/analytics/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/analytics/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/analytics/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/analytics/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/analytics/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/analytics/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/analytics/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/analytics/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/analytics/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/analytics/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/analytics/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/analytics/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/analytics/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/analytics/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/analytics/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/analytics/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/analytics/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/analytics/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/analytics/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/analytics/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/analytics/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/analytics/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/analytics/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/analytics/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/analytics/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/analytics/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/analytics/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/analytics/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/analytics/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/analytics/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/analytics/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/analytics/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/analytics/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/analytics/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/analytics/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/analytics/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/analytics/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/analytics/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/analytics/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/analytics/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/analytics/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/analytics/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/analytics/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/analytics/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/analytics/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/analytics/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/analytics/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/analytics/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/analytics/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/analytics/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/analytics/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/analytics/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/analytics/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
         "transparent": {
           "svg": "dist/analytics/svg/transparent.svg",
           "png": {
@@ -2274,6 +4409,111 @@
             "1024x1024": "dist/analytics/png/transparent-1024x1024.png"
           }
         },
+        "transparent-light-ink": {
+          "svg": "dist/analytics/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/analytics/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/analytics/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/analytics/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/analytics/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/analytics/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/analytics/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/analytics/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/analytics/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/analytics/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/analytics/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/analytics/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/analytics/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/analytics/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/analytics/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/analytics/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/analytics/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/analytics/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/analytics/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/analytics/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/analytics/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/analytics/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/analytics/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/analytics/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/analytics/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/analytics/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/analytics/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/analytics/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/analytics/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/analytics/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/analytics/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/analytics/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/analytics/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/analytics/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/analytics/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/analytics/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/analytics/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/analytics/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/analytics/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/analytics/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/analytics/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/analytics/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/analytics/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/analytics/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/analytics/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/analytics/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/analytics/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/analytics/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/analytics/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/analytics/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/analytics/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/analytics/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/analytics/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/analytics/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/analytics/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/analytics/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/analytics/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/analytics/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/analytics/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/analytics/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/analytics/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/analytics/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/analytics/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-outline-light-1024x1024.png"
+          }
+        },
         "og-on-dark": {
           "svg": "dist/analytics/svg/og-on-dark.svg",
           "png": {
@@ -2284,6 +4524,18 @@
           "svg": "dist/analytics/svg/og-on-light.svg",
           "png": {
             "1200x630": "dist/analytics/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/analytics/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/analytics/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/analytics/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/analytics/og/og-black-on-orange-1200x630.png"
           }
         }
       },
@@ -2300,7 +4552,9 @@
       },
       "og": {
         "og-on-dark": "dist/analytics/og/og-on-dark-1200x630.png",
-        "og-on-light": "dist/analytics/og/og-on-light-1200x630.png"
+        "og-on-light": "dist/analytics/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/analytics/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/analytics/og/og-black-on-orange-1200x630.png"
       }
     }
   ]
