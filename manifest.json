@@ -1,0 +1,2307 @@
+{
+  "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
+  "version": "1.0.0",
+  "palette": {
+    "orange": "#f97316",
+    "orange_deep": "#ea580c",
+    "dark": "#0a0a0a",
+    "light": "#fafafa",
+    "muted": "#737373"
+  },
+  "brands": [
+    {
+      "slug": "orangecheck",
+      "label": "orangecheck",
+      "hostname": "ochk.io",
+      "tagline": "proof of unique humanity, on bitcoin",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/orangecheck/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/square-on-dark-16x16.png",
+            "32x32": "dist/orangecheck/png/square-on-dark-32x32.png",
+            "48x48": "dist/orangecheck/png/square-on-dark-48x48.png",
+            "64x64": "dist/orangecheck/png/square-on-dark-64x64.png",
+            "128x128": "dist/orangecheck/png/square-on-dark-128x128.png",
+            "180x180": "dist/orangecheck/png/square-on-dark-180x180.png",
+            "192x192": "dist/orangecheck/png/square-on-dark-192x192.png",
+            "256x256": "dist/orangecheck/png/square-on-dark-256x256.png",
+            "512x512": "dist/orangecheck/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/orangecheck/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/orangecheck/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/square-on-light-16x16.png",
+            "32x32": "dist/orangecheck/png/square-on-light-32x32.png",
+            "48x48": "dist/orangecheck/png/square-on-light-48x48.png",
+            "64x64": "dist/orangecheck/png/square-on-light-64x64.png",
+            "128x128": "dist/orangecheck/png/square-on-light-128x128.png",
+            "180x180": "dist/orangecheck/png/square-on-light-180x180.png",
+            "192x192": "dist/orangecheck/png/square-on-light-192x192.png",
+            "256x256": "dist/orangecheck/png/square-on-light-256x256.png",
+            "512x512": "dist/orangecheck/png/square-on-light-512x512.png",
+            "1024x1024": "dist/orangecheck/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/orangecheck/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/orangecheck/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/orangecheck/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/orangecheck/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/orangecheck/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/orangecheck/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/orangecheck/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/orangecheck/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/orangecheck/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/orangecheck/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/orangecheck/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/rounded-on-light-16x16.png",
+            "32x32": "dist/orangecheck/png/rounded-on-light-32x32.png",
+            "48x48": "dist/orangecheck/png/rounded-on-light-48x48.png",
+            "64x64": "dist/orangecheck/png/rounded-on-light-64x64.png",
+            "128x128": "dist/orangecheck/png/rounded-on-light-128x128.png",
+            "180x180": "dist/orangecheck/png/rounded-on-light-180x180.png",
+            "192x192": "dist/orangecheck/png/rounded-on-light-192x192.png",
+            "256x256": "dist/orangecheck/png/rounded-on-light-256x256.png",
+            "512x512": "dist/orangecheck/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/orangecheck/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/orangecheck/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/orangecheck/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/orangecheck/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/orangecheck/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/orangecheck/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/orangecheck/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/orangecheck/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/orangecheck/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/orangecheck/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/orangecheck/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/orangecheck/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/safearea-on-light-16x16.png",
+            "32x32": "dist/orangecheck/png/safearea-on-light-32x32.png",
+            "48x48": "dist/orangecheck/png/safearea-on-light-48x48.png",
+            "64x64": "dist/orangecheck/png/safearea-on-light-64x64.png",
+            "128x128": "dist/orangecheck/png/safearea-on-light-128x128.png",
+            "180x180": "dist/orangecheck/png/safearea-on-light-180x180.png",
+            "192x192": "dist/orangecheck/png/safearea-on-light-192x192.png",
+            "256x256": "dist/orangecheck/png/safearea-on-light-256x256.png",
+            "512x512": "dist/orangecheck/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/orangecheck/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/orangecheck/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/circle-on-dark-16x16.png",
+            "32x32": "dist/orangecheck/png/circle-on-dark-32x32.png",
+            "48x48": "dist/orangecheck/png/circle-on-dark-48x48.png",
+            "64x64": "dist/orangecheck/png/circle-on-dark-64x64.png",
+            "128x128": "dist/orangecheck/png/circle-on-dark-128x128.png",
+            "180x180": "dist/orangecheck/png/circle-on-dark-180x180.png",
+            "192x192": "dist/orangecheck/png/circle-on-dark-192x192.png",
+            "256x256": "dist/orangecheck/png/circle-on-dark-256x256.png",
+            "512x512": "dist/orangecheck/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/orangecheck/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/orangecheck/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/circle-on-light-16x16.png",
+            "32x32": "dist/orangecheck/png/circle-on-light-32x32.png",
+            "48x48": "dist/orangecheck/png/circle-on-light-48x48.png",
+            "64x64": "dist/orangecheck/png/circle-on-light-64x64.png",
+            "128x128": "dist/orangecheck/png/circle-on-light-128x128.png",
+            "180x180": "dist/orangecheck/png/circle-on-light-180x180.png",
+            "192x192": "dist/orangecheck/png/circle-on-light-192x192.png",
+            "256x256": "dist/orangecheck/png/circle-on-light-256x256.png",
+            "512x512": "dist/orangecheck/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/orangecheck/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/orangecheck/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-1024x1024.png"
+          }
+        },
+        "square-white-on-orange": {
+          "svg": "dist/orangecheck/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/orangecheck/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/orangecheck/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/orangecheck/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/orangecheck/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/orangecheck/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/orangecheck/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/orangecheck/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/orangecheck/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/orangecheck/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/orangecheck/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/orangecheck/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/orangecheck/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/orangecheck/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/orangecheck/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
+        "transparent-dark": {
+          "svg": "dist/orangecheck/svg/transparent-dark.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-dark-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-dark-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-dark-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-dark-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-dark-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-dark-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-dark-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-dark-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-dark-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-dark-1024x1024.png"
+          }
+        },
+        "transparent-light": {
+          "svg": "dist/orangecheck/svg/transparent-light.svg",
+          "png": {
+            "16x16": "dist/orangecheck/png/transparent-light-16x16.png",
+            "32x32": "dist/orangecheck/png/transparent-light-32x32.png",
+            "48x48": "dist/orangecheck/png/transparent-light-48x48.png",
+            "64x64": "dist/orangecheck/png/transparent-light-64x64.png",
+            "128x128": "dist/orangecheck/png/transparent-light-128x128.png",
+            "180x180": "dist/orangecheck/png/transparent-light-180x180.png",
+            "192x192": "dist/orangecheck/png/transparent-light-192x192.png",
+            "256x256": "dist/orangecheck/png/transparent-light-256x256.png",
+            "512x512": "dist/orangecheck/png/transparent-light-512x512.png",
+            "1024x1024": "dist/orangecheck/png/transparent-light-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/orangecheck/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/orangecheck/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/orangecheck/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/orangecheck/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/orangecheck/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/orangecheck/og/og-white-on-orange-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/orangecheck/favicon/favicon.svg",
+        "png_16": "dist/orangecheck/favicon/favicon-16x16.png",
+        "png_32": "dist/orangecheck/favicon/favicon-32x32.png",
+        "png_48": "dist/orangecheck/favicon/favicon-48x48.png",
+        "ico": "dist/orangecheck/favicon/favicon.ico",
+        "apple_touch": "dist/orangecheck/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/orangecheck/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/orangecheck/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/orangecheck/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/orangecheck/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/orangecheck/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/orangecheck/og/og-white-on-orange-1200x630.png"
+      }
+    },
+    {
+      "slug": "attest",
+      "label": "oc\u00b7attest",
+      "hostname": "attest.ochk.io",
+      "tagline": "sybil-resistant attestations, anchored to bitcoin",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/attest/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/attest/png/square-on-dark-16x16.png",
+            "32x32": "dist/attest/png/square-on-dark-32x32.png",
+            "48x48": "dist/attest/png/square-on-dark-48x48.png",
+            "64x64": "dist/attest/png/square-on-dark-64x64.png",
+            "128x128": "dist/attest/png/square-on-dark-128x128.png",
+            "180x180": "dist/attest/png/square-on-dark-180x180.png",
+            "192x192": "dist/attest/png/square-on-dark-192x192.png",
+            "256x256": "dist/attest/png/square-on-dark-256x256.png",
+            "512x512": "dist/attest/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/attest/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/attest/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/attest/png/square-on-light-16x16.png",
+            "32x32": "dist/attest/png/square-on-light-32x32.png",
+            "48x48": "dist/attest/png/square-on-light-48x48.png",
+            "64x64": "dist/attest/png/square-on-light-64x64.png",
+            "128x128": "dist/attest/png/square-on-light-128x128.png",
+            "180x180": "dist/attest/png/square-on-light-180x180.png",
+            "192x192": "dist/attest/png/square-on-light-192x192.png",
+            "256x256": "dist/attest/png/square-on-light-256x256.png",
+            "512x512": "dist/attest/png/square-on-light-512x512.png",
+            "1024x1024": "dist/attest/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/attest/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/attest/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/attest/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/attest/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/attest/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/attest/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/attest/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/attest/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/attest/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/attest/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/attest/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/attest/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/attest/png/rounded-on-light-16x16.png",
+            "32x32": "dist/attest/png/rounded-on-light-32x32.png",
+            "48x48": "dist/attest/png/rounded-on-light-48x48.png",
+            "64x64": "dist/attest/png/rounded-on-light-64x64.png",
+            "128x128": "dist/attest/png/rounded-on-light-128x128.png",
+            "180x180": "dist/attest/png/rounded-on-light-180x180.png",
+            "192x192": "dist/attest/png/rounded-on-light-192x192.png",
+            "256x256": "dist/attest/png/rounded-on-light-256x256.png",
+            "512x512": "dist/attest/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/attest/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/attest/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/attest/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/attest/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/attest/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/attest/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/attest/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/attest/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/attest/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/attest/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/attest/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/attest/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/attest/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/attest/png/safearea-on-light-16x16.png",
+            "32x32": "dist/attest/png/safearea-on-light-32x32.png",
+            "48x48": "dist/attest/png/safearea-on-light-48x48.png",
+            "64x64": "dist/attest/png/safearea-on-light-64x64.png",
+            "128x128": "dist/attest/png/safearea-on-light-128x128.png",
+            "180x180": "dist/attest/png/safearea-on-light-180x180.png",
+            "192x192": "dist/attest/png/safearea-on-light-192x192.png",
+            "256x256": "dist/attest/png/safearea-on-light-256x256.png",
+            "512x512": "dist/attest/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/attest/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/attest/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/attest/png/circle-on-dark-16x16.png",
+            "32x32": "dist/attest/png/circle-on-dark-32x32.png",
+            "48x48": "dist/attest/png/circle-on-dark-48x48.png",
+            "64x64": "dist/attest/png/circle-on-dark-64x64.png",
+            "128x128": "dist/attest/png/circle-on-dark-128x128.png",
+            "180x180": "dist/attest/png/circle-on-dark-180x180.png",
+            "192x192": "dist/attest/png/circle-on-dark-192x192.png",
+            "256x256": "dist/attest/png/circle-on-dark-256x256.png",
+            "512x512": "dist/attest/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/attest/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/attest/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/attest/png/circle-on-light-16x16.png",
+            "32x32": "dist/attest/png/circle-on-light-32x32.png",
+            "48x48": "dist/attest/png/circle-on-light-48x48.png",
+            "64x64": "dist/attest/png/circle-on-light-64x64.png",
+            "128x128": "dist/attest/png/circle-on-light-128x128.png",
+            "180x180": "dist/attest/png/circle-on-light-180x180.png",
+            "192x192": "dist/attest/png/circle-on-light-192x192.png",
+            "256x256": "dist/attest/png/circle-on-light-256x256.png",
+            "512x512": "dist/attest/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/attest/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/attest/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/attest/png/transparent-16x16.png",
+            "32x32": "dist/attest/png/transparent-32x32.png",
+            "48x48": "dist/attest/png/transparent-48x48.png",
+            "64x64": "dist/attest/png/transparent-64x64.png",
+            "128x128": "dist/attest/png/transparent-128x128.png",
+            "180x180": "dist/attest/png/transparent-180x180.png",
+            "192x192": "dist/attest/png/transparent-192x192.png",
+            "256x256": "dist/attest/png/transparent-256x256.png",
+            "512x512": "dist/attest/png/transparent-512x512.png",
+            "1024x1024": "dist/attest/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/attest/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/attest/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/attest/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/attest/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/attest/favicon/favicon.svg",
+        "png_16": "dist/attest/favicon/favicon-16x16.png",
+        "png_32": "dist/attest/favicon/favicon-32x32.png",
+        "png_48": "dist/attest/favicon/favicon-48x48.png",
+        "ico": "dist/attest/favicon/favicon.ico",
+        "apple_touch": "dist/attest/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/attest/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/attest/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/attest/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/attest/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/attest/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "docs",
+      "label": "oc\u00b7docs",
+      "hostname": "docs.ochk.io",
+      "tagline": "unified reference for the orangecheck family",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/docs/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/docs/png/square-on-dark-16x16.png",
+            "32x32": "dist/docs/png/square-on-dark-32x32.png",
+            "48x48": "dist/docs/png/square-on-dark-48x48.png",
+            "64x64": "dist/docs/png/square-on-dark-64x64.png",
+            "128x128": "dist/docs/png/square-on-dark-128x128.png",
+            "180x180": "dist/docs/png/square-on-dark-180x180.png",
+            "192x192": "dist/docs/png/square-on-dark-192x192.png",
+            "256x256": "dist/docs/png/square-on-dark-256x256.png",
+            "512x512": "dist/docs/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/docs/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/docs/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/docs/png/square-on-light-16x16.png",
+            "32x32": "dist/docs/png/square-on-light-32x32.png",
+            "48x48": "dist/docs/png/square-on-light-48x48.png",
+            "64x64": "dist/docs/png/square-on-light-64x64.png",
+            "128x128": "dist/docs/png/square-on-light-128x128.png",
+            "180x180": "dist/docs/png/square-on-light-180x180.png",
+            "192x192": "dist/docs/png/square-on-light-192x192.png",
+            "256x256": "dist/docs/png/square-on-light-256x256.png",
+            "512x512": "dist/docs/png/square-on-light-512x512.png",
+            "1024x1024": "dist/docs/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/docs/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/docs/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/docs/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/docs/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/docs/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/docs/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/docs/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/docs/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/docs/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/docs/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/docs/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/docs/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/docs/png/rounded-on-light-16x16.png",
+            "32x32": "dist/docs/png/rounded-on-light-32x32.png",
+            "48x48": "dist/docs/png/rounded-on-light-48x48.png",
+            "64x64": "dist/docs/png/rounded-on-light-64x64.png",
+            "128x128": "dist/docs/png/rounded-on-light-128x128.png",
+            "180x180": "dist/docs/png/rounded-on-light-180x180.png",
+            "192x192": "dist/docs/png/rounded-on-light-192x192.png",
+            "256x256": "dist/docs/png/rounded-on-light-256x256.png",
+            "512x512": "dist/docs/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/docs/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/docs/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/docs/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/docs/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/docs/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/docs/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/docs/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/docs/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/docs/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/docs/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/docs/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/docs/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/docs/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/docs/png/safearea-on-light-16x16.png",
+            "32x32": "dist/docs/png/safearea-on-light-32x32.png",
+            "48x48": "dist/docs/png/safearea-on-light-48x48.png",
+            "64x64": "dist/docs/png/safearea-on-light-64x64.png",
+            "128x128": "dist/docs/png/safearea-on-light-128x128.png",
+            "180x180": "dist/docs/png/safearea-on-light-180x180.png",
+            "192x192": "dist/docs/png/safearea-on-light-192x192.png",
+            "256x256": "dist/docs/png/safearea-on-light-256x256.png",
+            "512x512": "dist/docs/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/docs/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/docs/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/docs/png/circle-on-dark-16x16.png",
+            "32x32": "dist/docs/png/circle-on-dark-32x32.png",
+            "48x48": "dist/docs/png/circle-on-dark-48x48.png",
+            "64x64": "dist/docs/png/circle-on-dark-64x64.png",
+            "128x128": "dist/docs/png/circle-on-dark-128x128.png",
+            "180x180": "dist/docs/png/circle-on-dark-180x180.png",
+            "192x192": "dist/docs/png/circle-on-dark-192x192.png",
+            "256x256": "dist/docs/png/circle-on-dark-256x256.png",
+            "512x512": "dist/docs/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/docs/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/docs/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/docs/png/circle-on-light-16x16.png",
+            "32x32": "dist/docs/png/circle-on-light-32x32.png",
+            "48x48": "dist/docs/png/circle-on-light-48x48.png",
+            "64x64": "dist/docs/png/circle-on-light-64x64.png",
+            "128x128": "dist/docs/png/circle-on-light-128x128.png",
+            "180x180": "dist/docs/png/circle-on-light-180x180.png",
+            "192x192": "dist/docs/png/circle-on-light-192x192.png",
+            "256x256": "dist/docs/png/circle-on-light-256x256.png",
+            "512x512": "dist/docs/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/docs/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/docs/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/docs/png/transparent-16x16.png",
+            "32x32": "dist/docs/png/transparent-32x32.png",
+            "48x48": "dist/docs/png/transparent-48x48.png",
+            "64x64": "dist/docs/png/transparent-64x64.png",
+            "128x128": "dist/docs/png/transparent-128x128.png",
+            "180x180": "dist/docs/png/transparent-180x180.png",
+            "192x192": "dist/docs/png/transparent-192x192.png",
+            "256x256": "dist/docs/png/transparent-256x256.png",
+            "512x512": "dist/docs/png/transparent-512x512.png",
+            "1024x1024": "dist/docs/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/docs/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/docs/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/docs/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/docs/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/docs/favicon/favicon.svg",
+        "png_16": "dist/docs/favicon/favicon-16x16.png",
+        "png_32": "dist/docs/favicon/favicon-32x32.png",
+        "png_48": "dist/docs/favicon/favicon-48x48.png",
+        "ico": "dist/docs/favicon/favicon.ico",
+        "apple_touch": "dist/docs/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/docs/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/docs/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/docs/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/docs/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/docs/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "me",
+      "label": "oc\u00b7me",
+      "hostname": "me.ochk.io",
+      "tagline": "consumer bitcoin-backed identity",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/me/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/me/png/square-on-dark-16x16.png",
+            "32x32": "dist/me/png/square-on-dark-32x32.png",
+            "48x48": "dist/me/png/square-on-dark-48x48.png",
+            "64x64": "dist/me/png/square-on-dark-64x64.png",
+            "128x128": "dist/me/png/square-on-dark-128x128.png",
+            "180x180": "dist/me/png/square-on-dark-180x180.png",
+            "192x192": "dist/me/png/square-on-dark-192x192.png",
+            "256x256": "dist/me/png/square-on-dark-256x256.png",
+            "512x512": "dist/me/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/me/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/me/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/me/png/square-on-light-16x16.png",
+            "32x32": "dist/me/png/square-on-light-32x32.png",
+            "48x48": "dist/me/png/square-on-light-48x48.png",
+            "64x64": "dist/me/png/square-on-light-64x64.png",
+            "128x128": "dist/me/png/square-on-light-128x128.png",
+            "180x180": "dist/me/png/square-on-light-180x180.png",
+            "192x192": "dist/me/png/square-on-light-192x192.png",
+            "256x256": "dist/me/png/square-on-light-256x256.png",
+            "512x512": "dist/me/png/square-on-light-512x512.png",
+            "1024x1024": "dist/me/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/me/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/me/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/me/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/me/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/me/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/me/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/me/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/me/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/me/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/me/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/me/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/me/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/me/png/rounded-on-light-16x16.png",
+            "32x32": "dist/me/png/rounded-on-light-32x32.png",
+            "48x48": "dist/me/png/rounded-on-light-48x48.png",
+            "64x64": "dist/me/png/rounded-on-light-64x64.png",
+            "128x128": "dist/me/png/rounded-on-light-128x128.png",
+            "180x180": "dist/me/png/rounded-on-light-180x180.png",
+            "192x192": "dist/me/png/rounded-on-light-192x192.png",
+            "256x256": "dist/me/png/rounded-on-light-256x256.png",
+            "512x512": "dist/me/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/me/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/me/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/me/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/me/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/me/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/me/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/me/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/me/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/me/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/me/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/me/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/me/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/me/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/me/png/safearea-on-light-16x16.png",
+            "32x32": "dist/me/png/safearea-on-light-32x32.png",
+            "48x48": "dist/me/png/safearea-on-light-48x48.png",
+            "64x64": "dist/me/png/safearea-on-light-64x64.png",
+            "128x128": "dist/me/png/safearea-on-light-128x128.png",
+            "180x180": "dist/me/png/safearea-on-light-180x180.png",
+            "192x192": "dist/me/png/safearea-on-light-192x192.png",
+            "256x256": "dist/me/png/safearea-on-light-256x256.png",
+            "512x512": "dist/me/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/me/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/me/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/me/png/circle-on-dark-16x16.png",
+            "32x32": "dist/me/png/circle-on-dark-32x32.png",
+            "48x48": "dist/me/png/circle-on-dark-48x48.png",
+            "64x64": "dist/me/png/circle-on-dark-64x64.png",
+            "128x128": "dist/me/png/circle-on-dark-128x128.png",
+            "180x180": "dist/me/png/circle-on-dark-180x180.png",
+            "192x192": "dist/me/png/circle-on-dark-192x192.png",
+            "256x256": "dist/me/png/circle-on-dark-256x256.png",
+            "512x512": "dist/me/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/me/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/me/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/me/png/circle-on-light-16x16.png",
+            "32x32": "dist/me/png/circle-on-light-32x32.png",
+            "48x48": "dist/me/png/circle-on-light-48x48.png",
+            "64x64": "dist/me/png/circle-on-light-64x64.png",
+            "128x128": "dist/me/png/circle-on-light-128x128.png",
+            "180x180": "dist/me/png/circle-on-light-180x180.png",
+            "192x192": "dist/me/png/circle-on-light-192x192.png",
+            "256x256": "dist/me/png/circle-on-light-256x256.png",
+            "512x512": "dist/me/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/me/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/me/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/me/png/transparent-16x16.png",
+            "32x32": "dist/me/png/transparent-32x32.png",
+            "48x48": "dist/me/png/transparent-48x48.png",
+            "64x64": "dist/me/png/transparent-64x64.png",
+            "128x128": "dist/me/png/transparent-128x128.png",
+            "180x180": "dist/me/png/transparent-180x180.png",
+            "192x192": "dist/me/png/transparent-192x192.png",
+            "256x256": "dist/me/png/transparent-256x256.png",
+            "512x512": "dist/me/png/transparent-512x512.png",
+            "1024x1024": "dist/me/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/me/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/me/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/me/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/me/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/me/favicon/favicon.svg",
+        "png_16": "dist/me/favicon/favicon-16x16.png",
+        "png_32": "dist/me/favicon/favicon-32x32.png",
+        "png_48": "dist/me/favicon/favicon-48x48.png",
+        "ico": "dist/me/favicon/favicon.ico",
+        "apple_touch": "dist/me/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/me/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/me/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/me/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/me/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/me/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "vault",
+      "label": "oc\u00b7vault",
+      "hostname": "vault.ochk.io",
+      "tagline": "encrypted personal secret storage",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/vault/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/vault/png/square-on-dark-16x16.png",
+            "32x32": "dist/vault/png/square-on-dark-32x32.png",
+            "48x48": "dist/vault/png/square-on-dark-48x48.png",
+            "64x64": "dist/vault/png/square-on-dark-64x64.png",
+            "128x128": "dist/vault/png/square-on-dark-128x128.png",
+            "180x180": "dist/vault/png/square-on-dark-180x180.png",
+            "192x192": "dist/vault/png/square-on-dark-192x192.png",
+            "256x256": "dist/vault/png/square-on-dark-256x256.png",
+            "512x512": "dist/vault/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/vault/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/vault/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/vault/png/square-on-light-16x16.png",
+            "32x32": "dist/vault/png/square-on-light-32x32.png",
+            "48x48": "dist/vault/png/square-on-light-48x48.png",
+            "64x64": "dist/vault/png/square-on-light-64x64.png",
+            "128x128": "dist/vault/png/square-on-light-128x128.png",
+            "180x180": "dist/vault/png/square-on-light-180x180.png",
+            "192x192": "dist/vault/png/square-on-light-192x192.png",
+            "256x256": "dist/vault/png/square-on-light-256x256.png",
+            "512x512": "dist/vault/png/square-on-light-512x512.png",
+            "1024x1024": "dist/vault/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/vault/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/vault/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/vault/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/vault/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/vault/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/vault/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/vault/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/vault/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/vault/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/vault/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/vault/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/vault/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/vault/png/rounded-on-light-16x16.png",
+            "32x32": "dist/vault/png/rounded-on-light-32x32.png",
+            "48x48": "dist/vault/png/rounded-on-light-48x48.png",
+            "64x64": "dist/vault/png/rounded-on-light-64x64.png",
+            "128x128": "dist/vault/png/rounded-on-light-128x128.png",
+            "180x180": "dist/vault/png/rounded-on-light-180x180.png",
+            "192x192": "dist/vault/png/rounded-on-light-192x192.png",
+            "256x256": "dist/vault/png/rounded-on-light-256x256.png",
+            "512x512": "dist/vault/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/vault/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/vault/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/vault/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/vault/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/vault/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/vault/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/vault/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/vault/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/vault/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/vault/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/vault/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/vault/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/vault/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/vault/png/safearea-on-light-16x16.png",
+            "32x32": "dist/vault/png/safearea-on-light-32x32.png",
+            "48x48": "dist/vault/png/safearea-on-light-48x48.png",
+            "64x64": "dist/vault/png/safearea-on-light-64x64.png",
+            "128x128": "dist/vault/png/safearea-on-light-128x128.png",
+            "180x180": "dist/vault/png/safearea-on-light-180x180.png",
+            "192x192": "dist/vault/png/safearea-on-light-192x192.png",
+            "256x256": "dist/vault/png/safearea-on-light-256x256.png",
+            "512x512": "dist/vault/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/vault/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/vault/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/vault/png/circle-on-dark-16x16.png",
+            "32x32": "dist/vault/png/circle-on-dark-32x32.png",
+            "48x48": "dist/vault/png/circle-on-dark-48x48.png",
+            "64x64": "dist/vault/png/circle-on-dark-64x64.png",
+            "128x128": "dist/vault/png/circle-on-dark-128x128.png",
+            "180x180": "dist/vault/png/circle-on-dark-180x180.png",
+            "192x192": "dist/vault/png/circle-on-dark-192x192.png",
+            "256x256": "dist/vault/png/circle-on-dark-256x256.png",
+            "512x512": "dist/vault/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/vault/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/vault/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/vault/png/circle-on-light-16x16.png",
+            "32x32": "dist/vault/png/circle-on-light-32x32.png",
+            "48x48": "dist/vault/png/circle-on-light-48x48.png",
+            "64x64": "dist/vault/png/circle-on-light-64x64.png",
+            "128x128": "dist/vault/png/circle-on-light-128x128.png",
+            "180x180": "dist/vault/png/circle-on-light-180x180.png",
+            "192x192": "dist/vault/png/circle-on-light-192x192.png",
+            "256x256": "dist/vault/png/circle-on-light-256x256.png",
+            "512x512": "dist/vault/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/vault/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/vault/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/vault/png/transparent-16x16.png",
+            "32x32": "dist/vault/png/transparent-32x32.png",
+            "48x48": "dist/vault/png/transparent-48x48.png",
+            "64x64": "dist/vault/png/transparent-64x64.png",
+            "128x128": "dist/vault/png/transparent-128x128.png",
+            "180x180": "dist/vault/png/transparent-180x180.png",
+            "192x192": "dist/vault/png/transparent-192x192.png",
+            "256x256": "dist/vault/png/transparent-256x256.png",
+            "512x512": "dist/vault/png/transparent-512x512.png",
+            "1024x1024": "dist/vault/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/vault/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/vault/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/vault/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/vault/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/vault/favicon/favicon.svg",
+        "png_16": "dist/vault/favicon/favicon-16x16.png",
+        "png_32": "dist/vault/favicon/favicon-32x32.png",
+        "png_48": "dist/vault/favicon/favicon-48x48.png",
+        "ico": "dist/vault/favicon/favicon.ico",
+        "apple_touch": "dist/vault/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/vault/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/vault/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/vault/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/vault/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/vault/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "fleet",
+      "label": "oc\u00b7fleet",
+      "hostname": "fleet.ochk.io",
+      "tagline": "managed agent + pledge for teams",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/fleet/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/fleet/png/square-on-dark-16x16.png",
+            "32x32": "dist/fleet/png/square-on-dark-32x32.png",
+            "48x48": "dist/fleet/png/square-on-dark-48x48.png",
+            "64x64": "dist/fleet/png/square-on-dark-64x64.png",
+            "128x128": "dist/fleet/png/square-on-dark-128x128.png",
+            "180x180": "dist/fleet/png/square-on-dark-180x180.png",
+            "192x192": "dist/fleet/png/square-on-dark-192x192.png",
+            "256x256": "dist/fleet/png/square-on-dark-256x256.png",
+            "512x512": "dist/fleet/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/fleet/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/fleet/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/fleet/png/square-on-light-16x16.png",
+            "32x32": "dist/fleet/png/square-on-light-32x32.png",
+            "48x48": "dist/fleet/png/square-on-light-48x48.png",
+            "64x64": "dist/fleet/png/square-on-light-64x64.png",
+            "128x128": "dist/fleet/png/square-on-light-128x128.png",
+            "180x180": "dist/fleet/png/square-on-light-180x180.png",
+            "192x192": "dist/fleet/png/square-on-light-192x192.png",
+            "256x256": "dist/fleet/png/square-on-light-256x256.png",
+            "512x512": "dist/fleet/png/square-on-light-512x512.png",
+            "1024x1024": "dist/fleet/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/fleet/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/fleet/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/fleet/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/fleet/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/fleet/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/fleet/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/fleet/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/fleet/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/fleet/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/fleet/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/fleet/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/fleet/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/fleet/png/rounded-on-light-16x16.png",
+            "32x32": "dist/fleet/png/rounded-on-light-32x32.png",
+            "48x48": "dist/fleet/png/rounded-on-light-48x48.png",
+            "64x64": "dist/fleet/png/rounded-on-light-64x64.png",
+            "128x128": "dist/fleet/png/rounded-on-light-128x128.png",
+            "180x180": "dist/fleet/png/rounded-on-light-180x180.png",
+            "192x192": "dist/fleet/png/rounded-on-light-192x192.png",
+            "256x256": "dist/fleet/png/rounded-on-light-256x256.png",
+            "512x512": "dist/fleet/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/fleet/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/fleet/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/fleet/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/fleet/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/fleet/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/fleet/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/fleet/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/fleet/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/fleet/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/fleet/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/fleet/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/fleet/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/fleet/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/fleet/png/safearea-on-light-16x16.png",
+            "32x32": "dist/fleet/png/safearea-on-light-32x32.png",
+            "48x48": "dist/fleet/png/safearea-on-light-48x48.png",
+            "64x64": "dist/fleet/png/safearea-on-light-64x64.png",
+            "128x128": "dist/fleet/png/safearea-on-light-128x128.png",
+            "180x180": "dist/fleet/png/safearea-on-light-180x180.png",
+            "192x192": "dist/fleet/png/safearea-on-light-192x192.png",
+            "256x256": "dist/fleet/png/safearea-on-light-256x256.png",
+            "512x512": "dist/fleet/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/fleet/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/fleet/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/fleet/png/circle-on-dark-16x16.png",
+            "32x32": "dist/fleet/png/circle-on-dark-32x32.png",
+            "48x48": "dist/fleet/png/circle-on-dark-48x48.png",
+            "64x64": "dist/fleet/png/circle-on-dark-64x64.png",
+            "128x128": "dist/fleet/png/circle-on-dark-128x128.png",
+            "180x180": "dist/fleet/png/circle-on-dark-180x180.png",
+            "192x192": "dist/fleet/png/circle-on-dark-192x192.png",
+            "256x256": "dist/fleet/png/circle-on-dark-256x256.png",
+            "512x512": "dist/fleet/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/fleet/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/fleet/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/fleet/png/circle-on-light-16x16.png",
+            "32x32": "dist/fleet/png/circle-on-light-32x32.png",
+            "48x48": "dist/fleet/png/circle-on-light-48x48.png",
+            "64x64": "dist/fleet/png/circle-on-light-64x64.png",
+            "128x128": "dist/fleet/png/circle-on-light-128x128.png",
+            "180x180": "dist/fleet/png/circle-on-light-180x180.png",
+            "192x192": "dist/fleet/png/circle-on-light-192x192.png",
+            "256x256": "dist/fleet/png/circle-on-light-256x256.png",
+            "512x512": "dist/fleet/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/fleet/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/fleet/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/fleet/png/transparent-16x16.png",
+            "32x32": "dist/fleet/png/transparent-32x32.png",
+            "48x48": "dist/fleet/png/transparent-48x48.png",
+            "64x64": "dist/fleet/png/transparent-64x64.png",
+            "128x128": "dist/fleet/png/transparent-128x128.png",
+            "180x180": "dist/fleet/png/transparent-180x180.png",
+            "192x192": "dist/fleet/png/transparent-192x192.png",
+            "256x256": "dist/fleet/png/transparent-256x256.png",
+            "512x512": "dist/fleet/png/transparent-512x512.png",
+            "1024x1024": "dist/fleet/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/fleet/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/fleet/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/fleet/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/fleet/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/fleet/favicon/favicon.svg",
+        "png_16": "dist/fleet/favicon/favicon-16x16.png",
+        "png_32": "dist/fleet/favicon/favicon-32x32.png",
+        "png_48": "dist/fleet/favicon/favicon-48x48.png",
+        "ico": "dist/fleet/favicon/favicon.ico",
+        "apple_touch": "dist/fleet/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/fleet/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/fleet/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/fleet/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/fleet/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/fleet/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "lock",
+      "label": "oc\u00b7lock",
+      "hostname": "lock.ochk.io",
+      "tagline": "device-anchored end-to-end encryption",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/lock/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/lock/png/square-on-dark-16x16.png",
+            "32x32": "dist/lock/png/square-on-dark-32x32.png",
+            "48x48": "dist/lock/png/square-on-dark-48x48.png",
+            "64x64": "dist/lock/png/square-on-dark-64x64.png",
+            "128x128": "dist/lock/png/square-on-dark-128x128.png",
+            "180x180": "dist/lock/png/square-on-dark-180x180.png",
+            "192x192": "dist/lock/png/square-on-dark-192x192.png",
+            "256x256": "dist/lock/png/square-on-dark-256x256.png",
+            "512x512": "dist/lock/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/lock/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/lock/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/lock/png/square-on-light-16x16.png",
+            "32x32": "dist/lock/png/square-on-light-32x32.png",
+            "48x48": "dist/lock/png/square-on-light-48x48.png",
+            "64x64": "dist/lock/png/square-on-light-64x64.png",
+            "128x128": "dist/lock/png/square-on-light-128x128.png",
+            "180x180": "dist/lock/png/square-on-light-180x180.png",
+            "192x192": "dist/lock/png/square-on-light-192x192.png",
+            "256x256": "dist/lock/png/square-on-light-256x256.png",
+            "512x512": "dist/lock/png/square-on-light-512x512.png",
+            "1024x1024": "dist/lock/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/lock/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/lock/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/lock/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/lock/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/lock/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/lock/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/lock/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/lock/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/lock/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/lock/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/lock/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/lock/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/lock/png/rounded-on-light-16x16.png",
+            "32x32": "dist/lock/png/rounded-on-light-32x32.png",
+            "48x48": "dist/lock/png/rounded-on-light-48x48.png",
+            "64x64": "dist/lock/png/rounded-on-light-64x64.png",
+            "128x128": "dist/lock/png/rounded-on-light-128x128.png",
+            "180x180": "dist/lock/png/rounded-on-light-180x180.png",
+            "192x192": "dist/lock/png/rounded-on-light-192x192.png",
+            "256x256": "dist/lock/png/rounded-on-light-256x256.png",
+            "512x512": "dist/lock/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/lock/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/lock/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/lock/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/lock/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/lock/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/lock/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/lock/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/lock/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/lock/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/lock/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/lock/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/lock/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/lock/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/lock/png/safearea-on-light-16x16.png",
+            "32x32": "dist/lock/png/safearea-on-light-32x32.png",
+            "48x48": "dist/lock/png/safearea-on-light-48x48.png",
+            "64x64": "dist/lock/png/safearea-on-light-64x64.png",
+            "128x128": "dist/lock/png/safearea-on-light-128x128.png",
+            "180x180": "dist/lock/png/safearea-on-light-180x180.png",
+            "192x192": "dist/lock/png/safearea-on-light-192x192.png",
+            "256x256": "dist/lock/png/safearea-on-light-256x256.png",
+            "512x512": "dist/lock/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/lock/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/lock/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/lock/png/circle-on-dark-16x16.png",
+            "32x32": "dist/lock/png/circle-on-dark-32x32.png",
+            "48x48": "dist/lock/png/circle-on-dark-48x48.png",
+            "64x64": "dist/lock/png/circle-on-dark-64x64.png",
+            "128x128": "dist/lock/png/circle-on-dark-128x128.png",
+            "180x180": "dist/lock/png/circle-on-dark-180x180.png",
+            "192x192": "dist/lock/png/circle-on-dark-192x192.png",
+            "256x256": "dist/lock/png/circle-on-dark-256x256.png",
+            "512x512": "dist/lock/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/lock/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/lock/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/lock/png/circle-on-light-16x16.png",
+            "32x32": "dist/lock/png/circle-on-light-32x32.png",
+            "48x48": "dist/lock/png/circle-on-light-48x48.png",
+            "64x64": "dist/lock/png/circle-on-light-64x64.png",
+            "128x128": "dist/lock/png/circle-on-light-128x128.png",
+            "180x180": "dist/lock/png/circle-on-light-180x180.png",
+            "192x192": "dist/lock/png/circle-on-light-192x192.png",
+            "256x256": "dist/lock/png/circle-on-light-256x256.png",
+            "512x512": "dist/lock/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/lock/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/lock/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/lock/png/transparent-16x16.png",
+            "32x32": "dist/lock/png/transparent-32x32.png",
+            "48x48": "dist/lock/png/transparent-48x48.png",
+            "64x64": "dist/lock/png/transparent-64x64.png",
+            "128x128": "dist/lock/png/transparent-128x128.png",
+            "180x180": "dist/lock/png/transparent-180x180.png",
+            "192x192": "dist/lock/png/transparent-192x192.png",
+            "256x256": "dist/lock/png/transparent-256x256.png",
+            "512x512": "dist/lock/png/transparent-512x512.png",
+            "1024x1024": "dist/lock/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/lock/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/lock/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/lock/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/lock/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/lock/favicon/favicon.svg",
+        "png_16": "dist/lock/favicon/favicon-16x16.png",
+        "png_32": "dist/lock/favicon/favicon-32x32.png",
+        "png_48": "dist/lock/favicon/favicon-48x48.png",
+        "ico": "dist/lock/favicon/favicon.ico",
+        "apple_touch": "dist/lock/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/lock/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/lock/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/lock/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/lock/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/lock/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "vote",
+      "label": "oc\u00b7vote",
+      "hostname": "vote.ochk.io",
+      "tagline": "sat-weighted polls, anchored to bitcoin",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/vote/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/vote/png/square-on-dark-16x16.png",
+            "32x32": "dist/vote/png/square-on-dark-32x32.png",
+            "48x48": "dist/vote/png/square-on-dark-48x48.png",
+            "64x64": "dist/vote/png/square-on-dark-64x64.png",
+            "128x128": "dist/vote/png/square-on-dark-128x128.png",
+            "180x180": "dist/vote/png/square-on-dark-180x180.png",
+            "192x192": "dist/vote/png/square-on-dark-192x192.png",
+            "256x256": "dist/vote/png/square-on-dark-256x256.png",
+            "512x512": "dist/vote/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/vote/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/vote/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/vote/png/square-on-light-16x16.png",
+            "32x32": "dist/vote/png/square-on-light-32x32.png",
+            "48x48": "dist/vote/png/square-on-light-48x48.png",
+            "64x64": "dist/vote/png/square-on-light-64x64.png",
+            "128x128": "dist/vote/png/square-on-light-128x128.png",
+            "180x180": "dist/vote/png/square-on-light-180x180.png",
+            "192x192": "dist/vote/png/square-on-light-192x192.png",
+            "256x256": "dist/vote/png/square-on-light-256x256.png",
+            "512x512": "dist/vote/png/square-on-light-512x512.png",
+            "1024x1024": "dist/vote/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/vote/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/vote/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/vote/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/vote/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/vote/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/vote/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/vote/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/vote/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/vote/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/vote/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/vote/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/vote/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/vote/png/rounded-on-light-16x16.png",
+            "32x32": "dist/vote/png/rounded-on-light-32x32.png",
+            "48x48": "dist/vote/png/rounded-on-light-48x48.png",
+            "64x64": "dist/vote/png/rounded-on-light-64x64.png",
+            "128x128": "dist/vote/png/rounded-on-light-128x128.png",
+            "180x180": "dist/vote/png/rounded-on-light-180x180.png",
+            "192x192": "dist/vote/png/rounded-on-light-192x192.png",
+            "256x256": "dist/vote/png/rounded-on-light-256x256.png",
+            "512x512": "dist/vote/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/vote/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/vote/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/vote/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/vote/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/vote/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/vote/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/vote/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/vote/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/vote/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/vote/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/vote/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/vote/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/vote/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/vote/png/safearea-on-light-16x16.png",
+            "32x32": "dist/vote/png/safearea-on-light-32x32.png",
+            "48x48": "dist/vote/png/safearea-on-light-48x48.png",
+            "64x64": "dist/vote/png/safearea-on-light-64x64.png",
+            "128x128": "dist/vote/png/safearea-on-light-128x128.png",
+            "180x180": "dist/vote/png/safearea-on-light-180x180.png",
+            "192x192": "dist/vote/png/safearea-on-light-192x192.png",
+            "256x256": "dist/vote/png/safearea-on-light-256x256.png",
+            "512x512": "dist/vote/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/vote/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/vote/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/vote/png/circle-on-dark-16x16.png",
+            "32x32": "dist/vote/png/circle-on-dark-32x32.png",
+            "48x48": "dist/vote/png/circle-on-dark-48x48.png",
+            "64x64": "dist/vote/png/circle-on-dark-64x64.png",
+            "128x128": "dist/vote/png/circle-on-dark-128x128.png",
+            "180x180": "dist/vote/png/circle-on-dark-180x180.png",
+            "192x192": "dist/vote/png/circle-on-dark-192x192.png",
+            "256x256": "dist/vote/png/circle-on-dark-256x256.png",
+            "512x512": "dist/vote/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/vote/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/vote/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/vote/png/circle-on-light-16x16.png",
+            "32x32": "dist/vote/png/circle-on-light-32x32.png",
+            "48x48": "dist/vote/png/circle-on-light-48x48.png",
+            "64x64": "dist/vote/png/circle-on-light-64x64.png",
+            "128x128": "dist/vote/png/circle-on-light-128x128.png",
+            "180x180": "dist/vote/png/circle-on-light-180x180.png",
+            "192x192": "dist/vote/png/circle-on-light-192x192.png",
+            "256x256": "dist/vote/png/circle-on-light-256x256.png",
+            "512x512": "dist/vote/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/vote/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/vote/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-16x16.png",
+            "32x32": "dist/vote/png/transparent-32x32.png",
+            "48x48": "dist/vote/png/transparent-48x48.png",
+            "64x64": "dist/vote/png/transparent-64x64.png",
+            "128x128": "dist/vote/png/transparent-128x128.png",
+            "180x180": "dist/vote/png/transparent-180x180.png",
+            "192x192": "dist/vote/png/transparent-192x192.png",
+            "256x256": "dist/vote/png/transparent-256x256.png",
+            "512x512": "dist/vote/png/transparent-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-1024x1024.png"
+          }
+        },
+        "square-white-on-orange": {
+          "svg": "dist/vote/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/vote/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/vote/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/vote/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/vote/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/vote/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/vote/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/vote/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/vote/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/vote/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/vote/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/vote/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/vote/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/vote/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/vote/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/vote/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/vote/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/vote/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/vote/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/vote/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/vote/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/vote/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/vote/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/vote/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/vote/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/vote/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/vote/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/vote/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/vote/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/vote/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/vote/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/vote/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/vote/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/vote/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/vote/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/vote/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/vote/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/vote/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/vote/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/vote/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/vote/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/vote/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/vote/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/vote/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/vote/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/vote/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/vote/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/vote/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/vote/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/vote/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/vote/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/vote/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/vote/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/vote/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/vote/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/vote/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/vote/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/vote/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/vote/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/vote/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/vote/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
+        "transparent-dark": {
+          "svg": "dist/vote/svg/transparent-dark.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-dark-16x16.png",
+            "32x32": "dist/vote/png/transparent-dark-32x32.png",
+            "48x48": "dist/vote/png/transparent-dark-48x48.png",
+            "64x64": "dist/vote/png/transparent-dark-64x64.png",
+            "128x128": "dist/vote/png/transparent-dark-128x128.png",
+            "180x180": "dist/vote/png/transparent-dark-180x180.png",
+            "192x192": "dist/vote/png/transparent-dark-192x192.png",
+            "256x256": "dist/vote/png/transparent-dark-256x256.png",
+            "512x512": "dist/vote/png/transparent-dark-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-dark-1024x1024.png"
+          }
+        },
+        "transparent-light": {
+          "svg": "dist/vote/svg/transparent-light.svg",
+          "png": {
+            "16x16": "dist/vote/png/transparent-light-16x16.png",
+            "32x32": "dist/vote/png/transparent-light-32x32.png",
+            "48x48": "dist/vote/png/transparent-light-48x48.png",
+            "64x64": "dist/vote/png/transparent-light-64x64.png",
+            "128x128": "dist/vote/png/transparent-light-128x128.png",
+            "180x180": "dist/vote/png/transparent-light-180x180.png",
+            "192x192": "dist/vote/png/transparent-light-192x192.png",
+            "256x256": "dist/vote/png/transparent-light-256x256.png",
+            "512x512": "dist/vote/png/transparent-light-512x512.png",
+            "1024x1024": "dist/vote/png/transparent-light-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/vote/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/vote/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/vote/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/vote/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/vote/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/vote/og/og-white-on-orange-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/vote/favicon/favicon.svg",
+        "png_16": "dist/vote/favicon/favicon-16x16.png",
+        "png_32": "dist/vote/favicon/favicon-32x32.png",
+        "png_48": "dist/vote/favicon/favicon-48x48.png",
+        "ico": "dist/vote/favicon/favicon.ico",
+        "apple_touch": "dist/vote/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/vote/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/vote/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/vote/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/vote/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/vote/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/vote/og/og-white-on-orange-1200x630.png"
+      }
+    },
+    {
+      "slug": "stamp",
+      "label": "oc\u00b7stamp",
+      "hostname": "stamp.ochk.io",
+      "tagline": "block-anchored declarations over any hash",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/stamp/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/stamp/png/square-on-dark-16x16.png",
+            "32x32": "dist/stamp/png/square-on-dark-32x32.png",
+            "48x48": "dist/stamp/png/square-on-dark-48x48.png",
+            "64x64": "dist/stamp/png/square-on-dark-64x64.png",
+            "128x128": "dist/stamp/png/square-on-dark-128x128.png",
+            "180x180": "dist/stamp/png/square-on-dark-180x180.png",
+            "192x192": "dist/stamp/png/square-on-dark-192x192.png",
+            "256x256": "dist/stamp/png/square-on-dark-256x256.png",
+            "512x512": "dist/stamp/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/stamp/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/stamp/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/stamp/png/square-on-light-16x16.png",
+            "32x32": "dist/stamp/png/square-on-light-32x32.png",
+            "48x48": "dist/stamp/png/square-on-light-48x48.png",
+            "64x64": "dist/stamp/png/square-on-light-64x64.png",
+            "128x128": "dist/stamp/png/square-on-light-128x128.png",
+            "180x180": "dist/stamp/png/square-on-light-180x180.png",
+            "192x192": "dist/stamp/png/square-on-light-192x192.png",
+            "256x256": "dist/stamp/png/square-on-light-256x256.png",
+            "512x512": "dist/stamp/png/square-on-light-512x512.png",
+            "1024x1024": "dist/stamp/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/stamp/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/stamp/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/stamp/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/stamp/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/stamp/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/stamp/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/stamp/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/stamp/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/stamp/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/stamp/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/stamp/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/stamp/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/stamp/png/rounded-on-light-16x16.png",
+            "32x32": "dist/stamp/png/rounded-on-light-32x32.png",
+            "48x48": "dist/stamp/png/rounded-on-light-48x48.png",
+            "64x64": "dist/stamp/png/rounded-on-light-64x64.png",
+            "128x128": "dist/stamp/png/rounded-on-light-128x128.png",
+            "180x180": "dist/stamp/png/rounded-on-light-180x180.png",
+            "192x192": "dist/stamp/png/rounded-on-light-192x192.png",
+            "256x256": "dist/stamp/png/rounded-on-light-256x256.png",
+            "512x512": "dist/stamp/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/stamp/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/stamp/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/stamp/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/stamp/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/stamp/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/stamp/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/stamp/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/stamp/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/stamp/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/stamp/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/stamp/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/stamp/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/stamp/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/stamp/png/safearea-on-light-16x16.png",
+            "32x32": "dist/stamp/png/safearea-on-light-32x32.png",
+            "48x48": "dist/stamp/png/safearea-on-light-48x48.png",
+            "64x64": "dist/stamp/png/safearea-on-light-64x64.png",
+            "128x128": "dist/stamp/png/safearea-on-light-128x128.png",
+            "180x180": "dist/stamp/png/safearea-on-light-180x180.png",
+            "192x192": "dist/stamp/png/safearea-on-light-192x192.png",
+            "256x256": "dist/stamp/png/safearea-on-light-256x256.png",
+            "512x512": "dist/stamp/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/stamp/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/stamp/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/stamp/png/circle-on-dark-16x16.png",
+            "32x32": "dist/stamp/png/circle-on-dark-32x32.png",
+            "48x48": "dist/stamp/png/circle-on-dark-48x48.png",
+            "64x64": "dist/stamp/png/circle-on-dark-64x64.png",
+            "128x128": "dist/stamp/png/circle-on-dark-128x128.png",
+            "180x180": "dist/stamp/png/circle-on-dark-180x180.png",
+            "192x192": "dist/stamp/png/circle-on-dark-192x192.png",
+            "256x256": "dist/stamp/png/circle-on-dark-256x256.png",
+            "512x512": "dist/stamp/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/stamp/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/stamp/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/stamp/png/circle-on-light-16x16.png",
+            "32x32": "dist/stamp/png/circle-on-light-32x32.png",
+            "48x48": "dist/stamp/png/circle-on-light-48x48.png",
+            "64x64": "dist/stamp/png/circle-on-light-64x64.png",
+            "128x128": "dist/stamp/png/circle-on-light-128x128.png",
+            "180x180": "dist/stamp/png/circle-on-light-180x180.png",
+            "192x192": "dist/stamp/png/circle-on-light-192x192.png",
+            "256x256": "dist/stamp/png/circle-on-light-256x256.png",
+            "512x512": "dist/stamp/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/stamp/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/stamp/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/stamp/png/transparent-16x16.png",
+            "32x32": "dist/stamp/png/transparent-32x32.png",
+            "48x48": "dist/stamp/png/transparent-48x48.png",
+            "64x64": "dist/stamp/png/transparent-64x64.png",
+            "128x128": "dist/stamp/png/transparent-128x128.png",
+            "180x180": "dist/stamp/png/transparent-180x180.png",
+            "192x192": "dist/stamp/png/transparent-192x192.png",
+            "256x256": "dist/stamp/png/transparent-256x256.png",
+            "512x512": "dist/stamp/png/transparent-512x512.png",
+            "1024x1024": "dist/stamp/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/stamp/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/stamp/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/stamp/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/stamp/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/stamp/favicon/favicon.svg",
+        "png_16": "dist/stamp/favicon/favicon-16x16.png",
+        "png_32": "dist/stamp/favicon/favicon-32x32.png",
+        "png_48": "dist/stamp/favicon/favicon-48x48.png",
+        "ico": "dist/stamp/favicon/favicon.ico",
+        "apple_touch": "dist/stamp/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/stamp/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/stamp/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/stamp/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/stamp/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/stamp/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "agent",
+      "label": "oc\u00b7agent",
+      "hostname": "agent.ochk.io",
+      "tagline": "scoped, signed authority for autonomous agents",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/agent/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/agent/png/square-on-dark-16x16.png",
+            "32x32": "dist/agent/png/square-on-dark-32x32.png",
+            "48x48": "dist/agent/png/square-on-dark-48x48.png",
+            "64x64": "dist/agent/png/square-on-dark-64x64.png",
+            "128x128": "dist/agent/png/square-on-dark-128x128.png",
+            "180x180": "dist/agent/png/square-on-dark-180x180.png",
+            "192x192": "dist/agent/png/square-on-dark-192x192.png",
+            "256x256": "dist/agent/png/square-on-dark-256x256.png",
+            "512x512": "dist/agent/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/agent/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/agent/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/agent/png/square-on-light-16x16.png",
+            "32x32": "dist/agent/png/square-on-light-32x32.png",
+            "48x48": "dist/agent/png/square-on-light-48x48.png",
+            "64x64": "dist/agent/png/square-on-light-64x64.png",
+            "128x128": "dist/agent/png/square-on-light-128x128.png",
+            "180x180": "dist/agent/png/square-on-light-180x180.png",
+            "192x192": "dist/agent/png/square-on-light-192x192.png",
+            "256x256": "dist/agent/png/square-on-light-256x256.png",
+            "512x512": "dist/agent/png/square-on-light-512x512.png",
+            "1024x1024": "dist/agent/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/agent/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/agent/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/agent/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/agent/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/agent/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/agent/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/agent/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/agent/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/agent/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/agent/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/agent/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/agent/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/agent/png/rounded-on-light-16x16.png",
+            "32x32": "dist/agent/png/rounded-on-light-32x32.png",
+            "48x48": "dist/agent/png/rounded-on-light-48x48.png",
+            "64x64": "dist/agent/png/rounded-on-light-64x64.png",
+            "128x128": "dist/agent/png/rounded-on-light-128x128.png",
+            "180x180": "dist/agent/png/rounded-on-light-180x180.png",
+            "192x192": "dist/agent/png/rounded-on-light-192x192.png",
+            "256x256": "dist/agent/png/rounded-on-light-256x256.png",
+            "512x512": "dist/agent/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/agent/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/agent/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/agent/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/agent/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/agent/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/agent/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/agent/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/agent/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/agent/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/agent/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/agent/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/agent/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/agent/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/agent/png/safearea-on-light-16x16.png",
+            "32x32": "dist/agent/png/safearea-on-light-32x32.png",
+            "48x48": "dist/agent/png/safearea-on-light-48x48.png",
+            "64x64": "dist/agent/png/safearea-on-light-64x64.png",
+            "128x128": "dist/agent/png/safearea-on-light-128x128.png",
+            "180x180": "dist/agent/png/safearea-on-light-180x180.png",
+            "192x192": "dist/agent/png/safearea-on-light-192x192.png",
+            "256x256": "dist/agent/png/safearea-on-light-256x256.png",
+            "512x512": "dist/agent/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/agent/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/agent/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/agent/png/circle-on-dark-16x16.png",
+            "32x32": "dist/agent/png/circle-on-dark-32x32.png",
+            "48x48": "dist/agent/png/circle-on-dark-48x48.png",
+            "64x64": "dist/agent/png/circle-on-dark-64x64.png",
+            "128x128": "dist/agent/png/circle-on-dark-128x128.png",
+            "180x180": "dist/agent/png/circle-on-dark-180x180.png",
+            "192x192": "dist/agent/png/circle-on-dark-192x192.png",
+            "256x256": "dist/agent/png/circle-on-dark-256x256.png",
+            "512x512": "dist/agent/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/agent/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/agent/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/agent/png/circle-on-light-16x16.png",
+            "32x32": "dist/agent/png/circle-on-light-32x32.png",
+            "48x48": "dist/agent/png/circle-on-light-48x48.png",
+            "64x64": "dist/agent/png/circle-on-light-64x64.png",
+            "128x128": "dist/agent/png/circle-on-light-128x128.png",
+            "180x180": "dist/agent/png/circle-on-light-180x180.png",
+            "192x192": "dist/agent/png/circle-on-light-192x192.png",
+            "256x256": "dist/agent/png/circle-on-light-256x256.png",
+            "512x512": "dist/agent/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/agent/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/agent/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/agent/png/transparent-16x16.png",
+            "32x32": "dist/agent/png/transparent-32x32.png",
+            "48x48": "dist/agent/png/transparent-48x48.png",
+            "64x64": "dist/agent/png/transparent-64x64.png",
+            "128x128": "dist/agent/png/transparent-128x128.png",
+            "180x180": "dist/agent/png/transparent-180x180.png",
+            "192x192": "dist/agent/png/transparent-192x192.png",
+            "256x256": "dist/agent/png/transparent-256x256.png",
+            "512x512": "dist/agent/png/transparent-512x512.png",
+            "1024x1024": "dist/agent/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/agent/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/agent/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/agent/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/agent/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/agent/favicon/favicon.svg",
+        "png_16": "dist/agent/favicon/favicon-16x16.png",
+        "png_32": "dist/agent/favicon/favicon-32x32.png",
+        "png_48": "dist/agent/favicon/favicon-48x48.png",
+        "ico": "dist/agent/favicon/favicon.ico",
+        "apple_touch": "dist/agent/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/agent/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/agent/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/agent/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/agent/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/agent/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "pledge",
+      "label": "oc\u00b7pledge",
+      "hostname": "pledge.ochk.io",
+      "tagline": "bonded commitments with provable consequences",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/pledge/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/pledge/png/square-on-dark-16x16.png",
+            "32x32": "dist/pledge/png/square-on-dark-32x32.png",
+            "48x48": "dist/pledge/png/square-on-dark-48x48.png",
+            "64x64": "dist/pledge/png/square-on-dark-64x64.png",
+            "128x128": "dist/pledge/png/square-on-dark-128x128.png",
+            "180x180": "dist/pledge/png/square-on-dark-180x180.png",
+            "192x192": "dist/pledge/png/square-on-dark-192x192.png",
+            "256x256": "dist/pledge/png/square-on-dark-256x256.png",
+            "512x512": "dist/pledge/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/pledge/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/pledge/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/pledge/png/square-on-light-16x16.png",
+            "32x32": "dist/pledge/png/square-on-light-32x32.png",
+            "48x48": "dist/pledge/png/square-on-light-48x48.png",
+            "64x64": "dist/pledge/png/square-on-light-64x64.png",
+            "128x128": "dist/pledge/png/square-on-light-128x128.png",
+            "180x180": "dist/pledge/png/square-on-light-180x180.png",
+            "192x192": "dist/pledge/png/square-on-light-192x192.png",
+            "256x256": "dist/pledge/png/square-on-light-256x256.png",
+            "512x512": "dist/pledge/png/square-on-light-512x512.png",
+            "1024x1024": "dist/pledge/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/pledge/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/pledge/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/pledge/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/pledge/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/pledge/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/pledge/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/pledge/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/pledge/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/pledge/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/pledge/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/pledge/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/pledge/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/pledge/png/rounded-on-light-16x16.png",
+            "32x32": "dist/pledge/png/rounded-on-light-32x32.png",
+            "48x48": "dist/pledge/png/rounded-on-light-48x48.png",
+            "64x64": "dist/pledge/png/rounded-on-light-64x64.png",
+            "128x128": "dist/pledge/png/rounded-on-light-128x128.png",
+            "180x180": "dist/pledge/png/rounded-on-light-180x180.png",
+            "192x192": "dist/pledge/png/rounded-on-light-192x192.png",
+            "256x256": "dist/pledge/png/rounded-on-light-256x256.png",
+            "512x512": "dist/pledge/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/pledge/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/pledge/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/pledge/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/pledge/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/pledge/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/pledge/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/pledge/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/pledge/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/pledge/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/pledge/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/pledge/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/pledge/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/pledge/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/pledge/png/safearea-on-light-16x16.png",
+            "32x32": "dist/pledge/png/safearea-on-light-32x32.png",
+            "48x48": "dist/pledge/png/safearea-on-light-48x48.png",
+            "64x64": "dist/pledge/png/safearea-on-light-64x64.png",
+            "128x128": "dist/pledge/png/safearea-on-light-128x128.png",
+            "180x180": "dist/pledge/png/safearea-on-light-180x180.png",
+            "192x192": "dist/pledge/png/safearea-on-light-192x192.png",
+            "256x256": "dist/pledge/png/safearea-on-light-256x256.png",
+            "512x512": "dist/pledge/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/pledge/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/pledge/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/pledge/png/circle-on-dark-16x16.png",
+            "32x32": "dist/pledge/png/circle-on-dark-32x32.png",
+            "48x48": "dist/pledge/png/circle-on-dark-48x48.png",
+            "64x64": "dist/pledge/png/circle-on-dark-64x64.png",
+            "128x128": "dist/pledge/png/circle-on-dark-128x128.png",
+            "180x180": "dist/pledge/png/circle-on-dark-180x180.png",
+            "192x192": "dist/pledge/png/circle-on-dark-192x192.png",
+            "256x256": "dist/pledge/png/circle-on-dark-256x256.png",
+            "512x512": "dist/pledge/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/pledge/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/pledge/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/pledge/png/circle-on-light-16x16.png",
+            "32x32": "dist/pledge/png/circle-on-light-32x32.png",
+            "48x48": "dist/pledge/png/circle-on-light-48x48.png",
+            "64x64": "dist/pledge/png/circle-on-light-64x64.png",
+            "128x128": "dist/pledge/png/circle-on-light-128x128.png",
+            "180x180": "dist/pledge/png/circle-on-light-180x180.png",
+            "192x192": "dist/pledge/png/circle-on-light-192x192.png",
+            "256x256": "dist/pledge/png/circle-on-light-256x256.png",
+            "512x512": "dist/pledge/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/pledge/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/pledge/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/pledge/png/transparent-16x16.png",
+            "32x32": "dist/pledge/png/transparent-32x32.png",
+            "48x48": "dist/pledge/png/transparent-48x48.png",
+            "64x64": "dist/pledge/png/transparent-64x64.png",
+            "128x128": "dist/pledge/png/transparent-128x128.png",
+            "180x180": "dist/pledge/png/transparent-180x180.png",
+            "192x192": "dist/pledge/png/transparent-192x192.png",
+            "256x256": "dist/pledge/png/transparent-256x256.png",
+            "512x512": "dist/pledge/png/transparent-512x512.png",
+            "1024x1024": "dist/pledge/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/pledge/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/pledge/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/pledge/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/pledge/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/pledge/favicon/favicon.svg",
+        "png_16": "dist/pledge/favicon/favicon-16x16.png",
+        "png_32": "dist/pledge/favicon/favicon-32x32.png",
+        "png_48": "dist/pledge/favicon/favicon-48x48.png",
+        "ico": "dist/pledge/favicon/favicon.ico",
+        "apple_touch": "dist/pledge/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/pledge/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/pledge/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/pledge/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/pledge/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/pledge/og/og-on-light-1200x630.png"
+      }
+    },
+    {
+      "slug": "analytics",
+      "label": "oc\u00b7analytics",
+      "hostname": "analytics.ochk.io",
+      "tagline": "owner cockpit for the orangecheck family",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/analytics/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/analytics/png/square-on-dark-16x16.png",
+            "32x32": "dist/analytics/png/square-on-dark-32x32.png",
+            "48x48": "dist/analytics/png/square-on-dark-48x48.png",
+            "64x64": "dist/analytics/png/square-on-dark-64x64.png",
+            "128x128": "dist/analytics/png/square-on-dark-128x128.png",
+            "180x180": "dist/analytics/png/square-on-dark-180x180.png",
+            "192x192": "dist/analytics/png/square-on-dark-192x192.png",
+            "256x256": "dist/analytics/png/square-on-dark-256x256.png",
+            "512x512": "dist/analytics/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/analytics/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/analytics/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/analytics/png/square-on-light-16x16.png",
+            "32x32": "dist/analytics/png/square-on-light-32x32.png",
+            "48x48": "dist/analytics/png/square-on-light-48x48.png",
+            "64x64": "dist/analytics/png/square-on-light-64x64.png",
+            "128x128": "dist/analytics/png/square-on-light-128x128.png",
+            "180x180": "dist/analytics/png/square-on-light-180x180.png",
+            "192x192": "dist/analytics/png/square-on-light-192x192.png",
+            "256x256": "dist/analytics/png/square-on-light-256x256.png",
+            "512x512": "dist/analytics/png/square-on-light-512x512.png",
+            "1024x1024": "dist/analytics/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/analytics/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/analytics/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/analytics/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/analytics/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/analytics/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/analytics/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/analytics/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/analytics/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/analytics/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/analytics/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/analytics/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/analytics/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/analytics/png/rounded-on-light-16x16.png",
+            "32x32": "dist/analytics/png/rounded-on-light-32x32.png",
+            "48x48": "dist/analytics/png/rounded-on-light-48x48.png",
+            "64x64": "dist/analytics/png/rounded-on-light-64x64.png",
+            "128x128": "dist/analytics/png/rounded-on-light-128x128.png",
+            "180x180": "dist/analytics/png/rounded-on-light-180x180.png",
+            "192x192": "dist/analytics/png/rounded-on-light-192x192.png",
+            "256x256": "dist/analytics/png/rounded-on-light-256x256.png",
+            "512x512": "dist/analytics/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/analytics/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/analytics/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/analytics/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/analytics/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/analytics/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/analytics/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/analytics/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/analytics/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/analytics/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/analytics/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/analytics/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/analytics/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/analytics/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/analytics/png/safearea-on-light-16x16.png",
+            "32x32": "dist/analytics/png/safearea-on-light-32x32.png",
+            "48x48": "dist/analytics/png/safearea-on-light-48x48.png",
+            "64x64": "dist/analytics/png/safearea-on-light-64x64.png",
+            "128x128": "dist/analytics/png/safearea-on-light-128x128.png",
+            "180x180": "dist/analytics/png/safearea-on-light-180x180.png",
+            "192x192": "dist/analytics/png/safearea-on-light-192x192.png",
+            "256x256": "dist/analytics/png/safearea-on-light-256x256.png",
+            "512x512": "dist/analytics/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/analytics/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/analytics/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/analytics/png/circle-on-dark-16x16.png",
+            "32x32": "dist/analytics/png/circle-on-dark-32x32.png",
+            "48x48": "dist/analytics/png/circle-on-dark-48x48.png",
+            "64x64": "dist/analytics/png/circle-on-dark-64x64.png",
+            "128x128": "dist/analytics/png/circle-on-dark-128x128.png",
+            "180x180": "dist/analytics/png/circle-on-dark-180x180.png",
+            "192x192": "dist/analytics/png/circle-on-dark-192x192.png",
+            "256x256": "dist/analytics/png/circle-on-dark-256x256.png",
+            "512x512": "dist/analytics/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/analytics/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/analytics/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/analytics/png/circle-on-light-16x16.png",
+            "32x32": "dist/analytics/png/circle-on-light-32x32.png",
+            "48x48": "dist/analytics/png/circle-on-light-48x48.png",
+            "64x64": "dist/analytics/png/circle-on-light-64x64.png",
+            "128x128": "dist/analytics/png/circle-on-light-128x128.png",
+            "180x180": "dist/analytics/png/circle-on-light-180x180.png",
+            "192x192": "dist/analytics/png/circle-on-light-192x192.png",
+            "256x256": "dist/analytics/png/circle-on-light-256x256.png",
+            "512x512": "dist/analytics/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/analytics/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/analytics/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/analytics/png/transparent-16x16.png",
+            "32x32": "dist/analytics/png/transparent-32x32.png",
+            "48x48": "dist/analytics/png/transparent-48x48.png",
+            "64x64": "dist/analytics/png/transparent-64x64.png",
+            "128x128": "dist/analytics/png/transparent-128x128.png",
+            "180x180": "dist/analytics/png/transparent-180x180.png",
+            "192x192": "dist/analytics/png/transparent-192x192.png",
+            "256x256": "dist/analytics/png/transparent-256x256.png",
+            "512x512": "dist/analytics/png/transparent-512x512.png",
+            "1024x1024": "dist/analytics/png/transparent-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/analytics/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/analytics/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/analytics/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/analytics/og/og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/analytics/favicon/favicon.svg",
+        "png_16": "dist/analytics/favicon/favicon-16x16.png",
+        "png_32": "dist/analytics/favicon/favicon-32x32.png",
+        "png_48": "dist/analytics/favicon/favicon-48x48.png",
+        "ico": "dist/analytics/favicon/favicon.ico",
+        "apple_touch": "dist/analytics/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/analytics/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/analytics/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/analytics/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/analytics/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/analytics/og/og-on-light-1200x630.png"
+      }
+    }
+  ]
+}

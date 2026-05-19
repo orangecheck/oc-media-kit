@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.idea/
+*.iml
+
+# dist/ IS tracked — the whole point of this repo is to ship the
+# pre-rendered media kit. Consumers cp / curl from here without
+# needing the python toolchain.

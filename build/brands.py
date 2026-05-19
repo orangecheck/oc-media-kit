@@ -1,0 +1,389 @@
+"""
+brands.py — the single source of truth for every OrangeCheck-family mark.
+
+Each entry is a Brand: slug + colors + a function that returns the SVG
+INNER content (no <svg> wrapper) for a given (fg, bg, ink) palette.
+
+`fg` is the colored mark surface (the "orange square" on most brand
+marks, or the glyph itself on transparent variants). `bg` is the
+backdrop fill rendered behind the mark. `ink` is the contrasting
+detail / cutout color (the dark inner shapes on most brand marks).
+
+The build pipeline (build.py) wires these into the standard variant
+matrix (square / rounded / safe-area / circle / transparent / og)
+and renders to every required size.
+"""
+from __future__ import annotations
+from dataclasses import dataclass
+from typing import Callable
+
+# --- canonical palette ------------------------------------------------------
+
+ORANGE = "#f97316"   # primary brand orange (tailwind orange-500)
+ORANGE_DEEP = "#ea580c"
+DARK = "#0a0a0a"     # canonical dark backdrop (matches the family sites)
+LIGHT = "#fafafa"
+MUTED = "#737373"
+
+# Some sub-site favicons currently use #0b0909 as the dark backdrop.
+# We normalize to #0a0a0a here — the difference is imperceptible and the
+# kit acts as the new source of truth.
+
+GlyphFn = Callable[..., str]
+# (fg, bg, ink, canvas=1024) -> svg inner content. Glyphs are authored
+# against a 24x24 viewBox; the build script scales them into 1024x1024
+# canvases by setting a transform on a wrapping <g>. The `bg` and `ink`
+# parameters are part of the uniform contract; some glyphs ignore them
+# (e.g. orangecheck, vote — single-color shapes).
+
+# ---------------------------------------------------------------------------
+# orangecheck (root umbrella, ochk.io)
+# ---------------------------------------------------------------------------
+# The § (section sign) glyph extracted from DejaVu Sans Mono Bold as raw
+# SVG path data — no font dependency at render time. Same path as the
+# 2026-05 §-mark experiment under archive/. The path is authored in font
+# coordinates; the build pipeline handles centering and scaling.
+
+ORANGECHECK_GLYPH_D = (
+    "M518 856Q463 820 438.5 785.5Q414 751 414 711Q414 657 462.5 613.0Q511 569 711 473Q766 509 790.5 543.5Q815 578 815 621Q815 702 550 840"
+    "ZM930 1460V1235Q845 1265 779.0 1279.5Q713 1294 659 1294Q583 1294 540.5 1265.0Q498 1236 498 1184Q498 1109 701 1004Q720 994 729 989"
+    "Q943 879 1002.0 808.5Q1061 738 1061 637Q1061 548 1013.5 484.0Q966 420 864 373Q934 323 966.5 261.5Q999 200 999 119Q999 -28 894.5 -111.5"
+    "Q790 -195 604 -195Q515 -195 429.0 -180.5Q343 -166 258 -137V92Q343 62 424.0 46.5Q505 31 578 31Q655 31 696.0 59.5"
+    "Q737 88 737 141Q737 211 523 326L512 332L486 346Q170 516 170 688Q170 782 222.0 851.5Q274 921 371 954Q300 1004 268.0 1064.0"
+    "Q236 1124 236 1206Q236 1348 340.0 1434.0Q444 1520 616 1520Q690 1520 768.5 1505.0Q847 1490 930 1460Z"
+)
+# The DejaVu glyph bounding box: xMin=170 yMin=-195 xMax=1061 yMax=1520
+ORANGECHECK_BBOX = (170.0, -195.0, 1061.0, 1520.0)
+
+
+def orangecheck_glyph_svg(fg: str, bg: str, ink: str, canvas: int = 1024,
+                           glyph_frac: float = 0.78) -> str:
+    """Render the § glyph centered in a `canvas`-square viewBox.
+    fg=glyph color, bg=ignored here (handled by variant wrapper), ink=ignored.
+    """
+    x_min, y_min, x_max, y_max = ORANGECHECK_BBOX
+    gw = x_max - x_min
+    gh = y_max - y_min
+    scale = (canvas * glyph_frac) / max(gw, gh)
+    tx = (canvas - scale * (x_max + x_min)) / 2
+    ty = (canvas + scale * (y_max + y_min)) / 2
+    return (
+        f'<path d="{ORANGECHECK_GLYPH_D}" fill="{fg}" '
+        f'transform="translate({tx:.4f} {ty:.4f}) scale({scale:.6f} -{scale:.6f})"/>'
+    )
+
+
+# ---------------------------------------------------------------------------
+# Sub-brand glyphs (24×24 viewBox authored, scaled by wrapper)
+#
+# Each function returns the inner SVG body. The full mark (the "filled
+# orange square" framing common to the family) is included so each glyph
+# is a complete brand mark in its own right. The build pipeline composes
+# variants (rounded corners, circle, safe-area padding, etc.) by wrapping.
+# ---------------------------------------------------------------------------
+
+def attest_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
+    """attest.ochk.io — BadgeCheck (orange scalloped badge + checkmark).
+    Lifted from lucide-react BadgeCheck. The hexagonal scalloped silhouette
+    IS the OrangeCheck-protocol identity (an orange check badge)."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z" '
+        f'fill="{fg}"/>'
+        f'<path d="M9 12 l2 2 l4 -4" fill="none" stroke="{ink}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>'
+        f'</g>'
+    )
+
+
+def docs_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """docs.ochk.io — page with three text-lines inside a frame."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<rect x="6" y="6" width="12" height="12" fill="none" stroke="{ink}" stroke-width="1.5"/>'
+        f'<rect x="8" y="9" width="8" height="1.25" fill="{ink}"/>'
+        f'<rect x="8" y="11.5" width="8" height="1.25" fill="{ink}"/>'
+        f'<rect x="8" y="14" width="5" height="1.25" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
+def me_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """me.ochk.io — person silhouette inside a stamp frame."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<rect x="6" y="6" width="12" height="12" fill="none" stroke="{ink}" stroke-width="1.5"/>'
+        f'<circle cx="12" cy="11" r="2" fill="{ink}"/>'
+        f'<path d="M8 16.5 C 8 14.5, 9.5 13.5, 12 13.5 C 14.5 13.5, 16 14.5, 16 16.5" '
+        f'fill="none" stroke="{ink}" stroke-width="1.5" stroke-linecap="square"/>'
+        f'</g>'
+    )
+
+
+def vault_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """vault.ochk.io — shackle over safe body with dial + feet."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<path d="M8 9 L8 6.5 Q8 3.5 12 3.5 Q16 3.5 16 6.5 L16 9" '
+        f'fill="none" stroke="{fg}" stroke-width="2" stroke-linecap="square"/>'
+        f'<rect x="4" y="9" width="16" height="12" fill="{fg}"/>'
+        f'<circle cx="12" cy="14.5" r="2.75" fill="none" stroke="{ink}" stroke-width="1.5"/>'
+        f'<rect x="11.4" y="14.5" width="1.2" height="3.25" fill="{ink}"/>'
+        f'<rect x="5.5" y="19" width="2.25" height="1.5" fill="{ink}"/>'
+        f'<rect x="16.25" y="19" width="2.25" height="1.5" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
+def fleet_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """fleet.ochk.io — terminal prompt (chevron + cursor line)."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<rect x="6" y="6" width="12" height="12" fill="none" stroke="{ink}" stroke-width="1.5"/>'
+        f'<path d="M8.5 9.5 L11 12 L8.5 14.5" fill="none" stroke="{ink}" stroke-width="1.6" '
+        f'stroke-linejoin="miter" stroke-linecap="square"/>'
+        f'<rect x="12" y="14" width="4" height="1.4" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
+def lock_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """lock.ochk.io — padlock (shackle + body + keyhole)."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<path d="M7 11V7.5a5 5 0 0 1 10 0V11" fill="none" stroke="{fg}" stroke-width="2" stroke-linecap="square"/>'
+        f'<rect x="4" y="11" width="16" height="10" fill="{fg}" stroke="{fg}" stroke-width="0.5"/>'
+        f'<rect x="11" y="14" width="2" height="4" fill="{ink}"/>'
+        f'<rect x="10.25" y="14" width="3.5" height="1.5" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
+def vote_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """vote.ochk.io — three ascending tally bars. Transparent by design."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="2" y="14" width="4" height="8" fill="{fg}"/>'
+        f'<rect x="10" y="8" width="4" height="14" fill="{fg}"/>'
+        f'<rect x="18" y="2" width="4" height="20" fill="{fg}"/>'
+        f'</g>'
+    )
+
+
+def stamp_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """stamp.ochk.io — notary-stamp square with anchor glyph."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<rect x="6" y="6" width="12" height="12" fill="none" stroke="{ink}" stroke-width="1.5"/>'
+        f'<rect x="11.25" y="8.5" width="1.5" height="7" fill="{ink}"/>'
+        f'<rect x="9.5" y="10" width="5" height="1.5" fill="{ink}"/>'
+        f'<path d="M9 14.5 L12 15.75 L15 14.5" fill="none" stroke="{ink}" stroke-width="1.5" '
+        f'stroke-linejoin="miter" stroke-linecap="square"/>'
+        f'</g>'
+    )
+
+
+def agent_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """agent.ochk.io — "A" pennant with crossbar + authority seal."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<path d="M4 20 L12 4 L20 20 Z" fill="{fg}" stroke="{fg}" stroke-width="1.25" stroke-linejoin="miter"/>'
+        f'<rect x="7.5" y="13.5" width="9" height="2" fill="{ink}"/>'
+        f'<rect x="11" y="9" width="2" height="2" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
+def pledge_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """pledge.ochk.io — stylized "P" inside an envelope frame."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<rect x="6" y="6" width="12" height="12" fill="none" stroke="{ink}" stroke-width="1.5"/>'
+        f'<rect x="9.25" y="8.5" width="1.75" height="7" fill="{ink}"/>'
+        f'<rect x="9.25" y="8.5" width="4.5" height="1.5" fill="{ink}"/>'
+        f'<rect x="12.25" y="8.5" width="1.5" height="3.5" fill="{ink}"/>'
+        f'<rect x="9.25" y="10.5" width="4.5" height="1.5" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
+def analytics_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
+    """analytics.ochk.io — sharpened line chart climbing into corner."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<path d="M6 17 L10 12 L14 15 L18 8" fill="none" stroke="{ink}" stroke-width="1.8" '
+        f'stroke-linecap="square" stroke-linejoin="miter"/>'
+        f'<rect x="16.6" y="6.6" width="2.8" height="2.8" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
+# ---------------------------------------------------------------------------
+
+@dataclass(frozen=True)
+class Brand:
+    slug: str                # 'orangecheck', 'stamp', etc.
+    label: str               # short display label
+    hostname: str            # bare hostname for OG cards / docs
+    tagline: str             # one-line tagline for OG
+    glyph: GlyphFn           # (fg, bg, ink, canvas) -> svg inner content
+    glyph_frac: float = 0.78
+    # If True, the glyph naturally lives "on transparent" (e.g. a § character
+    # or three vote bars). The standard sub-brand glyphs ARE the full mark
+    # (filled square + frame + detail) and ignore this flag.
+    is_glyph_only: bool = False
+
+
+BRANDS: list[Brand] = [
+    Brand(
+        slug="orangecheck",
+        label="orangecheck",
+        hostname="ochk.io",
+        tagline="proof of unique humanity, on bitcoin",
+        glyph=lambda fg, bg, ink, canvas=1024: orangecheck_glyph_svg(fg, bg, ink, canvas, 0.78),
+        glyph_frac=0.78,
+        is_glyph_only=True,
+    ),
+    Brand(
+        slug="attest",
+        label="oc·attest",
+        hostname="attest.ochk.io",
+        tagline="sybil-resistant attestations, anchored to bitcoin",
+        glyph=attest_glyph,
+    ),
+    Brand(
+        slug="docs",
+        label="oc·docs",
+        hostname="docs.ochk.io",
+        tagline="unified reference for the orangecheck family",
+        glyph=docs_glyph,
+    ),
+    Brand(
+        slug="me",
+        label="oc·me",
+        hostname="me.ochk.io",
+        tagline="consumer bitcoin-backed identity",
+        glyph=me_glyph,
+    ),
+    Brand(
+        slug="vault",
+        label="oc·vault",
+        hostname="vault.ochk.io",
+        tagline="encrypted personal secret storage",
+        glyph=vault_glyph,
+    ),
+    Brand(
+        slug="fleet",
+        label="oc·fleet",
+        hostname="fleet.ochk.io",
+        tagline="managed agent + pledge for teams",
+        glyph=fleet_glyph,
+    ),
+    Brand(
+        slug="lock",
+        label="oc·lock",
+        hostname="lock.ochk.io",
+        tagline="device-anchored end-to-end encryption",
+        glyph=lock_glyph,
+    ),
+    Brand(
+        slug="vote",
+        label="oc·vote",
+        hostname="vote.ochk.io",
+        tagline="sat-weighted polls, anchored to bitcoin",
+        glyph=vote_glyph,
+        is_glyph_only=True,
+    ),
+    Brand(
+        slug="stamp",
+        label="oc·stamp",
+        hostname="stamp.ochk.io",
+        tagline="block-anchored declarations over any hash",
+        glyph=stamp_glyph,
+    ),
+    Brand(
+        slug="agent",
+        label="oc·agent",
+        hostname="agent.ochk.io",
+        tagline="scoped, signed authority for autonomous agents",
+        glyph=agent_glyph,
+    ),
+    Brand(
+        slug="pledge",
+        label="oc·pledge",
+        hostname="pledge.ochk.io",
+        tagline="bonded commitments with provable consequences",
+        glyph=pledge_glyph,
+    ),
+    Brand(
+        slug="analytics",
+        label="oc·analytics",
+        hostname="analytics.ochk.io",
+        tagline="owner cockpit for the orangecheck family",
+        glyph=analytics_glyph,
+    ),
+]
+
+
+# ---------------------------------------------------------------------------
+# Variant matrix — applied uniformly across every brand.
+#
+#   stem               shape       fg-on-bg combo            radius     pad
+#   --------------------------------------------------------------------------
+#   square-on-dark     sharp       orange-square / dark-bg   0          0
+#   square-on-light    sharp       orange-square / light-bg  0          0
+#   rounded-on-dark    rounded     orange-square / dark-bg   22%        0
+#   rounded-on-light   rounded     orange-square / light-bg  22%        0
+#   safearea-on-dark   sharp+pad   orange-square / dark-bg   0          ~28%
+#   safearea-on-light  sharp+pad   orange-square / light-bg  0          ~28%
+#   circle-on-dark     circle      orange-square / dark-bg   50%        0
+#   circle-on-light    circle      orange-square / light-bg  50%        0
+#   transparent        none        mark / none               -          0
+#   og-on-dark         og card     dark-bg, big mark         -          -
+#   og-on-orange       og card     orange-bg, white mark     -          -
+#
+# For `is_glyph_only` brands (orangecheck §, vote bars), additional
+# inverted variants (white-on-orange, black-on-orange) are emitted too —
+# those make sense for a single-color glyph. For full-stack glyphs that
+# already include the orange square (stamp/lock/etc.), inverted
+# "white-on-orange" variants would just be the mark with orange/orange
+# bleed and don't read; we skip them.
+# ---------------------------------------------------------------------------
+
+# Square PNG ladder — covers every common surface:
+#   16/32        — favicon
+#   48           — chrome extension toolbar
+#   64           — small icon
+#   128          — chrome extension main
+#   180          — apple-touch-icon
+#   192          — pwa / android-chrome
+#   256          — oauth tile
+#   512          — pwa / app-store / npm-avatar / store header
+#   1024         — print / future-proof
+SQUARE_PNG_SIZES = [16, 32, 48, 64, 128, 180, 192, 256, 512, 1024]
+
+# OG share card
+OG_W, OG_H = 1200, 630
+
+# Supersample masters — render once, downsample to all targets.
+MASTER_SQUARE = 2048
+MASTER_OG = (2400, 1260)
+
+# Native SVG canvas size — what every variant SVG's viewBox uses.
+CANVAS = 1024

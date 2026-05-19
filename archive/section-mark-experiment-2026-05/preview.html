@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>§orangecheck — mark kit preview</title>
+<style>
+  :root {
+    --bg: #0a0a0a;
+    --bg-2: #141414;
+    --fg: #fafafa;
+    --muted: #737373;
+    --orange: #f97316;
+    --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+  }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--mono); }
+  header { padding: 40px 48px 24px; border-bottom: 1px solid #1f1f1f; position: sticky; top: 0; background: var(--bg); z-index: 10; }
+  header h1 { margin: 0 0 6px; font-size: 18px; font-weight: 700; }
+  header h1 span { color: var(--orange); }
+  header p { margin: 0; color: var(--muted); font-size: 13px; }
+  header nav { margin-top: 14px; display: flex; flex-wrap: wrap; gap: 14px; font-size: 12px; }
+  header nav a { color: var(--muted); text-decoration: none; }
+  header nav a:hover { color: var(--orange); }
+  main { padding: 32px 48px 120px; display: grid; gap: 48px; max-width: 1200px; }
+  section { display: grid; gap: 16px; scroll-margin-top: 140px; }
+  section h2 { margin: 0; font-size: 12px; color: var(--muted); font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; }
+  section h2 b { color: var(--fg); font-weight: 700; }
+  .row { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-end; }
+  figure { margin: 0; display: grid; gap: 8px; }
+  figcaption { font-size: 11px; color: var(--muted); }
+  figcaption b { color: var(--fg); display: block; font-weight: 700; }
+  .tile { background: var(--bg-2); padding: 14px; border-radius: 10px; border: 1px solid #1f1f1f; display: inline-flex; }
+  .tile.light { background: #fafafa; }
+  .tile.warm  { background: #1c1917; }
+  .tile.color { background: linear-gradient(135deg,#1e3a8a,#7c3aed); }
+  .checker { background-image:
+    linear-gradient(45deg, #1a1a1a 25%, transparent 25%),
+    linear-gradient(-45deg, #1a1a1a 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #1a1a1a 75%),
+    linear-gradient(-45deg, transparent 75%, #1a1a1a 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+    background-color: #0f0f0f;
+  }
+  .og { background: var(--bg-2); padding: 18px; border-radius: 10px; border: 1px solid #1f1f1f; max-width: 920px; }
+  .og img { width: 100%; display: block; border-radius: 4px; }
+  .swatches { display: flex; gap: 12px; flex-wrap: wrap; }
+  .swatch { display: flex; flex-direction: column; gap: 6px; }
+  .swatch-color { width: 88px; height: 88px; border-radius: 8px; border: 1px solid #1f1f1f; }
+  .swatch-label { font-size: 11px; color: var(--muted); }
+  .swatch-label b { color: var(--fg); display: block; }
+  code { color: var(--orange); background: #1a1a1a; padding: 2px 6px; border-radius: 4px; font-size: 11px; }
+  /* preview uses PNGs at native pixel size, so you see real pixel-perfect output */
+  .tile img { image-rendering: -webkit-optimize-contrast; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span>§</span>orangecheck — mark kit</h1>
+  <p>21 svgs · 183 pngs across 10 sizes · supersampled with LANCZOS · 204 image files</p>
+  <nav>
+    <a href="#colors">colors</a>
+    <a href="#sharp">01–04 sharp</a>
+    <a href="#rounded">05–08 rounded</a>
+    <a href="#safearea">09–12 safe-area</a>
+    <a href="#circle">13–15 circle</a>
+    <a href="#transparent">16–18 transparent</a>
+    <a href="#og">19–21 og</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="colors">
+    <h2><b>colors</b> — five tokens</h2>
+    <div class="swatches">
+      <div class="swatch"><div class="swatch-color" style="background:#f97316"></div><div class="swatch-label"><b>orange</b>#f97316</div></div>
+      <div class="swatch"><div class="swatch-color" style="background:#ea580c"></div><div class="swatch-label"><b>orange-deep</b>#ea580c</div></div>
+      <div class="swatch"><div class="swatch-color" style="background:#0a0a0a;border-color:#333"></div><div class="swatch-label"><b>black</b>#0a0a0a</div></div>
+      <div class="swatch"><div class="swatch-color" style="background:#fafafa"></div><div class="swatch-label"><b>white</b>#fafafa</div></div>
+      <div class="swatch"><div class="swatch-color" style="background:#737373"></div><div class="swatch-label"><b>muted</b>#737373</div></div>
+    </div>
+    <p style="color:var(--muted);font-size:12px;margin-top:8px">
+      png sizes per variant: <code>16</code> <code>32</code> <code>48</code> <code>64</code> <code>128</code> <code>180</code> <code>192</code> <code>256</code> <code>512</code> <code>1024</code>. og variants: <code>1200×630</code>.
+    </p>
+  </section>
+
+  <section id="sharp">
+    <h2><b>01–04</b> — sharp-corner square (favicons). pngs shown at native pixel size</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="01-square-orange-on-dark-128x128.png" width="128" height="128"></div><figcaption><b>01</b>orange on dark</figcaption></figure>
+      <figure><div class="tile"><img src="02-square-orange-on-light-128x128.png" width="128" height="128"></div><figcaption><b>02</b>orange on light</figcaption></figure>
+      <figure><div class="tile"><img src="03-square-white-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>03</b>white on orange</figcaption></figure>
+      <figure><div class="tile"><img src="04-square-black-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>04</b>black on orange</figcaption></figure>
+    </div>
+    <h2 style="margin-top:18px">size ladder (01, each png at its native size)</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="01-square-orange-on-dark-16x16.png" width="16" height="16"></div><figcaption>16</figcaption></figure>
+      <figure><div class="tile"><img src="01-square-orange-on-dark-32x32.png" width="32" height="32"></div><figcaption>32</figcaption></figure>
+      <figure><div class="tile"><img src="01-square-orange-on-dark-48x48.png" width="48" height="48"></div><figcaption>48</figcaption></figure>
+      <figure><div class="tile"><img src="01-square-orange-on-dark-64x64.png" width="64" height="64"></div><figcaption>64</figcaption></figure>
+      <figure><div class="tile"><img src="01-square-orange-on-dark-128x128.png" width="128" height="128"></div><figcaption>128</figcaption></figure>
+      <figure><div class="tile"><img src="01-square-orange-on-dark-180x180.png" width="180" height="180"></div><figcaption>180</figcaption></figure>
+      <figure><div class="tile"><img src="01-square-orange-on-dark-256x256.png" width="256" height="256"></div><figcaption>256</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="rounded">
+    <h2><b>05–08</b> — rounded square (ios / android home screen)</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="05-rounded-orange-on-dark-128x128.png" width="128" height="128"></div><figcaption><b>05</b>orange on dark</figcaption></figure>
+      <figure><div class="tile"><img src="06-rounded-orange-on-light-128x128.png" width="128" height="128"></div><figcaption><b>06</b>orange on light</figcaption></figure>
+      <figure><div class="tile"><img src="07-rounded-white-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>07</b>white on orange</figcaption></figure>
+      <figure><div class="tile"><img src="08-rounded-black-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>08</b>black on orange</figcaption></figure>
+    </div>
+    <h2 style="margin-top:18px">size ladder (05)</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="05-rounded-orange-on-dark-64x64.png" width="64" height="64"></div><figcaption>64</figcaption></figure>
+      <figure><div class="tile"><img src="05-rounded-orange-on-dark-128x128.png" width="128" height="128"></div><figcaption>128</figcaption></figure>
+      <figure><div class="tile"><img src="05-rounded-orange-on-dark-180x180.png" width="180" height="180"></div><figcaption>180 apple-touch</figcaption></figure>
+      <figure><div class="tile"><img src="05-rounded-orange-on-dark-192x192.png" width="192" height="192"></div><figcaption>192 pwa</figcaption></figure>
+      <figure><div class="tile"><img src="05-rounded-orange-on-dark-256x256.png" width="256" height="256"></div><figcaption>256</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="safearea">
+    <h2><b>09–12</b> — safe-area (for oauth + extensions, ~45% padding around glyph)</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="09-safearea-orange-on-dark-128x128.png" width="128" height="128"></div><figcaption><b>09</b>orange on dark</figcaption></figure>
+      <figure><div class="tile"><img src="10-safearea-orange-on-light-128x128.png" width="128" height="128"></div><figcaption><b>10</b>orange on light</figcaption></figure>
+      <figure><div class="tile"><img src="11-safearea-white-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>11</b>white on orange</figcaption></figure>
+      <figure><div class="tile"><img src="12-safearea-black-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>12</b>black on orange</figcaption></figure>
+    </div>
+    <h2 style="margin-top:18px">size ladder (09)</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="09-safearea-orange-on-dark-16x16.png" width="16" height="16"></div><figcaption>16 ext</figcaption></figure>
+      <figure><div class="tile"><img src="09-safearea-orange-on-dark-48x48.png" width="48" height="48"></div><figcaption>48 ext</figcaption></figure>
+      <figure><div class="tile"><img src="09-safearea-orange-on-dark-128x128.png" width="128" height="128"></div><figcaption>128 ext</figcaption></figure>
+      <figure><div class="tile"><img src="09-safearea-orange-on-dark-256x256.png" width="256" height="256"></div><figcaption>256 oauth</figcaption></figure>
+      <figure><div class="tile"><img src="09-safearea-orange-on-dark-512x512.png" width="256" height="256"></div><figcaption>512 store (shown @256)</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="circle">
+    <h2><b>13–15</b> — circular (social avatars)</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="13-circle-orange-on-dark-128x128.png" width="128" height="128"></div><figcaption><b>13</b>orange on dark</figcaption></figure>
+      <figure><div class="tile"><img src="14-circle-white-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>14</b>white on orange</figcaption></figure>
+      <figure><div class="tile"><img src="15-circle-black-on-orange-128x128.png" width="128" height="128"></div><figcaption><b>15</b>black on orange</figcaption></figure>
+    </div>
+    <h2 style="margin-top:18px">size ladder (14)</h2>
+    <div class="row">
+      <figure><div class="tile"><img src="14-circle-white-on-orange-48x48.png" width="48" height="48"></div><figcaption>48</figcaption></figure>
+      <figure><div class="tile"><img src="14-circle-white-on-orange-128x128.png" width="128" height="128"></div><figcaption>128</figcaption></figure>
+      <figure><div class="tile"><img src="14-circle-white-on-orange-256x256.png" width="256" height="256"></div><figcaption>256</figcaption></figure>
+      <figure><div class="tile"><img src="14-circle-white-on-orange-512x512.png" width="256" height="256"></div><figcaption>512 (shown @256)</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="transparent">
+    <h2><b>16–18</b> — transparent (overlays, watermarks)</h2>
+    <div class="row">
+      <figure><div class="tile checker"><img src="16-transparent-orange-128x128.png" width="128" height="128"></div><figcaption><b>16</b>orange on dark</figcaption></figure>
+      <figure><div class="tile light"><img src="16-transparent-orange-128x128.png" width="128" height="128"></div><figcaption>orange on light</figcaption></figure>
+      <figure><div class="tile light"><img src="17-transparent-black-128x128.png" width="128" height="128"></div><figcaption><b>17</b>black on light</figcaption></figure>
+      <figure><div class="tile warm"><img src="18-transparent-white-128x128.png" width="128" height="128"></div><figcaption><b>18</b>white on dark</figcaption></figure>
+      <figure><div class="tile color"><img src="18-transparent-white-128x128.png" width="128" height="128"></div><figcaption>white on color</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="og">
+    <h2><b>19–21</b> — og share, 1200×630</h2>
+    <div class="og"><img src="19-og-orange-on-dark-1200x630.png"></div>
+    <div class="og"><img src="20-og-white-on-orange-1200x630.png"></div>
+    <div class="og"><img src="21-og-black-on-orange-1200x630.png"></div>
+  </section>
+
+</main>
+</body>
+</html>
