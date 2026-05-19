@@ -443,7 +443,8 @@ def build_brand(brand: Brand) -> dict:
         downsample(rounded_master, s, s).save(p, optimize=True)
         entry["favicon"][f"android_chrome_{s}"] = str(p.relative_to(REPO))
 
-    # site.webmanifest
+    # site.webmanifest — 4-space indent matches the family prettier config
+    # (consumer site CI runs `prettier --check public/favicons/*`).
     wm = fav_dir / "site.webmanifest"
     wm.write_text(json.dumps({
         "name": brand.label,
@@ -455,7 +456,7 @@ def build_brand(brand: Brand) -> dict:
         "theme_color": ORANGE,
         "background_color": DARK,
         "display": "standalone",
-    }, indent=2) + "\n")
+    }, indent=4) + "\n")
     entry["favicon"]["webmanifest"] = str(wm.relative_to(REPO))
 
     return entry
