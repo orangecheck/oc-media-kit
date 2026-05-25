@@ -25,6 +25,32 @@ DARK = "#0a0a0a"     # canonical dark backdrop (matches the family sites)
 LIGHT = "#fafafa"
 MUTED = "#737373"
 
+# --- skins ------------------------------------------------------------------
+#
+# A "skin" re-colors the family accent. These hexes are the sRGB renderings of
+# each skin's dark-mode `--brand` token in @orangecheck/design
+# (oc-packages/design/src/styles/themes/<skin>.css) — the single source of
+# truth. The DARK / LIGHT backdrops + ink stay neutral across skins so the mark
+# stays recognizable and the *hue* carries the skin signal (matching how the
+# sites read: same chrome, different accent).
+#
+#   orangecheck  oklch(0.72 0.22 55)  → #f97316 (kept exactly == ORANGE so the
+#                                        default brand dirs are byte-identical)
+#   phosphor     oklch(0.78 0.18 148) → #55d671 (node green)
+#   lightning    oklch(0.72 0.20 305) → #c27dff (network violet)
+#   gold         oklch(0.80 0.15 90)  → #e3b831 (sound-money gold)
+#
+# build.py emits the DEFAULT_SKIN to dist/<brand>/ (unchanged) and every other
+# skin to dist/<brand>/skins/<skin>/. Runtime favicon/theme-color swapping is
+# handled by @orangecheck/design's init script keyed on the oc_skin cookie.
+DEFAULT_SKIN = "orangecheck"
+SKINS: dict[str, str] = {
+    "orangecheck": ORANGE,
+    "phosphor": "#55d671",
+    "lightning": "#c27dff",
+    "gold": "#e3b831",
+}
+
 # Some sub-site favicons currently use #0b0909 as the dark backdrop.
 # We normalize to #0a0a0a here — the difference is imperceptible and the
 # kit acts as the new source of truth.

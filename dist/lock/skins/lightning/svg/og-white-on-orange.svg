@@ -1,0 +1,6 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="oc·lock mark">
+  <rect width="1200" height="630" fill="#c27dff"/>
+  <g transform="translate(427 142)">
+    <g transform="scale(14.416667 14.416667)"><path d="M7 11V7.5a5 5 0 0 1 10 0V11" fill="none" stroke="#fafafa" stroke-width="2" stroke-linecap="square"/><rect x="4" y="11" width="16" height="10" fill="#fafafa" stroke="#fafafa" stroke-width="0.75"/><rect x="11" y="14" width="2" height="4" fill="#fafafa"/><rect x="10.25" y="14" width="3.5" height="1.5" fill="#fafafa"/></g>
+  </g>
+</svg>

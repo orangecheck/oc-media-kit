@@ -45,12 +45,14 @@ from brands import (
     Brand,
     CANVAS,
     DARK,
+    DEFAULT_SKIN,
     LIGHT,
     MASTER_OG,
     MASTER_SQUARE,
     OG_H,
     OG_W,
     ORANGE,
+    SKINS,
     SQUARE_PNG_SIZES,
 )
 
@@ -139,7 +141,7 @@ def variant_og(brand: Brand, fg: str, bg: str, ink: str, label: str) -> str:
 # Per-brand variant manifest
 # ---------------------------------------------------------------------------
 
-def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
+def variants_for(brand: Brand, primary: str) -> list[tuple[str, str, tuple[int, int]]]:
     """Return [(stem, svg_text, (w, h))]. Square variants render to
     1024x1024; OG variants render to 1200x630."""
     out: list[tuple[str, str, tuple[int, int]]] = []
@@ -148,42 +150,42 @@ def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
     # ---- standard variants present on every brand ----
     out.append((
         "square-on-dark",
-        variant_square(brand, ORANGE, DARK, DARK, label),
+        variant_square(brand, primary, DARK, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "square-on-light",
-        variant_square(brand, ORANGE, LIGHT, DARK, label),
+        variant_square(brand, primary, LIGHT, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "rounded-on-dark",
-        variant_rounded(brand, ORANGE, DARK, DARK, label),
+        variant_rounded(brand, primary, DARK, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "rounded-on-light",
-        variant_rounded(brand, ORANGE, LIGHT, DARK, label),
+        variant_rounded(brand, primary, LIGHT, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "safearea-on-dark",
-        variant_safearea(brand, ORANGE, DARK, DARK, label),
+        variant_safearea(brand, primary, DARK, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "safearea-on-light",
-        variant_safearea(brand, ORANGE, LIGHT, DARK, label),
+        variant_safearea(brand, primary, LIGHT, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "circle-on-dark",
-        variant_circle(brand, ORANGE, DARK, DARK, label),
+        variant_circle(brand, primary, DARK, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "circle-on-light",
-        variant_circle(brand, ORANGE, LIGHT, DARK, label),
+        variant_circle(brand, primary, LIGHT, DARK, label),
         (CANVAS, CANVAS),
     ))
     # ---- white/black on orange (every brand) ----
@@ -195,32 +197,32 @@ def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
     # blend it would otherwise produce is unusable.
     out.append((
         "square-white-on-orange",
-        variant_square(brand, LIGHT, ORANGE, LIGHT, label),
+        variant_square(brand, LIGHT, primary, LIGHT, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "square-black-on-orange",
-        variant_square(brand, DARK, ORANGE, DARK, label),
+        variant_square(brand, DARK, primary, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "rounded-white-on-orange",
-        variant_rounded(brand, LIGHT, ORANGE, LIGHT, label),
+        variant_rounded(brand, LIGHT, primary, LIGHT, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "rounded-black-on-orange",
-        variant_rounded(brand, DARK, ORANGE, DARK, label),
+        variant_rounded(brand, DARK, primary, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "circle-white-on-orange",
-        variant_circle(brand, LIGHT, ORANGE, LIGHT, label),
+        variant_circle(brand, LIGHT, primary, LIGHT, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "circle-black-on-orange",
-        variant_circle(brand, DARK, ORANGE, DARK, label),
+        variant_circle(brand, DARK, primary, DARK, label),
         (CANVAS, CANVAS),
     ))
 
@@ -252,17 +254,17 @@ def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
     # but we still emit the file so every brand has identical surface.
     out.append((
         "transparent",
-        variant_transparent(brand, ORANGE, DARK, label),
+        variant_transparent(brand, primary, DARK, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "transparent-light-ink",
-        variant_transparent(brand, ORANGE, LIGHT, label),
+        variant_transparent(brand, primary, LIGHT, label),
         (CANVAS, CANVAS),
     ))
     out.append((
         "transparent-mono-orange",
-        variant_transparent(brand, ORANGE, ORANGE, label),
+        variant_transparent(brand, primary, primary, label),
         (CANVAS, CANVAS),
     ))
     out.append((
@@ -280,12 +282,12 @@ def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
     # only the distinctive inner detail (frame + glyph). For glyph-only
     # brands the glyph IS the surface, so fg="none" would erase everything
     # — we fall back to mono rendering in that case.
-    outline_fg_orange = ORANGE if brand.is_glyph_only else "none"
+    outline_fg_orange = primary if brand.is_glyph_only else "none"
     outline_fg_dark = DARK if brand.is_glyph_only else "none"
     outline_fg_light = LIGHT if brand.is_glyph_only else "none"
     out.append((
         "transparent-outline-orange",
-        variant_transparent(brand, outline_fg_orange, ORANGE, label),
+        variant_transparent(brand, outline_fg_orange, primary, label),
         (CANVAS, CANVAS),
     ))
     out.append((
@@ -304,22 +306,22 @@ def variants_for(brand: Brand) -> list[tuple[str, str, tuple[int, int]]]:
     # for the share surface where you want the family color to fill-bleed.
     out.append((
         "og-on-dark",
-        variant_og(brand, ORANGE, DARK, DARK, label),
+        variant_og(brand, primary, DARK, DARK, label),
         (OG_W, OG_H),
     ))
     out.append((
         "og-on-light",
-        variant_og(brand, ORANGE, LIGHT, DARK, label),
+        variant_og(brand, primary, LIGHT, DARK, label),
         (OG_W, OG_H),
     ))
     out.append((
         "og-white-on-orange",
-        variant_og(brand, LIGHT, ORANGE, LIGHT, label),
+        variant_og(brand, LIGHT, primary, LIGHT, label),
         (OG_W, OG_H),
     ))
     out.append((
         "og-black-on-orange",
-        variant_og(brand, DARK, ORANGE, DARK, label),
+        variant_og(brand, DARK, primary, DARK, label),
         (OG_W, OG_H),
     ))
 
@@ -350,9 +352,15 @@ def downsample(master: Image.Image, w: int, h: int) -> Image.Image:
 # Per-brand build
 # ---------------------------------------------------------------------------
 
-def build_brand(brand: Brand) -> dict:
-    """Build every variant for one brand. Returns a manifest entry."""
-    bdir = DIST / brand.slug
+def build_brand(brand: Brand, primary: str, bdir: Path, full_png: bool = True) -> dict:
+    """Build every variant for one brand into `bdir`, using `primary` as the
+    accent color. Returns a manifest entry. `bdir` is dist/<brand>/ for the
+    default skin and dist/<brand>/skins/<skin>/ for alternates.
+
+    `full_png=False` (used for alternate skins) writes all 26 vector SVGs + the
+    favicon bundle + the OG card PNGs, but skips the 10-size square PNG raster
+    ladder — the favicon/OG are the consumable theme-aware assets, and the
+    marketing SVGs scale losslessly, so 4×-ing ~2.7k PNGs into git is avoided."""
     svg_dir = bdir / "svg"
     png_dir = bdir / "png"
     og_dir = bdir / "og"
@@ -371,7 +379,7 @@ def build_brand(brand: Brand) -> dict:
     }
     svg_paths: dict[str, Path] = {}
 
-    for stem, svg_text, (w, h) in variants_for(brand):
+    for stem, svg_text, (w, h) in variants_for(brand, primary):
         # 1. write the source SVG (vector, scales to anything)
         svg_path = svg_dir / f"{stem}.svg"
         svg_path.write_text(svg_text)
@@ -387,16 +395,17 @@ def build_brand(brand: Brand) -> dict:
             entry["variants"].setdefault(stem, {"svg": str(svg_path.relative_to(REPO)), "png": {}})
             entry["variants"][stem]["png"][f"{OG_W}x{OG_H}"] = str(out.relative_to(REPO))
         else:
-            # square variant — ladder of sizes
-            master = render_master(svg_text, MASTER_SQUARE, MASTER_SQUARE)
+            # square variant — vector always; raster ladder only for full builds
             v = entry["variants"].setdefault(
                 stem,
                 {"svg": str(svg_path.relative_to(REPO)), "png": {}},
             )
-            for s in SQUARE_PNG_SIZES:
-                p = png_dir / f"{stem}-{s}x{s}.png"
-                downsample(master, s, s).save(p, optimize=True)
-                v["png"][f"{s}x{s}"] = str(p.relative_to(REPO))
+            if full_png:
+                master = render_master(svg_text, MASTER_SQUARE, MASTER_SQUARE)
+                for s in SQUARE_PNG_SIZES:
+                    p = png_dir / f"{stem}-{s}x{s}.png"
+                    downsample(master, s, s).save(p, optimize=True)
+                    v["png"][f"{s}x{s}"] = str(p.relative_to(REPO))
 
     # ---- favicon bundle ----
     # Brand.favicon_variant / Brand.apple_touch_variant override the default.
@@ -453,7 +462,7 @@ def build_brand(brand: Brand) -> dict:
             {"src": "android-chrome-192x192.png", "sizes": "192x192", "type": "image/png"},
             {"src": "android-chrome-512x512.png", "sizes": "512x512", "type": "image/png"},
         ],
-        "theme_color": ORANGE,
+        "theme_color": primary,
         "background_color": DARK,
         "display": "standalone",
     }, indent=4) + "\n")
@@ -473,7 +482,7 @@ def main() -> None:
 
     manifest = {
         "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "palette": {
             "orange": ORANGE,
             "orange_deep": "#ea580c",
@@ -481,16 +490,40 @@ def main() -> None:
             "light": LIGHT,
             "muted": "#737373",
         },
+        # Skin accents (sRGB of each skin's dark-mode --brand in
+        # @orangecheck/design). The default skin renders to dist/<brand>/;
+        # every other skin to dist/<brand>/skins/<skin>/.
+        "default_skin": DEFAULT_SKIN,
+        "skins": SKINS,
         "brands": [],
     }
 
     for brand in BRANDS:
         print(f"  building {brand.slug:14s} ({brand.hostname}) …")
-        entry = build_brand(brand)
+        entry: dict | None = None
+        for skin, primary in SKINS.items():
+            # Default skin → dist/<brand>/ (unchanged path consumers cp from).
+            # Alternate skins → dist/<brand>/skins/<skin>/.
+            is_default = skin == DEFAULT_SKIN
+            bdir = DIST / brand.slug if is_default else DIST / brand.slug / "skins" / skin
+            skin_entry = build_brand(brand, primary, bdir, full_png=is_default)
+            if skin == DEFAULT_SKIN:
+                entry = skin_entry
+                entry["skins"] = {}
+            else:
+                # Index the alternate skin's favicon + og under the brand entry
+                # so consumers / the runtime can resolve per-skin assets.
+                assert entry is not None
+                entry["skins"][skin] = {
+                    "favicon": skin_entry["favicon"],
+                    "og": skin_entry["og"],
+                }
+        assert entry is not None
         n_svg = sum(1 for v in entry["variants"].values())
         n_png = sum(len(v["png"]) for v in entry["variants"].values())
         n_fav = sum(1 for k in entry["favicon"])
-        print(f"    {n_svg:3d} svgs · {n_png:4d} pngs · {n_fav} favicon files")
+        print(f"    {n_svg:3d} svgs · {n_png:4d} pngs · {n_fav} favicon files "
+              f"· ×{len(SKINS)} skins")
         manifest["brands"].append(entry)
 
     (REPO / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
@@ -500,8 +533,9 @@ def main() -> None:
         sum(len(v["png"]) for v in b["variants"].values())
         for b in manifest["brands"]
     )
-    print(f"\ndone. {len(manifest['brands'])} brands · "
-          f"{total_svg} svgs · {total_png} pngs.")
+    print(f"\ndone. {len(manifest['brands'])} brands × {len(SKINS)} skins · "
+          f"{total_svg} default-skin svgs · {total_png} default-skin pngs "
+          f"(+ alternate-skin favicon/og bundles).")
     print(f"manifest: {REPO / 'manifest.json'}")
 
 

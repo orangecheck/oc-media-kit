@@ -1,12 +1,19 @@
 {
   "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "palette": {
     "orange": "#f97316",
     "orange_deep": "#ea580c",
     "dark": "#0a0a0a",
     "light": "#fafafa",
     "muted": "#737373"
+  },
+  "default_skin": "orangecheck",
+  "skins": {
+    "orangecheck": "#f97316",
+    "phosphor": "#55d671",
+    "lightning": "#c27dff",
+    "gold": "#e3b831"
   },
   "brands": [
     {
@@ -386,6 +393,65 @@
         "og-on-light": "dist/orangecheck/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/orangecheck/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/orangecheck/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/orangecheck/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/orangecheck/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/orangecheck/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/orangecheck/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/orangecheck/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/orangecheck/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/orangecheck/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/orangecheck/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/orangecheck/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/orangecheck/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/orangecheck/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/orangecheck/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/orangecheck/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/orangecheck/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/orangecheck/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/orangecheck/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/orangecheck/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/orangecheck/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/orangecheck/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/orangecheck/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/orangecheck/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/orangecheck/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/orangecheck/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/orangecheck/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/orangecheck/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/orangecheck/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/orangecheck/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/orangecheck/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/orangecheck/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/orangecheck/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/orangecheck/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/orangecheck/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/orangecheck/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/orangecheck/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/orangecheck/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/orangecheck/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/orangecheck/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/orangecheck/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/orangecheck/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -765,6 +831,65 @@
         "og-on-light": "dist/attest/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/attest/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/attest/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/attest/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/attest/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/attest/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/attest/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/attest/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/attest/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/attest/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/attest/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/attest/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/attest/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/attest/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/attest/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/attest/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/attest/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/attest/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/attest/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/attest/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/attest/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/attest/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/attest/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/attest/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/attest/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/attest/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/attest/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/attest/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/attest/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/attest/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/attest/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/attest/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/attest/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/attest/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/attest/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/attest/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/attest/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/attest/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/attest/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/attest/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/attest/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/attest/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -1144,6 +1269,65 @@
         "og-on-light": "dist/docs/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/docs/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/docs/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/docs/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/docs/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/docs/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/docs/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/docs/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/docs/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/docs/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/docs/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/docs/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/docs/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/docs/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/docs/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/docs/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/docs/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/docs/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/docs/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/docs/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/docs/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/docs/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/docs/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/docs/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/docs/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/docs/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/docs/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/docs/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/docs/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/docs/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/docs/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/docs/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/docs/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/docs/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/docs/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/docs/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/docs/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/docs/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/docs/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/docs/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/docs/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/docs/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -1523,6 +1707,65 @@
         "og-on-light": "dist/me/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/me/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/me/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/me/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/me/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/me/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/me/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/me/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/me/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/me/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/me/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/me/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/me/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/me/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/me/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/me/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/me/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/me/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/me/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/me/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/me/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/me/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/me/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/me/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/me/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/me/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/me/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/me/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/me/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/me/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/me/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/me/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/me/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/me/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/me/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/me/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/me/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/me/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/me/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/me/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/me/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/me/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -1902,6 +2145,65 @@
         "og-on-light": "dist/vault/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/vault/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/vault/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/vault/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/vault/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/vault/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/vault/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/vault/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/vault/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vault/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vault/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vault/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vault/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vault/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vault/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vault/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/vault/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/vault/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/vault/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/vault/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/vault/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/vault/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vault/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vault/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vault/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vault/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vault/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vault/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vault/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/vault/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/vault/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/vault/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/vault/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/vault/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/vault/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vault/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vault/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vault/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vault/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vault/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vault/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vault/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -2281,6 +2583,65 @@
         "og-on-light": "dist/fleet/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/fleet/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/fleet/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/fleet/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/fleet/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/fleet/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/fleet/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/fleet/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/fleet/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/fleet/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/fleet/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/fleet/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/fleet/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/fleet/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/fleet/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/fleet/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/fleet/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/fleet/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/fleet/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/fleet/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/fleet/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/fleet/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/fleet/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/fleet/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/fleet/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/fleet/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/fleet/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/fleet/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/fleet/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/fleet/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/fleet/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/fleet/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/fleet/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/fleet/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/fleet/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/fleet/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/fleet/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/fleet/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/fleet/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/fleet/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/fleet/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/fleet/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -2660,6 +3021,65 @@
         "og-on-light": "dist/lock/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/lock/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/lock/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/lock/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/lock/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/lock/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/lock/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/lock/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/lock/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/lock/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/lock/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/lock/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/lock/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/lock/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/lock/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/lock/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/lock/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/lock/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/lock/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/lock/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/lock/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/lock/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/lock/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/lock/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/lock/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/lock/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/lock/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/lock/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/lock/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/lock/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/lock/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/lock/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/lock/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/lock/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/lock/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/lock/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/lock/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/lock/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/lock/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/lock/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/lock/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/lock/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -3039,6 +3459,65 @@
         "og-on-light": "dist/vote/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/vote/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/vote/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/vote/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/vote/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/vote/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/vote/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/vote/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/vote/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vote/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vote/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vote/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vote/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vote/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vote/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vote/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/vote/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/vote/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/vote/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/vote/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/vote/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/vote/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vote/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vote/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vote/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vote/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vote/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vote/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vote/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/vote/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/vote/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/vote/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/vote/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/vote/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/vote/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vote/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vote/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vote/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vote/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vote/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vote/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vote/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -3418,6 +3897,65 @@
         "og-on-light": "dist/stamp/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/stamp/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/stamp/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/stamp/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/stamp/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/stamp/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/stamp/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/stamp/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/stamp/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/stamp/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/stamp/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/stamp/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/stamp/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/stamp/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/stamp/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/stamp/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/stamp/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/stamp/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/stamp/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/stamp/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/stamp/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/stamp/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/stamp/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/stamp/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/stamp/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/stamp/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/stamp/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/stamp/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/stamp/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/stamp/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/stamp/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/stamp/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/stamp/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/stamp/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/stamp/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/stamp/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/stamp/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/stamp/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/stamp/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/stamp/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/stamp/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/stamp/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -3797,6 +4335,65 @@
         "og-on-light": "dist/agent/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/agent/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/agent/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/agent/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/agent/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/agent/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/agent/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/agent/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/agent/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/agent/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/agent/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/agent/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/agent/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/agent/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/agent/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/agent/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/agent/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/agent/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/agent/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/agent/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/agent/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/agent/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/agent/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/agent/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/agent/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/agent/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/agent/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/agent/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/agent/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/agent/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/agent/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/agent/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/agent/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/agent/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/agent/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/agent/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/agent/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/agent/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/agent/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/agent/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/agent/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/agent/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -4176,6 +4773,65 @@
         "og-on-light": "dist/pledge/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/pledge/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/pledge/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/pledge/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/pledge/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/pledge/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/pledge/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/pledge/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/pledge/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/pledge/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/pledge/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/pledge/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/pledge/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/pledge/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/pledge/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/pledge/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/pledge/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/pledge/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/pledge/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/pledge/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/pledge/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/pledge/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/pledge/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/pledge/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/pledge/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/pledge/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/pledge/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/pledge/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/pledge/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/pledge/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/pledge/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/pledge/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/pledge/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/pledge/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/pledge/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/pledge/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/pledge/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/pledge/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/pledge/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/pledge/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/pledge/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/pledge/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     },
     {
@@ -4555,6 +5211,65 @@
         "og-on-light": "dist/analytics/og/og-on-light-1200x630.png",
         "og-white-on-orange": "dist/analytics/og/og-white-on-orange-1200x630.png",
         "og-black-on-orange": "dist/analytics/og/og-black-on-orange-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/analytics/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/analytics/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/analytics/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/analytics/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/analytics/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/analytics/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/analytics/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/analytics/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/analytics/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/analytics/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/analytics/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/analytics/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/analytics/skins/phosphor/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/analytics/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/analytics/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/analytics/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/analytics/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/analytics/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/analytics/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/analytics/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/analytics/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/analytics/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/analytics/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/analytics/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/analytics/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/analytics/skins/lightning/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/analytics/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/analytics/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/analytics/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/analytics/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/analytics/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/analytics/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/analytics/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/analytics/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/analytics/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/analytics/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/analytics/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/analytics/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/analytics/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
       }
     }
   ]
