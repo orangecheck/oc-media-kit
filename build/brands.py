@@ -310,7 +310,7 @@ BRANDS: list[Brand] = [
         slug="orangecheck",
         label="orangecheck",
         hostname="ochk.io",
-        tagline="proof of unique humanity, on bitcoin",
+        tagline="your bitcoin address is your identity",
         glyph=lambda fg, bg, ink, canvas=1024: orangecheck_glyph_svg(fg, bg, ink, canvas, 0.78),
         glyph_frac=0.78,
         is_glyph_only=True,

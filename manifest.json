@@ -20,7 +20,7 @@
       "slug": "orangecheck",
       "label": "orangecheck",
       "hostname": "ochk.io",
-      "tagline": "proof of unique humanity, on bitcoin",
+      "tagline": "your bitcoin address is your identity",
       "variants": {
         "square-on-dark": {
           "svg": "dist/orangecheck/svg/square-on-dark.svg",
