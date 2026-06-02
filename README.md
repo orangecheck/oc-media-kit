@@ -62,11 +62,12 @@ every output by `brand → variant → size`.
 
 ```
 dist/<slug>/
-├── svg/             # vector variants (square-on-dark.svg, rounded-on-light.svg, …)
+├── svg/             # vector variants (square-on-dark.svg, aurora-on-dark.svg, …)
 ├── png/             # raster ladder · 16/32/48/64/128/180/192/256/512/1024
 ├── favicon/         # web-ready bundle (favicon.ico, apple-touch-icon.png, …)
-├── og/              # open-graph cards · 1200×630 (flat-color)
-└── banners/         # aurora social banners · <size>-<skin>-<mode>.{svg,png}
+├── og/              # open-graph cards · 1200×630 (flat-color + aurora)
+├── banners/         # aurora social banners · <size>-<skin>-<mode>.{svg,png}
+└── skins/<skin>/    # phosphor / lightning / gold recolours (favicon, og, aurora)
 ```
 
 ## Variants
@@ -101,6 +102,32 @@ Every brand ships the same 26-variant set:
 | `og-on-light`                 | OG, light backdrop                             |
 | `og-white-on-orange`          | OG, orange backdrop · white mark               |
 | `og-black-on-orange`          | OG, orange backdrop · dark mark                |
+
+Plus the **aurora aperture** family (12 variants) — see below.
+
+### Aurora aperture marks
+
+The mark *as* the bitcoin-aurora: each glyph's surface is a window into the same
+blurred radial-gradient field that powers the live sites' `<OcAurora/>`
+(`@orangecheck/design`), with the dark engraving laid back over it. The per-skin
+accent leads; success-green and info-blue bleed at the edges — so the whole set
+**recolours per theme** (orange / phosphor / lightning / gold) exactly like the
+runtime. Showcase/marketing art, not favicons (the field turns to mud at 16px).
+
+| Variant                          | Use                                          |
+|----------------------------------|----------------------------------------------|
+| `aurora-on-dark`                 | aurora mark · dark surface                   |
+| `aurora-on-light`                | aurora mark · light surface                  |
+| `aurora-rounded-on-{dark,light}` | rounded tile                                 |
+| `aurora-circle-on-{dark,light}`  | circular avatar                              |
+| `aurora-safearea-on-{dark,light}`| padded tile (OAuth / store)                  |
+| `aurora-transparent`             | aurora-filled mark, no bg · light surfaces   |
+| `aurora-transparent-light-ink`   | …light engraving · dark surfaces             |
+| `aurora-og-on-{dark,light}`      | OG share card · 1200×630                     |
+
+The default-skin (orange) set ships the full PNG ladder; alternate skins ship
+SVG + `256`/`512` PNGs under `dist/<slug>/skins/<skin>/` and are indexed in the
+manifest at `brands[].skins.<skin>.aurora`.
 
 ### Pick by intent
 

@@ -116,7 +116,17 @@
     'circle-white-on-orange', 'circle-black-on-orange',
     'transparent', 'transparent-dark', 'transparent-light',
   ];
-  const OG_VARIANTS = ['og-on-dark', 'og-on-light', 'og-white-on-orange'];
+  // Aurora aperture family — the glyph filled with the bitcoin-aurora field,
+  // recolouring per skin. Shown in its own row so the treatment reads together.
+  const AURORA_VARIANTS = [
+    'aurora-on-dark', 'aurora-on-light',
+    'aurora-rounded-on-dark', 'aurora-rounded-on-light',
+    'aurora-circle-on-dark', 'aurora-circle-on-light',
+    'aurora-safearea-on-dark', 'aurora-safearea-on-light',
+    'aurora-transparent', 'aurora-transparent-light-ink',
+  ];
+  const OG_VARIANTS = ['og-on-dark', 'og-on-light', 'og-white-on-orange',
+    'aurora-og-on-dark', 'aurora-og-on-light'];
 
   const root = document.getElementById('brands');
 
@@ -188,6 +198,55 @@
         row.appendChild(fig);
       }
       section.appendChild(row);
+    }
+
+    // aurora aperture family (default / orange skin) @ 128
+    {
+      const stems = AURORA_VARIANTS.filter(s => brand.variants[s]?.png?.['128x128'] || brand.variants[s]?.png?.['256x256']);
+      if (stems.length) {
+        const h = document.createElement('h2');
+        h.innerHTML = `aurora aperture <span class="host">the mark as the bitcoin-aurora · orange skin</span>`;
+        section.appendChild(h);
+        const row = document.createElement('div');
+        row.className = 'row';
+        for (const stem of stems) {
+          const v = brand.variants[stem];
+          const png = v.png['128x128'] || v.png['256x256'];
+          const isTransparent = stem.includes('transparent');
+          const isLight = stem.endsWith('on-light');
+          const tileClass = isTransparent ? 'tile checker' : (isLight ? 'tile light' : 'tile');
+          const fig = document.createElement('figure');
+          fig.innerHTML = `<div class="${tileClass}"><img src="${png}" width="128" height="128"></div><figcaption><b>${stem}</b></figcaption>`;
+          row.appendChild(fig);
+        }
+        section.appendChild(row);
+      }
+    }
+
+    // aurora · recoloured per theme (orange / phosphor / lightning / gold)
+    {
+      const ref = 'aurora-rounded-on-dark';
+      const skinPngs = [];
+      const def = brand.variants[ref]?.png;
+      if (def) skinPngs.push([manifest.default_skin, def['256x256'] || def['128x128']]);
+      for (const [skin, data] of Object.entries(brand.skins || {})) {
+        const p = data.aurora?.[ref]?.png;
+        if (p) skinPngs.push([skin, p['256x256'] || p['512x512']]);
+      }
+      if (skinPngs.length > 1) {
+        const h = document.createElement('h2');
+        h.innerHTML = `aurora · per theme <span class="host">${ref} across all skins</span>`;
+        section.appendChild(h);
+        const row = document.createElement('div');
+        row.className = 'row';
+        for (const [skin, png] of skinPngs) {
+          if (!png) continue;
+          const fig = document.createElement('figure');
+          fig.innerHTML = `<div class="tile"><img src="${png}" width="128" height="128"></div><figcaption><b>${skin}</b></figcaption>`;
+          row.appendChild(fig);
+        }
+        section.appendChild(row);
+      }
     }
 
     // og cards

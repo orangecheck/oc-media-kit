@@ -57,9 +57,16 @@ from brands import (
 )
 
 import aurorabanner as banner
+import auroramark as au
 
 REPO = Path(__file__).resolve().parent.parent
 DIST = REPO / "dist"
+
+# Aurora aperture marks are showcase/marketing assets (never favicons — the
+# field turns to mud at 16px), so alternate skins render them at a couple of
+# display sizes rather than the full 16–1024 favicon ladder. The default skin
+# still rides the standard ladder via full_png.
+AURORA_SHOWCASE_SIZES = [256, 512]
 
 
 # ---------------------------------------------------------------------------
@@ -130,6 +137,80 @@ def variant_og(brand: Brand, fg: str, bg: str, ink: str, label: str) -> str:
     tx = (OG_W - glyph_size) // 2
     ty = (OG_H - glyph_size) // 2
     glyph_body = brand.glyph(fg, bg, ink, glyph_size)
+    return (
+        f'<svg viewBox="0 0 {OG_W} {OG_H}" xmlns="http://www.w3.org/2000/svg" '
+        f'role="img" aria-label="{label}">\n'
+        f'  <rect width="{OG_W}" height="{OG_H}" fill="{bg}"/>\n'
+        f'  <g transform="translate({tx} {ty})">\n    {glyph_body}\n  </g>\n'
+        f'</svg>\n'
+    )
+
+
+# ---------------------------------------------------------------------------
+# Aurora aperture variants — the brand glyph filled with the bitcoin-aurora
+# field (auroramark.py). `mode` drives the aperture base tint + field opacity
+# (the surface the mark sits on); `ink` drives the engraving contrast, set
+# independently so a light-ink mark can still ride a dark base.
+# ---------------------------------------------------------------------------
+
+def _au_uid(stem: str) -> str:
+    return "x" + stem.replace("-", "")
+
+
+def variant_aurora_square(brand: Brand, accent: str, bg: str, ink: str,
+                          mode: str, label: str) -> str:
+    return _svg(
+        f'<rect width="{CANVAS}" height="{CANVAS}" fill="{bg}"/>\n  '
+        + au.aurora_glyph(brand, accent, ink, mode, CANVAS, _au_uid(label)),
+        label=label,
+    )
+
+
+def variant_aurora_rounded(brand: Brand, accent: str, bg: str, ink: str,
+                           mode: str, label: str, radius_pct: float = 0.22) -> str:
+    r = int(CANVAS * radius_pct)
+    return _svg(
+        f'<rect width="{CANVAS}" height="{CANVAS}" rx="{r}" ry="{r}" fill="{bg}"/>\n  '
+        + au.aurora_glyph(brand, accent, ink, mode, CANVAS, _au_uid(label)),
+        label=label,
+    )
+
+
+def variant_aurora_circle(brand: Brand, accent: str, bg: str, ink: str,
+                          mode: str, label: str) -> str:
+    return _svg(
+        f'<circle cx="{CANVAS // 2}" cy="{CANVAS // 2}" r="{CANVAS // 2}" fill="{bg}"/>\n  '
+        + au.aurora_glyph(brand, accent, ink, mode, CANVAS, _au_uid(label)),
+        label=label,
+    )
+
+
+def variant_aurora_safearea(brand: Brand, accent: str, bg: str, ink: str,
+                            mode: str, label: str, inset_pct: float = 0.20) -> str:
+    inset = int(CANVAS * inset_pct)
+    inner = CANVAS - 2 * inset
+    inner_body = au.aurora_glyph(brand, accent, ink, mode, inner, _au_uid(label))
+    return _svg(
+        f'<rect width="{CANVAS}" height="{CANVAS}" fill="{bg}"/>\n  '
+        f'<g transform="translate({inset} {inset})">\n    {inner_body}\n  </g>',
+        label=label,
+    )
+
+
+def variant_aurora_transparent(brand: Brand, accent: str, ink: str,
+                               mode: str, label: str) -> str:
+    return _svg(
+        au.aurora_glyph(brand, accent, ink, mode, CANVAS, _au_uid(label)),
+        label=label,
+    )
+
+
+def variant_aurora_og(brand: Brand, accent: str, bg: str, ink: str,
+                      mode: str, label: str) -> str:
+    glyph_size = int(min(OG_W, OG_H) * 0.55)
+    tx = (OG_W - glyph_size) // 2
+    ty = (OG_H - glyph_size) // 2
+    glyph_body = au.aurora_glyph(brand, accent, ink, mode, glyph_size, _au_uid(label))
     return (
         f'<svg viewBox="0 0 {OG_W} {OG_H}" xmlns="http://www.w3.org/2000/svg" '
         f'role="img" aria-label="{label}">\n'
@@ -327,6 +408,78 @@ def variants_for(brand: Brand, primary: str) -> list[tuple[str, str, tuple[int, 
         (OG_W, OG_H),
     ))
 
+    # ---- aurora aperture matrix (every brand, recolours per skin) ----
+    #
+    # The mark filled with the bitcoin-aurora field — the per-skin accent leads,
+    # green/blue bleed (auroramark.py). `mode` is the surface tone (base tint +
+    # field opacity); `ink` is the engraving, decoupled so a light-ink mark can
+    # ride a dark base. The accent is the skin `primary`, so this whole block
+    # recolours orange → phosphor → lightning → gold exactly like <OcAurora/>.
+    al = f"{brand.label} aurora mark"
+    out.append((
+        "aurora-on-dark",
+        variant_aurora_square(brand, primary, DARK, DARK, "dark", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-on-light",
+        variant_aurora_square(brand, primary, LIGHT, DARK, "light", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-rounded-on-dark",
+        variant_aurora_rounded(brand, primary, DARK, DARK, "dark", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-rounded-on-light",
+        variant_aurora_rounded(brand, primary, LIGHT, DARK, "light", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-circle-on-dark",
+        variant_aurora_circle(brand, primary, DARK, DARK, "dark", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-circle-on-light",
+        variant_aurora_circle(brand, primary, LIGHT, DARK, "light", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-safearea-on-dark",
+        variant_aurora_safearea(brand, primary, DARK, DARK, "dark", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-safearea-on-light",
+        variant_aurora_safearea(brand, primary, LIGHT, DARK, "light", al),
+        (CANVAS, CANVAS),
+    ))
+    # Transparent aurora marks: the glyph filled with the field on no backdrop.
+    # `transparent` rides a light base (drop on light surfaces); the `-light-ink`
+    # twin rides a dark base with light engraving (drop on dark surfaces).
+    out.append((
+        "aurora-transparent",
+        variant_aurora_transparent(brand, primary, DARK, "light", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-transparent-light-ink",
+        variant_aurora_transparent(brand, primary, LIGHT, "dark", al),
+        (CANVAS, CANVAS),
+    ))
+    out.append((
+        "aurora-og-on-dark",
+        variant_aurora_og(brand, primary, DARK, DARK, "dark", al),
+        (OG_W, OG_H),
+    ))
+    out.append((
+        "aurora-og-on-light",
+        variant_aurora_og(brand, primary, LIGHT, DARK, "light", al),
+        (OG_W, OG_H),
+    ))
+
     return out
 
 
@@ -402,9 +555,15 @@ def build_brand(brand: Brand, primary: str, bdir: Path, full_png: bool = True) -
                 stem,
                 {"svg": str(svg_path.relative_to(REPO)), "png": {}},
             )
-            if full_png:
+            # Full builds (default skin) raster the whole ladder. Alternate
+            # skins skip it — except aurora marks, whose per-skin recolour is
+            # the whole point, so those get a showcase pair on every skin.
+            sizes = (SQUARE_PNG_SIZES if full_png
+                     else AURORA_SHOWCASE_SIZES if stem.startswith("aurora")
+                     else [])
+            if sizes:
                 master = render_master(svg_text, MASTER_SQUARE, MASTER_SQUARE)
-                for s in SQUARE_PNG_SIZES:
+                for s in sizes:
                     p = png_dir / f"{stem}-{s}x{s}.png"
                     downsample(master, s, s).save(p, optimize=True)
                     v["png"][f"{s}x{s}"] = str(p.relative_to(REPO))
@@ -528,7 +687,7 @@ def main() -> None:
 
     manifest = {
         "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-        "version": "1.2.0",
+        "version": "1.3.0",
         "palette": {
             "orange": ORANGE,
             "orange_deep": "#ea580c",
@@ -557,12 +716,19 @@ def main() -> None:
                 entry = skin_entry
                 entry["skins"] = {}
             else:
-                # Index the alternate skin's favicon + og under the brand entry
-                # so consumers / the runtime can resolve per-skin assets.
+                # Index the alternate skin's favicon + og + aurora aperture set
+                # under the brand entry so consumers / the runtime can resolve
+                # per-skin assets. Aurora is indexed per skin because its whole
+                # purpose is to recolour across themes (orange/phosphor/
+                # lightning/gold).
                 assert entry is not None
                 entry["skins"][skin] = {
                     "favicon": skin_entry["favicon"],
                     "og": skin_entry["og"],
+                    "aurora": {
+                        stem: v for stem, v in skin_entry["variants"].items()
+                        if stem.startswith("aurora")
+                    },
                 }
         assert entry is not None
         entry["banners"] = build_banners(brand)
