@@ -3,7 +3,8 @@
 The single-source-of-truth media kit for the OrangeCheck family —
 every brand mark, every variant, every size, in SVG and PNG.
 
-Twelve brands. ~150 SVGs. ~1,266 PNGs. One machine-readable manifest.
+Twelve brands. ~150 SVGs. ~1,266 PNGs. 384 aurora social banners. One
+machine-readable manifest.
 No words inside the marks, ever — icon-only.
 
 ```
@@ -64,7 +65,8 @@ dist/<slug>/
 ├── svg/             # vector variants (square-on-dark.svg, rounded-on-light.svg, …)
 ├── png/             # raster ladder · 16/32/48/64/128/180/192/256/512/1024
 ├── favicon/         # web-ready bundle (favicon.ico, apple-touch-icon.png, …)
-└── og/              # open-graph cards · 1200×630
+├── og/              # open-graph cards · 1200×630 (flat-color)
+└── banners/         # aurora social banners · <size>-<skin>-<mode>.{svg,png}
 ```
 
 ## Variants
@@ -132,6 +134,35 @@ Each square variant ships every size. OG variants ship `1200×630`.
 | 256   | OAuth tile · GitHub avatar (npm)              |
 | 512   | PWA splash · app-store · social avatar        |
 | 1024  | print · future-proof                          |
+
+## Aurora social banners
+
+Every brand ships a full set of landscape share banners with the family's
+**bitcoin-aurora** baked in — the same theme-reactive field as the live sites
+(`@orangecheck/design`), statically reconstructed (blurred radial-gradient
+clouds in the brand/success/info hue roles + a soft edge-fade). Each banner is a
+lockup: glyph + wordmark + tagline + accent hostname. Text is baked to outline
+paths, so the assets carry no font dependency.
+
+`dist/<slug>/banners/<size>-<skin>-<mode>.{svg,png}`
+
+| Size       | Dimensions | Surface                          |
+|------------|------------|----------------------------------|
+| `og`       | 1200×630   | Open Graph / general share card  |
+| `x-header` | 1500×500   | X / Twitter profile header       |
+| `linkedin` | 1584×396   | LinkedIn personal / company banner |
+| `github`   | 1280×640   | GitHub repo social-preview       |
+
+Each size renders for all **4 skins** (`orangecheck` · `phosphor` · `lightning`
+· `gold`) × **2 modes** (`dark` · `light`) = 32 per brand, 384 total. The skin
+accent recolours the brand/primary aurora clouds exactly like the runtime;
+green/blue stay stable. Index under each brand's `banners` key in `manifest.json`
+(`size → skins → skin → mode → {svg, png}`).
+
+```
+# X header for stamp, dark, default skin:
+dist/stamp/banners/x-header-orangecheck-dark.png
+```
 
 ## Favicon bundle (per brand)
 

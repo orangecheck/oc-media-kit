@@ -1,6 +1,6 @@
 {
   "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "palette": {
     "orange": "#f97316",
     "orange_deep": "#ea580c",
@@ -452,6 +452,192 @@
             "og-black-on-orange": "dist/orangecheck/skins/gold/og/og-black-on-orange-1200x630.png"
           }
         }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/og-orangecheck-dark.svg",
+                "png": "dist/orangecheck/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/og-orangecheck-light.svg",
+                "png": "dist/orangecheck/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/og-phosphor-dark.svg",
+                "png": "dist/orangecheck/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/og-phosphor-light.svg",
+                "png": "dist/orangecheck/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/og-lightning-dark.svg",
+                "png": "dist/orangecheck/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/og-lightning-light.svg",
+                "png": "dist/orangecheck/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/og-gold-dark.svg",
+                "png": "dist/orangecheck/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/og-gold-light.svg",
+                "png": "dist/orangecheck/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/orangecheck/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-header-orangecheck-light.svg",
+                "png": "dist/orangecheck/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-header-phosphor-dark.svg",
+                "png": "dist/orangecheck/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-header-phosphor-light.svg",
+                "png": "dist/orangecheck/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-header-lightning-dark.svg",
+                "png": "dist/orangecheck/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-header-lightning-light.svg",
+                "png": "dist/orangecheck/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-header-gold-dark.svg",
+                "png": "dist/orangecheck/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-header-gold-light.svg",
+                "png": "dist/orangecheck/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/orangecheck/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/orangecheck/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/orangecheck/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/linkedin-phosphor-light.svg",
+                "png": "dist/orangecheck/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/linkedin-lightning-dark.svg",
+                "png": "dist/orangecheck/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/linkedin-lightning-light.svg",
+                "png": "dist/orangecheck/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/linkedin-gold-dark.svg",
+                "png": "dist/orangecheck/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/linkedin-gold-light.svg",
+                "png": "dist/orangecheck/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/github-orangecheck-dark.svg",
+                "png": "dist/orangecheck/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/github-orangecheck-light.svg",
+                "png": "dist/orangecheck/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/github-phosphor-dark.svg",
+                "png": "dist/orangecheck/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/github-phosphor-light.svg",
+                "png": "dist/orangecheck/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/github-lightning-dark.svg",
+                "png": "dist/orangecheck/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/github-lightning-light.svg",
+                "png": "dist/orangecheck/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/github-gold-dark.svg",
+                "png": "dist/orangecheck/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/github-gold-light.svg",
+                "png": "dist/orangecheck/banners/github-gold-light.png"
+              }
+            }
+          }
+        }
       }
     },
     {
@@ -888,6 +1074,192 @@
             "og-on-light": "dist/attest/skins/gold/og/og-on-light-1200x630.png",
             "og-white-on-orange": "dist/attest/skins/gold/og/og-white-on-orange-1200x630.png",
             "og-black-on-orange": "dist/attest/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/attest/banners/og-orangecheck-dark.svg",
+                "png": "dist/attest/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/og-orangecheck-light.svg",
+                "png": "dist/attest/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/attest/banners/og-phosphor-dark.svg",
+                "png": "dist/attest/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/og-phosphor-light.svg",
+                "png": "dist/attest/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/attest/banners/og-lightning-dark.svg",
+                "png": "dist/attest/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/og-lightning-light.svg",
+                "png": "dist/attest/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/attest/banners/og-gold-dark.svg",
+                "png": "dist/attest/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/og-gold-light.svg",
+                "png": "dist/attest/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/attest/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/attest/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-header-orangecheck-light.svg",
+                "png": "dist/attest/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/attest/banners/x-header-phosphor-dark.svg",
+                "png": "dist/attest/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-header-phosphor-light.svg",
+                "png": "dist/attest/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/attest/banners/x-header-lightning-dark.svg",
+                "png": "dist/attest/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-header-lightning-light.svg",
+                "png": "dist/attest/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/attest/banners/x-header-gold-dark.svg",
+                "png": "dist/attest/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-header-gold-light.svg",
+                "png": "dist/attest/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/attest/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/attest/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/attest/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/attest/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/attest/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/linkedin-phosphor-light.svg",
+                "png": "dist/attest/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/attest/banners/linkedin-lightning-dark.svg",
+                "png": "dist/attest/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/linkedin-lightning-light.svg",
+                "png": "dist/attest/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/attest/banners/linkedin-gold-dark.svg",
+                "png": "dist/attest/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/linkedin-gold-light.svg",
+                "png": "dist/attest/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/attest/banners/github-orangecheck-dark.svg",
+                "png": "dist/attest/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/github-orangecheck-light.svg",
+                "png": "dist/attest/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/attest/banners/github-phosphor-dark.svg",
+                "png": "dist/attest/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/github-phosphor-light.svg",
+                "png": "dist/attest/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/attest/banners/github-lightning-dark.svg",
+                "png": "dist/attest/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/github-lightning-light.svg",
+                "png": "dist/attest/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/attest/banners/github-gold-dark.svg",
+                "png": "dist/attest/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/github-gold-light.svg",
+                "png": "dist/attest/banners/github-gold-light.png"
+              }
+            }
           }
         }
       }
@@ -1328,6 +1700,192 @@
             "og-black-on-orange": "dist/docs/skins/gold/og/og-black-on-orange-1200x630.png"
           }
         }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/docs/banners/og-orangecheck-dark.svg",
+                "png": "dist/docs/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/og-orangecheck-light.svg",
+                "png": "dist/docs/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/docs/banners/og-phosphor-dark.svg",
+                "png": "dist/docs/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/og-phosphor-light.svg",
+                "png": "dist/docs/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/docs/banners/og-lightning-dark.svg",
+                "png": "dist/docs/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/og-lightning-light.svg",
+                "png": "dist/docs/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/docs/banners/og-gold-dark.svg",
+                "png": "dist/docs/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/og-gold-light.svg",
+                "png": "dist/docs/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/docs/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/docs/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-header-orangecheck-light.svg",
+                "png": "dist/docs/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/docs/banners/x-header-phosphor-dark.svg",
+                "png": "dist/docs/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-header-phosphor-light.svg",
+                "png": "dist/docs/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/docs/banners/x-header-lightning-dark.svg",
+                "png": "dist/docs/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-header-lightning-light.svg",
+                "png": "dist/docs/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/docs/banners/x-header-gold-dark.svg",
+                "png": "dist/docs/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-header-gold-light.svg",
+                "png": "dist/docs/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/docs/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/docs/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/docs/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/docs/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/docs/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/linkedin-phosphor-light.svg",
+                "png": "dist/docs/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/docs/banners/linkedin-lightning-dark.svg",
+                "png": "dist/docs/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/linkedin-lightning-light.svg",
+                "png": "dist/docs/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/docs/banners/linkedin-gold-dark.svg",
+                "png": "dist/docs/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/linkedin-gold-light.svg",
+                "png": "dist/docs/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/docs/banners/github-orangecheck-dark.svg",
+                "png": "dist/docs/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/github-orangecheck-light.svg",
+                "png": "dist/docs/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/docs/banners/github-phosphor-dark.svg",
+                "png": "dist/docs/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/github-phosphor-light.svg",
+                "png": "dist/docs/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/docs/banners/github-lightning-dark.svg",
+                "png": "dist/docs/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/github-lightning-light.svg",
+                "png": "dist/docs/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/docs/banners/github-gold-dark.svg",
+                "png": "dist/docs/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/github-gold-light.svg",
+                "png": "dist/docs/banners/github-gold-light.png"
+              }
+            }
+          }
+        }
       }
     },
     {
@@ -1764,6 +2322,192 @@
             "og-on-light": "dist/me/skins/gold/og/og-on-light-1200x630.png",
             "og-white-on-orange": "dist/me/skins/gold/og/og-white-on-orange-1200x630.png",
             "og-black-on-orange": "dist/me/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/me/banners/og-orangecheck-dark.svg",
+                "png": "dist/me/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/og-orangecheck-light.svg",
+                "png": "dist/me/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/me/banners/og-phosphor-dark.svg",
+                "png": "dist/me/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/og-phosphor-light.svg",
+                "png": "dist/me/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/me/banners/og-lightning-dark.svg",
+                "png": "dist/me/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/og-lightning-light.svg",
+                "png": "dist/me/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/me/banners/og-gold-dark.svg",
+                "png": "dist/me/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/og-gold-light.svg",
+                "png": "dist/me/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/me/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/me/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-header-orangecheck-light.svg",
+                "png": "dist/me/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/me/banners/x-header-phosphor-dark.svg",
+                "png": "dist/me/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-header-phosphor-light.svg",
+                "png": "dist/me/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/me/banners/x-header-lightning-dark.svg",
+                "png": "dist/me/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-header-lightning-light.svg",
+                "png": "dist/me/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/me/banners/x-header-gold-dark.svg",
+                "png": "dist/me/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-header-gold-light.svg",
+                "png": "dist/me/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/me/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/me/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/me/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/me/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/me/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/linkedin-phosphor-light.svg",
+                "png": "dist/me/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/me/banners/linkedin-lightning-dark.svg",
+                "png": "dist/me/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/linkedin-lightning-light.svg",
+                "png": "dist/me/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/me/banners/linkedin-gold-dark.svg",
+                "png": "dist/me/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/linkedin-gold-light.svg",
+                "png": "dist/me/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/me/banners/github-orangecheck-dark.svg",
+                "png": "dist/me/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/github-orangecheck-light.svg",
+                "png": "dist/me/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/me/banners/github-phosphor-dark.svg",
+                "png": "dist/me/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/github-phosphor-light.svg",
+                "png": "dist/me/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/me/banners/github-lightning-dark.svg",
+                "png": "dist/me/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/github-lightning-light.svg",
+                "png": "dist/me/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/me/banners/github-gold-dark.svg",
+                "png": "dist/me/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/github-gold-light.svg",
+                "png": "dist/me/banners/github-gold-light.png"
+              }
+            }
           }
         }
       }
@@ -2204,6 +2948,192 @@
             "og-black-on-orange": "dist/vault/skins/gold/og/og-black-on-orange-1200x630.png"
           }
         }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vault/banners/og-orangecheck-dark.svg",
+                "png": "dist/vault/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/og-orangecheck-light.svg",
+                "png": "dist/vault/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vault/banners/og-phosphor-dark.svg",
+                "png": "dist/vault/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/og-phosphor-light.svg",
+                "png": "dist/vault/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vault/banners/og-lightning-dark.svg",
+                "png": "dist/vault/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/og-lightning-light.svg",
+                "png": "dist/vault/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vault/banners/og-gold-dark.svg",
+                "png": "dist/vault/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/og-gold-light.svg",
+                "png": "dist/vault/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vault/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/vault/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-header-orangecheck-light.svg",
+                "png": "dist/vault/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vault/banners/x-header-phosphor-dark.svg",
+                "png": "dist/vault/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-header-phosphor-light.svg",
+                "png": "dist/vault/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vault/banners/x-header-lightning-dark.svg",
+                "png": "dist/vault/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-header-lightning-light.svg",
+                "png": "dist/vault/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vault/banners/x-header-gold-dark.svg",
+                "png": "dist/vault/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-header-gold-light.svg",
+                "png": "dist/vault/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vault/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/vault/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/vault/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vault/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/vault/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/linkedin-phosphor-light.svg",
+                "png": "dist/vault/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vault/banners/linkedin-lightning-dark.svg",
+                "png": "dist/vault/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/linkedin-lightning-light.svg",
+                "png": "dist/vault/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vault/banners/linkedin-gold-dark.svg",
+                "png": "dist/vault/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/linkedin-gold-light.svg",
+                "png": "dist/vault/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vault/banners/github-orangecheck-dark.svg",
+                "png": "dist/vault/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/github-orangecheck-light.svg",
+                "png": "dist/vault/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vault/banners/github-phosphor-dark.svg",
+                "png": "dist/vault/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/github-phosphor-light.svg",
+                "png": "dist/vault/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vault/banners/github-lightning-dark.svg",
+                "png": "dist/vault/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/github-lightning-light.svg",
+                "png": "dist/vault/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vault/banners/github-gold-dark.svg",
+                "png": "dist/vault/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/github-gold-light.svg",
+                "png": "dist/vault/banners/github-gold-light.png"
+              }
+            }
+          }
+        }
       }
     },
     {
@@ -2640,6 +3570,192 @@
             "og-on-light": "dist/fleet/skins/gold/og/og-on-light-1200x630.png",
             "og-white-on-orange": "dist/fleet/skins/gold/og/og-white-on-orange-1200x630.png",
             "og-black-on-orange": "dist/fleet/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/fleet/banners/og-orangecheck-dark.svg",
+                "png": "dist/fleet/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/og-orangecheck-light.svg",
+                "png": "dist/fleet/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/fleet/banners/og-phosphor-dark.svg",
+                "png": "dist/fleet/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/og-phosphor-light.svg",
+                "png": "dist/fleet/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/fleet/banners/og-lightning-dark.svg",
+                "png": "dist/fleet/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/og-lightning-light.svg",
+                "png": "dist/fleet/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/fleet/banners/og-gold-dark.svg",
+                "png": "dist/fleet/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/og-gold-light.svg",
+                "png": "dist/fleet/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/fleet/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-header-orangecheck-light.svg",
+                "png": "dist/fleet/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-header-phosphor-dark.svg",
+                "png": "dist/fleet/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-header-phosphor-light.svg",
+                "png": "dist/fleet/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-header-lightning-dark.svg",
+                "png": "dist/fleet/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-header-lightning-light.svg",
+                "png": "dist/fleet/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-header-gold-dark.svg",
+                "png": "dist/fleet/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-header-gold-light.svg",
+                "png": "dist/fleet/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/fleet/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/fleet/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/fleet/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/fleet/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/fleet/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/linkedin-phosphor-light.svg",
+                "png": "dist/fleet/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/fleet/banners/linkedin-lightning-dark.svg",
+                "png": "dist/fleet/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/linkedin-lightning-light.svg",
+                "png": "dist/fleet/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/fleet/banners/linkedin-gold-dark.svg",
+                "png": "dist/fleet/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/linkedin-gold-light.svg",
+                "png": "dist/fleet/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/fleet/banners/github-orangecheck-dark.svg",
+                "png": "dist/fleet/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/github-orangecheck-light.svg",
+                "png": "dist/fleet/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/fleet/banners/github-phosphor-dark.svg",
+                "png": "dist/fleet/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/github-phosphor-light.svg",
+                "png": "dist/fleet/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/fleet/banners/github-lightning-dark.svg",
+                "png": "dist/fleet/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/github-lightning-light.svg",
+                "png": "dist/fleet/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/fleet/banners/github-gold-dark.svg",
+                "png": "dist/fleet/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/github-gold-light.svg",
+                "png": "dist/fleet/banners/github-gold-light.png"
+              }
+            }
           }
         }
       }
@@ -3080,6 +4196,192 @@
             "og-black-on-orange": "dist/lock/skins/gold/og/og-black-on-orange-1200x630.png"
           }
         }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/lock/banners/og-orangecheck-dark.svg",
+                "png": "dist/lock/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/og-orangecheck-light.svg",
+                "png": "dist/lock/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/lock/banners/og-phosphor-dark.svg",
+                "png": "dist/lock/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/og-phosphor-light.svg",
+                "png": "dist/lock/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/lock/banners/og-lightning-dark.svg",
+                "png": "dist/lock/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/og-lightning-light.svg",
+                "png": "dist/lock/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/lock/banners/og-gold-dark.svg",
+                "png": "dist/lock/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/og-gold-light.svg",
+                "png": "dist/lock/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/lock/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/lock/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-header-orangecheck-light.svg",
+                "png": "dist/lock/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/lock/banners/x-header-phosphor-dark.svg",
+                "png": "dist/lock/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-header-phosphor-light.svg",
+                "png": "dist/lock/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/lock/banners/x-header-lightning-dark.svg",
+                "png": "dist/lock/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-header-lightning-light.svg",
+                "png": "dist/lock/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/lock/banners/x-header-gold-dark.svg",
+                "png": "dist/lock/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-header-gold-light.svg",
+                "png": "dist/lock/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/lock/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/lock/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/lock/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/lock/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/lock/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/linkedin-phosphor-light.svg",
+                "png": "dist/lock/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/lock/banners/linkedin-lightning-dark.svg",
+                "png": "dist/lock/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/linkedin-lightning-light.svg",
+                "png": "dist/lock/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/lock/banners/linkedin-gold-dark.svg",
+                "png": "dist/lock/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/linkedin-gold-light.svg",
+                "png": "dist/lock/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/lock/banners/github-orangecheck-dark.svg",
+                "png": "dist/lock/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/github-orangecheck-light.svg",
+                "png": "dist/lock/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/lock/banners/github-phosphor-dark.svg",
+                "png": "dist/lock/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/github-phosphor-light.svg",
+                "png": "dist/lock/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/lock/banners/github-lightning-dark.svg",
+                "png": "dist/lock/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/github-lightning-light.svg",
+                "png": "dist/lock/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/lock/banners/github-gold-dark.svg",
+                "png": "dist/lock/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/github-gold-light.svg",
+                "png": "dist/lock/banners/github-gold-light.png"
+              }
+            }
+          }
+        }
       }
     },
     {
@@ -3516,6 +4818,192 @@
             "og-on-light": "dist/vote/skins/gold/og/og-on-light-1200x630.png",
             "og-white-on-orange": "dist/vote/skins/gold/og/og-white-on-orange-1200x630.png",
             "og-black-on-orange": "dist/vote/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vote/banners/og-orangecheck-dark.svg",
+                "png": "dist/vote/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/og-orangecheck-light.svg",
+                "png": "dist/vote/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vote/banners/og-phosphor-dark.svg",
+                "png": "dist/vote/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/og-phosphor-light.svg",
+                "png": "dist/vote/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vote/banners/og-lightning-dark.svg",
+                "png": "dist/vote/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/og-lightning-light.svg",
+                "png": "dist/vote/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vote/banners/og-gold-dark.svg",
+                "png": "dist/vote/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/og-gold-light.svg",
+                "png": "dist/vote/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vote/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/vote/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-header-orangecheck-light.svg",
+                "png": "dist/vote/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vote/banners/x-header-phosphor-dark.svg",
+                "png": "dist/vote/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-header-phosphor-light.svg",
+                "png": "dist/vote/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vote/banners/x-header-lightning-dark.svg",
+                "png": "dist/vote/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-header-lightning-light.svg",
+                "png": "dist/vote/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vote/banners/x-header-gold-dark.svg",
+                "png": "dist/vote/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-header-gold-light.svg",
+                "png": "dist/vote/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vote/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/vote/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/vote/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vote/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/vote/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/linkedin-phosphor-light.svg",
+                "png": "dist/vote/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vote/banners/linkedin-lightning-dark.svg",
+                "png": "dist/vote/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/linkedin-lightning-light.svg",
+                "png": "dist/vote/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vote/banners/linkedin-gold-dark.svg",
+                "png": "dist/vote/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/linkedin-gold-light.svg",
+                "png": "dist/vote/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vote/banners/github-orangecheck-dark.svg",
+                "png": "dist/vote/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/github-orangecheck-light.svg",
+                "png": "dist/vote/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vote/banners/github-phosphor-dark.svg",
+                "png": "dist/vote/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/github-phosphor-light.svg",
+                "png": "dist/vote/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vote/banners/github-lightning-dark.svg",
+                "png": "dist/vote/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/github-lightning-light.svg",
+                "png": "dist/vote/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vote/banners/github-gold-dark.svg",
+                "png": "dist/vote/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/github-gold-light.svg",
+                "png": "dist/vote/banners/github-gold-light.png"
+              }
+            }
           }
         }
       }
@@ -3956,6 +5444,192 @@
             "og-black-on-orange": "dist/stamp/skins/gold/og/og-black-on-orange-1200x630.png"
           }
         }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/stamp/banners/og-orangecheck-dark.svg",
+                "png": "dist/stamp/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/og-orangecheck-light.svg",
+                "png": "dist/stamp/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/stamp/banners/og-phosphor-dark.svg",
+                "png": "dist/stamp/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/og-phosphor-light.svg",
+                "png": "dist/stamp/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/stamp/banners/og-lightning-dark.svg",
+                "png": "dist/stamp/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/og-lightning-light.svg",
+                "png": "dist/stamp/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/stamp/banners/og-gold-dark.svg",
+                "png": "dist/stamp/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/og-gold-light.svg",
+                "png": "dist/stamp/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/stamp/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-header-orangecheck-light.svg",
+                "png": "dist/stamp/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-header-phosphor-dark.svg",
+                "png": "dist/stamp/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-header-phosphor-light.svg",
+                "png": "dist/stamp/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-header-lightning-dark.svg",
+                "png": "dist/stamp/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-header-lightning-light.svg",
+                "png": "dist/stamp/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-header-gold-dark.svg",
+                "png": "dist/stamp/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-header-gold-light.svg",
+                "png": "dist/stamp/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/stamp/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/stamp/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/stamp/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/stamp/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/stamp/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/linkedin-phosphor-light.svg",
+                "png": "dist/stamp/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/stamp/banners/linkedin-lightning-dark.svg",
+                "png": "dist/stamp/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/linkedin-lightning-light.svg",
+                "png": "dist/stamp/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/stamp/banners/linkedin-gold-dark.svg",
+                "png": "dist/stamp/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/linkedin-gold-light.svg",
+                "png": "dist/stamp/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/stamp/banners/github-orangecheck-dark.svg",
+                "png": "dist/stamp/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/github-orangecheck-light.svg",
+                "png": "dist/stamp/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/stamp/banners/github-phosphor-dark.svg",
+                "png": "dist/stamp/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/github-phosphor-light.svg",
+                "png": "dist/stamp/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/stamp/banners/github-lightning-dark.svg",
+                "png": "dist/stamp/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/github-lightning-light.svg",
+                "png": "dist/stamp/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/stamp/banners/github-gold-dark.svg",
+                "png": "dist/stamp/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/github-gold-light.svg",
+                "png": "dist/stamp/banners/github-gold-light.png"
+              }
+            }
+          }
+        }
       }
     },
     {
@@ -4392,6 +6066,192 @@
             "og-on-light": "dist/agent/skins/gold/og/og-on-light-1200x630.png",
             "og-white-on-orange": "dist/agent/skins/gold/og/og-white-on-orange-1200x630.png",
             "og-black-on-orange": "dist/agent/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/agent/banners/og-orangecheck-dark.svg",
+                "png": "dist/agent/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/og-orangecheck-light.svg",
+                "png": "dist/agent/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/agent/banners/og-phosphor-dark.svg",
+                "png": "dist/agent/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/og-phosphor-light.svg",
+                "png": "dist/agent/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/agent/banners/og-lightning-dark.svg",
+                "png": "dist/agent/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/og-lightning-light.svg",
+                "png": "dist/agent/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/agent/banners/og-gold-dark.svg",
+                "png": "dist/agent/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/og-gold-light.svg",
+                "png": "dist/agent/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/agent/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/agent/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-header-orangecheck-light.svg",
+                "png": "dist/agent/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/agent/banners/x-header-phosphor-dark.svg",
+                "png": "dist/agent/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-header-phosphor-light.svg",
+                "png": "dist/agent/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/agent/banners/x-header-lightning-dark.svg",
+                "png": "dist/agent/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-header-lightning-light.svg",
+                "png": "dist/agent/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/agent/banners/x-header-gold-dark.svg",
+                "png": "dist/agent/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-header-gold-light.svg",
+                "png": "dist/agent/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/agent/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/agent/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/agent/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/agent/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/agent/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/linkedin-phosphor-light.svg",
+                "png": "dist/agent/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/agent/banners/linkedin-lightning-dark.svg",
+                "png": "dist/agent/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/linkedin-lightning-light.svg",
+                "png": "dist/agent/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/agent/banners/linkedin-gold-dark.svg",
+                "png": "dist/agent/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/linkedin-gold-light.svg",
+                "png": "dist/agent/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/agent/banners/github-orangecheck-dark.svg",
+                "png": "dist/agent/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/github-orangecheck-light.svg",
+                "png": "dist/agent/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/agent/banners/github-phosphor-dark.svg",
+                "png": "dist/agent/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/github-phosphor-light.svg",
+                "png": "dist/agent/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/agent/banners/github-lightning-dark.svg",
+                "png": "dist/agent/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/github-lightning-light.svg",
+                "png": "dist/agent/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/agent/banners/github-gold-dark.svg",
+                "png": "dist/agent/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/github-gold-light.svg",
+                "png": "dist/agent/banners/github-gold-light.png"
+              }
+            }
           }
         }
       }
@@ -4832,6 +6692,192 @@
             "og-black-on-orange": "dist/pledge/skins/gold/og/og-black-on-orange-1200x630.png"
           }
         }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/pledge/banners/og-orangecheck-dark.svg",
+                "png": "dist/pledge/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/og-orangecheck-light.svg",
+                "png": "dist/pledge/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/pledge/banners/og-phosphor-dark.svg",
+                "png": "dist/pledge/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/og-phosphor-light.svg",
+                "png": "dist/pledge/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/pledge/banners/og-lightning-dark.svg",
+                "png": "dist/pledge/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/og-lightning-light.svg",
+                "png": "dist/pledge/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/pledge/banners/og-gold-dark.svg",
+                "png": "dist/pledge/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/og-gold-light.svg",
+                "png": "dist/pledge/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/pledge/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-header-orangecheck-light.svg",
+                "png": "dist/pledge/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-header-phosphor-dark.svg",
+                "png": "dist/pledge/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-header-phosphor-light.svg",
+                "png": "dist/pledge/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-header-lightning-dark.svg",
+                "png": "dist/pledge/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-header-lightning-light.svg",
+                "png": "dist/pledge/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-header-gold-dark.svg",
+                "png": "dist/pledge/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-header-gold-light.svg",
+                "png": "dist/pledge/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/pledge/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/pledge/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/pledge/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/pledge/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/pledge/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/linkedin-phosphor-light.svg",
+                "png": "dist/pledge/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/pledge/banners/linkedin-lightning-dark.svg",
+                "png": "dist/pledge/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/linkedin-lightning-light.svg",
+                "png": "dist/pledge/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/pledge/banners/linkedin-gold-dark.svg",
+                "png": "dist/pledge/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/linkedin-gold-light.svg",
+                "png": "dist/pledge/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/pledge/banners/github-orangecheck-dark.svg",
+                "png": "dist/pledge/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/github-orangecheck-light.svg",
+                "png": "dist/pledge/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/pledge/banners/github-phosphor-dark.svg",
+                "png": "dist/pledge/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/github-phosphor-light.svg",
+                "png": "dist/pledge/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/pledge/banners/github-lightning-dark.svg",
+                "png": "dist/pledge/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/github-lightning-light.svg",
+                "png": "dist/pledge/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/pledge/banners/github-gold-dark.svg",
+                "png": "dist/pledge/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/github-gold-light.svg",
+                "png": "dist/pledge/banners/github-gold-light.png"
+              }
+            }
+          }
+        }
       }
     },
     {
@@ -5268,6 +7314,192 @@
             "og-on-light": "dist/analytics/skins/gold/og/og-on-light-1200x630.png",
             "og-white-on-orange": "dist/analytics/skins/gold/og/og-white-on-orange-1200x630.png",
             "og-black-on-orange": "dist/analytics/skins/gold/og/og-black-on-orange-1200x630.png"
+          }
+        }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/analytics/banners/og-orangecheck-dark.svg",
+                "png": "dist/analytics/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/og-orangecheck-light.svg",
+                "png": "dist/analytics/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/analytics/banners/og-phosphor-dark.svg",
+                "png": "dist/analytics/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/og-phosphor-light.svg",
+                "png": "dist/analytics/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/analytics/banners/og-lightning-dark.svg",
+                "png": "dist/analytics/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/og-lightning-light.svg",
+                "png": "dist/analytics/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/analytics/banners/og-gold-dark.svg",
+                "png": "dist/analytics/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/og-gold-light.svg",
+                "png": "dist/analytics/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/analytics/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-header-orangecheck-light.svg",
+                "png": "dist/analytics/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-header-phosphor-dark.svg",
+                "png": "dist/analytics/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-header-phosphor-light.svg",
+                "png": "dist/analytics/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-header-lightning-dark.svg",
+                "png": "dist/analytics/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-header-lightning-light.svg",
+                "png": "dist/analytics/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-header-gold-dark.svg",
+                "png": "dist/analytics/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-header-gold-light.svg",
+                "png": "dist/analytics/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/analytics/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/analytics/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/analytics/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/analytics/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/analytics/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/linkedin-phosphor-light.svg",
+                "png": "dist/analytics/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/analytics/banners/linkedin-lightning-dark.svg",
+                "png": "dist/analytics/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/linkedin-lightning-light.svg",
+                "png": "dist/analytics/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/analytics/banners/linkedin-gold-dark.svg",
+                "png": "dist/analytics/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/linkedin-gold-light.svg",
+                "png": "dist/analytics/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/analytics/banners/github-orangecheck-dark.svg",
+                "png": "dist/analytics/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/github-orangecheck-light.svg",
+                "png": "dist/analytics/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/analytics/banners/github-phosphor-dark.svg",
+                "png": "dist/analytics/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/github-phosphor-light.svg",
+                "png": "dist/analytics/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/analytics/banners/github-lightning-dark.svg",
+                "png": "dist/analytics/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/github-lightning-light.svg",
+                "png": "dist/analytics/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/analytics/banners/github-gold-dark.svg",
+                "png": "dist/analytics/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/github-gold-light.svg",
+                "png": "dist/analytics/banners/github-gold-light.png"
+              }
+            }
           }
         }
       }

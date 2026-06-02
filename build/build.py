@@ -56,6 +56,8 @@ from brands import (
     SQUARE_PNG_SIZES,
 )
 
+import aurorabanner as banner
+
 REPO = Path(__file__).resolve().parent.parent
 DIST = REPO / "dist"
 
@@ -472,6 +474,50 @@ def build_brand(brand: Brand, primary: str, bdir: Path, full_png: bool = True) -
 
 
 # ---------------------------------------------------------------------------
+# Aurora social banners
+# ---------------------------------------------------------------------------
+
+BANNER_MODES = ("dark", "light")
+
+
+def build_banners(brand: Brand) -> dict:
+    """Render the aurora social-banner set for one brand: every platform size ×
+    every skin × {dark, light}. Banners encode their skin+mode in the filename
+    so the whole set lives in one flat dist/<brand>/banners/ dir (no per-skin
+    subdir indirection). Returns a manifest section keyed size → skin → mode."""
+    bdir = DIST / brand.slug / "banners"
+    bdir.mkdir(parents=True, exist_ok=True)
+    section: dict[str, dict] = {}
+
+    for size, (w, h) in banner.BANNER_SIZES.items():
+        section[size] = {"w": w, "h": h, "skins": {}}
+        for skin, accent in SKINS.items():
+            section[size]["skins"][skin] = {}
+            for mode in BANNER_MODES:
+                bg = banner.DARK_BG if mode == "dark" else banner.LIGHT_BG
+                # Lockup glyph: accent body, engraving in the backdrop tone —
+                # the same treatment the favicon marks use.
+                glyph_body = brand.glyph(accent, "none", bg, CANVAS)
+                svg_text = banner.banner_svg(
+                    w=w, h=h, mode=mode, accent=accent,
+                    glyph_body=glyph_body, glyph_px=int(h * 0.42),
+                    glyph_native=CANVAS, wordmark=brand.label,
+                    tagline=brand.tagline, hostname=brand.hostname,
+                    label=f"{brand.label} — {size} banner ({skin}/{mode})",
+                )
+                stem = f"{size}-{skin}-{mode}"
+                svg_path = bdir / f"{stem}.svg"
+                svg_path.write_text(svg_text)
+                png_path = bdir / f"{stem}.png"
+                render_master(svg_text, w, h).save(png_path, optimize=True)
+                section[size]["skins"][skin][mode] = {
+                    "svg": str(svg_path.relative_to(REPO)),
+                    "png": str(png_path.relative_to(REPO)),
+                }
+    return section
+
+
+# ---------------------------------------------------------------------------
 # Top-level
 # ---------------------------------------------------------------------------
 
@@ -482,7 +528,7 @@ def main() -> None:
 
     manifest = {
         "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-        "version": "1.1.0",
+        "version": "1.2.0",
         "palette": {
             "orange": ORANGE,
             "orange_deep": "#ea580c",
@@ -519,11 +565,13 @@ def main() -> None:
                     "og": skin_entry["og"],
                 }
         assert entry is not None
+        entry["banners"] = build_banners(brand)
         n_svg = sum(1 for v in entry["variants"].values())
         n_png = sum(len(v["png"]) for v in entry["variants"].values())
         n_fav = sum(1 for k in entry["favicon"])
+        n_ban = len(banner.BANNER_SIZES) * len(SKINS) * len(BANNER_MODES)
         print(f"    {n_svg:3d} svgs · {n_png:4d} pngs · {n_fav} favicon files "
-              f"· ×{len(SKINS)} skins")
+              f"· {n_ban} banners · ×{len(SKINS)} skins")
         manifest["brands"].append(entry)
 
     (REPO / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
@@ -533,9 +581,13 @@ def main() -> None:
         sum(len(v["png"]) for v in b["variants"].values())
         for b in manifest["brands"]
     )
+    total_banners = sum(
+        sum(len(sz["skins"]) * len(BANNER_MODES) for sz in b["banners"].values())
+        for b in manifest["brands"]
+    )
     print(f"\ndone. {len(manifest['brands'])} brands × {len(SKINS)} skins · "
           f"{total_svg} default-skin svgs · {total_png} default-skin pngs "
-          f"(+ alternate-skin favicon/og bundles).")
+          f"(+ alternate-skin favicon/og bundles) · {total_banners} aurora banners.")
     print(f"manifest: {REPO / 'manifest.json'}")
 
 
