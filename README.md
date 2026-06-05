@@ -3,7 +3,7 @@
 The single-source-of-truth media kit for the OrangeCheck family —
 every brand mark, every variant, every size, in SVG and PNG.
 
-Twelve brands. ~150 SVGs. ~1,266 PNGs. 384 aurora social banners. One
+Thirteen brands. 494 SVGs. 4,238 PNGs. 416 aurora social banners. One
 machine-readable manifest.
 No words inside the marks, ever — icon-only.
 
@@ -247,7 +247,7 @@ Every `dist/<slug>/favicon/` carries:
 `dark` is `#0a0a0a` everywhere. Some legacy per-site favicon SVGs used
 `#0b0909`; the kit normalizes to `#0a0a0a` and acts as the new SoT.
 
-## The 12 brand marks
+## The 13 brand marks
 
 | Slug          | Host                | Mark                                                                |
 |---------------|---------------------|---------------------------------------------------------------------|
@@ -257,6 +257,7 @@ Every `dist/<slug>/favicon/` carries:
 | `me`          | `me.ochk.io`        | person silhouette in a stamp frame                                  |
 | `vault`       | `vault.ochk.io`     | shackle + safe body + dial                                          |
 | `fleet`       | `fleet.ochk.io`     | terminal prompt — chevron + cursor                                  |
+| `chat`        | `chat.ochk.io`      | speech bubble + three message dots                                 |
 | `lock`        | `lock.ochk.io`      | padlock                                                             |
 | `vote`        | `vote.ochk.io`      | three ascending tally bars                                          |
 | `stamp`       | `stamp.ochk.io`     | notary stamp + anchor glyph                                         |

@@ -687,7 +687,7 @@ def main() -> None:
 
     manifest = {
         "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-        "version": "1.3.0",
+        "version": "1.4.0",
         "palette": {
             "orange": ORANGE,
             "orange_deep": "#ea580c",

@@ -283,6 +283,28 @@ def analytics_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
     )
 
 
+def chat_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
+    """chat.ochk.io — speech bubble (rounded body + tail) with three dots.
+
+    Outline mode (fg="none"): the bubble becomes a stroke-only silhouette
+    in `ink`; the three message dots render as before. Mirrors the
+    lock/vault silhouette treatment — the mark is a shape, not a filled
+    square — so it reads the same way the encryption-family marks do."""
+    s = canvas / 24.0
+    body_fill = fg if fg != "none" else "none"
+    body_stroke = fg if fg != "none" else ink
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<path d="M5 4 H19 A2 2 0 0 1 21 6 V13 A2 2 0 0 1 19 15 H11 L7 19 V15 H5 '
+        f'A2 2 0 0 1 3 13 V6 A2 2 0 0 1 5 4 Z" '
+        f'fill="{body_fill}" stroke="{body_stroke}" stroke-width="1.6" stroke-linejoin="round"/>'
+        f'<circle cx="8" cy="9.5" r="1.15" fill="{ink}"/>'
+        f'<circle cx="12" cy="9.5" r="1.15" fill="{ink}"/>'
+        f'<circle cx="16" cy="9.5" r="1.15" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
 # ---------------------------------------------------------------------------
 
 @dataclass(frozen=True)
@@ -355,6 +377,13 @@ BRANDS: list[Brand] = [
         hostname="fleet.ochk.io",
         tagline="managed agent + pledge for teams",
         glyph=fleet_glyph,
+    ),
+    Brand(
+        slug="chat",
+        label="oc·chat",
+        hostname="chat.ochk.io",
+        tagline="bitcoin-native end-to-end encrypted messaging",
+        glyph=chat_glyph,
     ),
     Brand(
         slug="lock",
