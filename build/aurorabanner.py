@@ -12,7 +12,7 @@ the skin accent drives the brand/primary clouds; success/info stay stable.
 
 from __future__ import annotations
 
-from textpath import text_to_path
+from textpath import text_to_path, text_width
 
 # Stable aurora hues (sRGB of --success / --info dark-mode tokens). The brand /
 # primary clouds use the per-skin accent passed in, so the field recolours.
@@ -31,6 +31,7 @@ INK = {
 # Banner sizes (platform → (w, h)).
 BANNER_SIZES: dict[str, tuple[int, int]] = {
     "og": (1200, 630),
+    "x-post": (1600, 900),  # 16:9 in-feed photo — X shows landscape uncropped here
     "x-header": (1500, 500),
     "linkedin": (1584, 396),
     "github": (1280, 640),
@@ -110,11 +111,19 @@ def banner_svg(
     gx = pad
     gy = (h - g) / 2
 
-    # Text column to the right of the glyph.
+    # Text column to the right of the glyph. Cap each line's size so it can't
+    # overrun the canvas edge — long taglines (e.g. oc·attest) would otherwise
+    # bleed off the right, clipped on any platform.
     tx = gx + g + w * 0.035
-    wm_size = h * 0.150
-    tl_size = h * 0.066
-    hn_size = h * 0.054
+    avail = w - tx - pad  # mirror the left pad on the right
+
+    def _fit(text: str, font: str, size: float) -> float:
+        wpx = text_width(text, font, size)
+        return size * avail / wpx if wpx > avail else size
+
+    wm_size = _fit(wordmark, "inter-semibold", h * 0.150)
+    tl_size = _fit(tagline, "inter", h * 0.066)
+    hn_size = _fit(hostname, "mono-medium", h * 0.054)
     gap1 = h * 0.052
     gap2 = h * 0.044
     block_h = wm_size + gap1 + tl_size + gap2 + hn_size
