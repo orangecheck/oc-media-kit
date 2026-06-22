@@ -305,6 +305,26 @@ def chat_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: 
     )
 
 
+def cosign_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
+    """cosign.ochk.io — two people side by side inside the stamp frame: a
+    co-founder pair / a builder + a backer getting behind one thing. The
+    deliberate two-up of oc·me's single-person mark (one identity → two
+    building together)."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<rect x="6" y="6" width="12" height="12" fill="none" stroke="{ink}" stroke-width="1.5"/>'
+        f'<circle cx="9.2" cy="10.4" r="1.65" fill="{ink}"/>'
+        f'<circle cx="14.8" cy="10.4" r="1.65" fill="{ink}"/>'
+        f'<path d="M6.5 16.6 C 6.5 14.9, 7.6 14.1, 9.2 14.1 C 10.8 14.1, 11.9 14.9, 11.9 16.6" '
+        f'fill="none" stroke="{ink}" stroke-width="1.5" stroke-linecap="square"/>'
+        f'<path d="M12.1 16.6 C 12.1 14.9, 13.2 14.1, 14.8 14.1 C 16.4 14.1, 17.5 14.9, 17.5 16.6" '
+        f'fill="none" stroke="{ink}" stroke-width="1.5" stroke-linecap="square"/>'
+        f'</g>'
+    )
+
+
 # ---------------------------------------------------------------------------
 
 @dataclass(frozen=True)
@@ -384,6 +404,13 @@ BRANDS: list[Brand] = [
         hostname="chat.ochk.io",
         tagline="bitcoin-native end-to-end encrypted messaging",
         glyph=chat_glyph,
+    ),
+    Brand(
+        slug="cosign",
+        label="oc·cosign",
+        hostname="cosign.ochk.io",
+        tagline="get behind builders — join it, or back it",
+        glyph=cosign_glyph,
     ),
     Brand(
         slug="lock",
