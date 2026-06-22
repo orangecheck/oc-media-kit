@@ -922,6 +922,52 @@
             }
           }
         },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/orangecheck/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-post-orangecheck-light.svg",
+                "png": "dist/orangecheck/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-post-phosphor-dark.svg",
+                "png": "dist/orangecheck/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-post-phosphor-light.svg",
+                "png": "dist/orangecheck/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-post-lightning-dark.svg",
+                "png": "dist/orangecheck/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-post-lightning-light.svg",
+                "png": "dist/orangecheck/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-post-gold-dark.svg",
+                "png": "dist/orangecheck/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-post-gold-light.svg",
+                "png": "dist/orangecheck/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
         "x-header": {
           "w": 1500,
           "h": 500,
@@ -1964,6 +2010,52 @@
               "light": {
                 "svg": "dist/attest/banners/og-gold-light.svg",
                 "png": "dist/attest/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/attest/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/attest/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-post-orangecheck-light.svg",
+                "png": "dist/attest/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/attest/banners/x-post-phosphor-dark.svg",
+                "png": "dist/attest/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-post-phosphor-light.svg",
+                "png": "dist/attest/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/attest/banners/x-post-lightning-dark.svg",
+                "png": "dist/attest/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-post-lightning-light.svg",
+                "png": "dist/attest/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/attest/banners/x-post-gold-dark.svg",
+                "png": "dist/attest/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-post-gold-light.svg",
+                "png": "dist/attest/banners/x-post-gold-light.png"
               }
             }
           }
@@ -3014,6 +3106,52 @@
             }
           }
         },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/docs/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/docs/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-post-orangecheck-light.svg",
+                "png": "dist/docs/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/docs/banners/x-post-phosphor-dark.svg",
+                "png": "dist/docs/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-post-phosphor-light.svg",
+                "png": "dist/docs/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/docs/banners/x-post-lightning-dark.svg",
+                "png": "dist/docs/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-post-lightning-light.svg",
+                "png": "dist/docs/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/docs/banners/x-post-gold-dark.svg",
+                "png": "dist/docs/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-post-gold-light.svg",
+                "png": "dist/docs/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
         "x-header": {
           "w": 1500,
           "h": 500,
@@ -4056,6 +4194,52 @@
               "light": {
                 "svg": "dist/me/banners/og-gold-light.svg",
                 "png": "dist/me/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/me/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/me/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-post-orangecheck-light.svg",
+                "png": "dist/me/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/me/banners/x-post-phosphor-dark.svg",
+                "png": "dist/me/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-post-phosphor-light.svg",
+                "png": "dist/me/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/me/banners/x-post-lightning-dark.svg",
+                "png": "dist/me/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-post-lightning-light.svg",
+                "png": "dist/me/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/me/banners/x-post-gold-dark.svg",
+                "png": "dist/me/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-post-gold-light.svg",
+                "png": "dist/me/banners/x-post-gold-light.png"
               }
             }
           }
@@ -5106,6 +5290,52 @@
             }
           }
         },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vault/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/vault/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-post-orangecheck-light.svg",
+                "png": "dist/vault/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vault/banners/x-post-phosphor-dark.svg",
+                "png": "dist/vault/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-post-phosphor-light.svg",
+                "png": "dist/vault/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vault/banners/x-post-lightning-dark.svg",
+                "png": "dist/vault/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-post-lightning-light.svg",
+                "png": "dist/vault/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vault/banners/x-post-gold-dark.svg",
+                "png": "dist/vault/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-post-gold-light.svg",
+                "png": "dist/vault/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
         "x-header": {
           "w": 1500,
           "h": 500,
@@ -6148,6 +6378,52 @@
               "light": {
                 "svg": "dist/fleet/banners/og-gold-light.svg",
                 "png": "dist/fleet/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/fleet/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-post-orangecheck-light.svg",
+                "png": "dist/fleet/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-post-phosphor-dark.svg",
+                "png": "dist/fleet/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-post-phosphor-light.svg",
+                "png": "dist/fleet/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-post-lightning-dark.svg",
+                "png": "dist/fleet/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-post-lightning-light.svg",
+                "png": "dist/fleet/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-post-gold-dark.svg",
+                "png": "dist/fleet/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-post-gold-light.svg",
+                "png": "dist/fleet/banners/x-post-gold-light.png"
               }
             }
           }
@@ -7198,6 +7474,52 @@
             }
           }
         },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/chat/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/chat/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/x-post-orangecheck-light.svg",
+                "png": "dist/chat/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/chat/banners/x-post-phosphor-dark.svg",
+                "png": "dist/chat/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/x-post-phosphor-light.svg",
+                "png": "dist/chat/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/chat/banners/x-post-lightning-dark.svg",
+                "png": "dist/chat/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/x-post-lightning-light.svg",
+                "png": "dist/chat/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/chat/banners/x-post-gold-dark.svg",
+                "png": "dist/chat/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/x-post-gold-light.svg",
+                "png": "dist/chat/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
         "x-header": {
           "w": 1500,
           "h": 500,
@@ -7332,6 +7654,1098 @@
               "light": {
                 "svg": "dist/chat/banners/github-gold-light.svg",
                 "png": "dist/chat/banners/github-gold-light.png"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "slug": "cosign",
+      "label": "oc\u00b7cosign",
+      "hostname": "cosign.ochk.io",
+      "tagline": "get behind builders \u2014 join it, or back it",
+      "variants": {
+        "square-on-dark": {
+          "svg": "dist/cosign/svg/square-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/square-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/square-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/square-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/square-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/square-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/square-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/square-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/square-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/square-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/square-on-dark-1024x1024.png"
+          }
+        },
+        "square-on-light": {
+          "svg": "dist/cosign/svg/square-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/square-on-light-16x16.png",
+            "32x32": "dist/cosign/png/square-on-light-32x32.png",
+            "48x48": "dist/cosign/png/square-on-light-48x48.png",
+            "64x64": "dist/cosign/png/square-on-light-64x64.png",
+            "128x128": "dist/cosign/png/square-on-light-128x128.png",
+            "180x180": "dist/cosign/png/square-on-light-180x180.png",
+            "192x192": "dist/cosign/png/square-on-light-192x192.png",
+            "256x256": "dist/cosign/png/square-on-light-256x256.png",
+            "512x512": "dist/cosign/png/square-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/square-on-light-1024x1024.png"
+          }
+        },
+        "rounded-on-dark": {
+          "svg": "dist/cosign/svg/rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/rounded-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/rounded-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/rounded-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/rounded-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/rounded-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/rounded-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/rounded-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/rounded-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/rounded-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/rounded-on-dark-1024x1024.png"
+          }
+        },
+        "rounded-on-light": {
+          "svg": "dist/cosign/svg/rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/rounded-on-light-16x16.png",
+            "32x32": "dist/cosign/png/rounded-on-light-32x32.png",
+            "48x48": "dist/cosign/png/rounded-on-light-48x48.png",
+            "64x64": "dist/cosign/png/rounded-on-light-64x64.png",
+            "128x128": "dist/cosign/png/rounded-on-light-128x128.png",
+            "180x180": "dist/cosign/png/rounded-on-light-180x180.png",
+            "192x192": "dist/cosign/png/rounded-on-light-192x192.png",
+            "256x256": "dist/cosign/png/rounded-on-light-256x256.png",
+            "512x512": "dist/cosign/png/rounded-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/rounded-on-light-1024x1024.png"
+          }
+        },
+        "safearea-on-dark": {
+          "svg": "dist/cosign/svg/safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/safearea-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/safearea-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/safearea-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/safearea-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/safearea-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/safearea-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/safearea-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/safearea-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/safearea-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/safearea-on-dark-1024x1024.png"
+          }
+        },
+        "safearea-on-light": {
+          "svg": "dist/cosign/svg/safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/safearea-on-light-16x16.png",
+            "32x32": "dist/cosign/png/safearea-on-light-32x32.png",
+            "48x48": "dist/cosign/png/safearea-on-light-48x48.png",
+            "64x64": "dist/cosign/png/safearea-on-light-64x64.png",
+            "128x128": "dist/cosign/png/safearea-on-light-128x128.png",
+            "180x180": "dist/cosign/png/safearea-on-light-180x180.png",
+            "192x192": "dist/cosign/png/safearea-on-light-192x192.png",
+            "256x256": "dist/cosign/png/safearea-on-light-256x256.png",
+            "512x512": "dist/cosign/png/safearea-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/safearea-on-light-1024x1024.png"
+          }
+        },
+        "circle-on-dark": {
+          "svg": "dist/cosign/svg/circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/circle-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/circle-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/circle-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/circle-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/circle-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/circle-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/circle-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/circle-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/circle-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/circle-on-dark-1024x1024.png"
+          }
+        },
+        "circle-on-light": {
+          "svg": "dist/cosign/svg/circle-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/circle-on-light-16x16.png",
+            "32x32": "dist/cosign/png/circle-on-light-32x32.png",
+            "48x48": "dist/cosign/png/circle-on-light-48x48.png",
+            "64x64": "dist/cosign/png/circle-on-light-64x64.png",
+            "128x128": "dist/cosign/png/circle-on-light-128x128.png",
+            "180x180": "dist/cosign/png/circle-on-light-180x180.png",
+            "192x192": "dist/cosign/png/circle-on-light-192x192.png",
+            "256x256": "dist/cosign/png/circle-on-light-256x256.png",
+            "512x512": "dist/cosign/png/circle-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/circle-on-light-1024x1024.png"
+          }
+        },
+        "square-white-on-orange": {
+          "svg": "dist/cosign/svg/square-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/square-white-on-orange-16x16.png",
+            "32x32": "dist/cosign/png/square-white-on-orange-32x32.png",
+            "48x48": "dist/cosign/png/square-white-on-orange-48x48.png",
+            "64x64": "dist/cosign/png/square-white-on-orange-64x64.png",
+            "128x128": "dist/cosign/png/square-white-on-orange-128x128.png",
+            "180x180": "dist/cosign/png/square-white-on-orange-180x180.png",
+            "192x192": "dist/cosign/png/square-white-on-orange-192x192.png",
+            "256x256": "dist/cosign/png/square-white-on-orange-256x256.png",
+            "512x512": "dist/cosign/png/square-white-on-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/square-white-on-orange-1024x1024.png"
+          }
+        },
+        "square-black-on-orange": {
+          "svg": "dist/cosign/svg/square-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/square-black-on-orange-16x16.png",
+            "32x32": "dist/cosign/png/square-black-on-orange-32x32.png",
+            "48x48": "dist/cosign/png/square-black-on-orange-48x48.png",
+            "64x64": "dist/cosign/png/square-black-on-orange-64x64.png",
+            "128x128": "dist/cosign/png/square-black-on-orange-128x128.png",
+            "180x180": "dist/cosign/png/square-black-on-orange-180x180.png",
+            "192x192": "dist/cosign/png/square-black-on-orange-192x192.png",
+            "256x256": "dist/cosign/png/square-black-on-orange-256x256.png",
+            "512x512": "dist/cosign/png/square-black-on-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/square-black-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-white-on-orange": {
+          "svg": "dist/cosign/svg/rounded-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/rounded-white-on-orange-16x16.png",
+            "32x32": "dist/cosign/png/rounded-white-on-orange-32x32.png",
+            "48x48": "dist/cosign/png/rounded-white-on-orange-48x48.png",
+            "64x64": "dist/cosign/png/rounded-white-on-orange-64x64.png",
+            "128x128": "dist/cosign/png/rounded-white-on-orange-128x128.png",
+            "180x180": "dist/cosign/png/rounded-white-on-orange-180x180.png",
+            "192x192": "dist/cosign/png/rounded-white-on-orange-192x192.png",
+            "256x256": "dist/cosign/png/rounded-white-on-orange-256x256.png",
+            "512x512": "dist/cosign/png/rounded-white-on-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/rounded-white-on-orange-1024x1024.png"
+          }
+        },
+        "rounded-black-on-orange": {
+          "svg": "dist/cosign/svg/rounded-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/rounded-black-on-orange-16x16.png",
+            "32x32": "dist/cosign/png/rounded-black-on-orange-32x32.png",
+            "48x48": "dist/cosign/png/rounded-black-on-orange-48x48.png",
+            "64x64": "dist/cosign/png/rounded-black-on-orange-64x64.png",
+            "128x128": "dist/cosign/png/rounded-black-on-orange-128x128.png",
+            "180x180": "dist/cosign/png/rounded-black-on-orange-180x180.png",
+            "192x192": "dist/cosign/png/rounded-black-on-orange-192x192.png",
+            "256x256": "dist/cosign/png/rounded-black-on-orange-256x256.png",
+            "512x512": "dist/cosign/png/rounded-black-on-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/rounded-black-on-orange-1024x1024.png"
+          }
+        },
+        "circle-white-on-orange": {
+          "svg": "dist/cosign/svg/circle-white-on-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/circle-white-on-orange-16x16.png",
+            "32x32": "dist/cosign/png/circle-white-on-orange-32x32.png",
+            "48x48": "dist/cosign/png/circle-white-on-orange-48x48.png",
+            "64x64": "dist/cosign/png/circle-white-on-orange-64x64.png",
+            "128x128": "dist/cosign/png/circle-white-on-orange-128x128.png",
+            "180x180": "dist/cosign/png/circle-white-on-orange-180x180.png",
+            "192x192": "dist/cosign/png/circle-white-on-orange-192x192.png",
+            "256x256": "dist/cosign/png/circle-white-on-orange-256x256.png",
+            "512x512": "dist/cosign/png/circle-white-on-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/circle-white-on-orange-1024x1024.png"
+          }
+        },
+        "circle-black-on-orange": {
+          "svg": "dist/cosign/svg/circle-black-on-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/circle-black-on-orange-16x16.png",
+            "32x32": "dist/cosign/png/circle-black-on-orange-32x32.png",
+            "48x48": "dist/cosign/png/circle-black-on-orange-48x48.png",
+            "64x64": "dist/cosign/png/circle-black-on-orange-64x64.png",
+            "128x128": "dist/cosign/png/circle-black-on-orange-128x128.png",
+            "180x180": "dist/cosign/png/circle-black-on-orange-180x180.png",
+            "192x192": "dist/cosign/png/circle-black-on-orange-192x192.png",
+            "256x256": "dist/cosign/png/circle-black-on-orange-256x256.png",
+            "512x512": "dist/cosign/png/circle-black-on-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/circle-black-on-orange-1024x1024.png"
+          }
+        },
+        "transparent": {
+          "svg": "dist/cosign/svg/transparent.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-16x16.png",
+            "32x32": "dist/cosign/png/transparent-32x32.png",
+            "48x48": "dist/cosign/png/transparent-48x48.png",
+            "64x64": "dist/cosign/png/transparent-64x64.png",
+            "128x128": "dist/cosign/png/transparent-128x128.png",
+            "180x180": "dist/cosign/png/transparent-180x180.png",
+            "192x192": "dist/cosign/png/transparent-192x192.png",
+            "256x256": "dist/cosign/png/transparent-256x256.png",
+            "512x512": "dist/cosign/png/transparent-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-1024x1024.png"
+          }
+        },
+        "transparent-light-ink": {
+          "svg": "dist/cosign/svg/transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-light-ink-16x16.png",
+            "32x32": "dist/cosign/png/transparent-light-ink-32x32.png",
+            "48x48": "dist/cosign/png/transparent-light-ink-48x48.png",
+            "64x64": "dist/cosign/png/transparent-light-ink-64x64.png",
+            "128x128": "dist/cosign/png/transparent-light-ink-128x128.png",
+            "180x180": "dist/cosign/png/transparent-light-ink-180x180.png",
+            "192x192": "dist/cosign/png/transparent-light-ink-192x192.png",
+            "256x256": "dist/cosign/png/transparent-light-ink-256x256.png",
+            "512x512": "dist/cosign/png/transparent-light-ink-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-light-ink-1024x1024.png"
+          }
+        },
+        "transparent-mono-orange": {
+          "svg": "dist/cosign/svg/transparent-mono-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-mono-orange-16x16.png",
+            "32x32": "dist/cosign/png/transparent-mono-orange-32x32.png",
+            "48x48": "dist/cosign/png/transparent-mono-orange-48x48.png",
+            "64x64": "dist/cosign/png/transparent-mono-orange-64x64.png",
+            "128x128": "dist/cosign/png/transparent-mono-orange-128x128.png",
+            "180x180": "dist/cosign/png/transparent-mono-orange-180x180.png",
+            "192x192": "dist/cosign/png/transparent-mono-orange-192x192.png",
+            "256x256": "dist/cosign/png/transparent-mono-orange-256x256.png",
+            "512x512": "dist/cosign/png/transparent-mono-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-mono-orange-1024x1024.png"
+          }
+        },
+        "transparent-mono-dark": {
+          "svg": "dist/cosign/svg/transparent-mono-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-mono-dark-16x16.png",
+            "32x32": "dist/cosign/png/transparent-mono-dark-32x32.png",
+            "48x48": "dist/cosign/png/transparent-mono-dark-48x48.png",
+            "64x64": "dist/cosign/png/transparent-mono-dark-64x64.png",
+            "128x128": "dist/cosign/png/transparent-mono-dark-128x128.png",
+            "180x180": "dist/cosign/png/transparent-mono-dark-180x180.png",
+            "192x192": "dist/cosign/png/transparent-mono-dark-192x192.png",
+            "256x256": "dist/cosign/png/transparent-mono-dark-256x256.png",
+            "512x512": "dist/cosign/png/transparent-mono-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-mono-dark-1024x1024.png"
+          }
+        },
+        "transparent-mono-light": {
+          "svg": "dist/cosign/svg/transparent-mono-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-mono-light-16x16.png",
+            "32x32": "dist/cosign/png/transparent-mono-light-32x32.png",
+            "48x48": "dist/cosign/png/transparent-mono-light-48x48.png",
+            "64x64": "dist/cosign/png/transparent-mono-light-64x64.png",
+            "128x128": "dist/cosign/png/transparent-mono-light-128x128.png",
+            "180x180": "dist/cosign/png/transparent-mono-light-180x180.png",
+            "192x192": "dist/cosign/png/transparent-mono-light-192x192.png",
+            "256x256": "dist/cosign/png/transparent-mono-light-256x256.png",
+            "512x512": "dist/cosign/png/transparent-mono-light-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-mono-light-1024x1024.png"
+          }
+        },
+        "transparent-outline-orange": {
+          "svg": "dist/cosign/svg/transparent-outline-orange.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-outline-orange-16x16.png",
+            "32x32": "dist/cosign/png/transparent-outline-orange-32x32.png",
+            "48x48": "dist/cosign/png/transparent-outline-orange-48x48.png",
+            "64x64": "dist/cosign/png/transparent-outline-orange-64x64.png",
+            "128x128": "dist/cosign/png/transparent-outline-orange-128x128.png",
+            "180x180": "dist/cosign/png/transparent-outline-orange-180x180.png",
+            "192x192": "dist/cosign/png/transparent-outline-orange-192x192.png",
+            "256x256": "dist/cosign/png/transparent-outline-orange-256x256.png",
+            "512x512": "dist/cosign/png/transparent-outline-orange-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-outline-orange-1024x1024.png"
+          }
+        },
+        "transparent-outline-dark": {
+          "svg": "dist/cosign/svg/transparent-outline-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-outline-dark-16x16.png",
+            "32x32": "dist/cosign/png/transparent-outline-dark-32x32.png",
+            "48x48": "dist/cosign/png/transparent-outline-dark-48x48.png",
+            "64x64": "dist/cosign/png/transparent-outline-dark-64x64.png",
+            "128x128": "dist/cosign/png/transparent-outline-dark-128x128.png",
+            "180x180": "dist/cosign/png/transparent-outline-dark-180x180.png",
+            "192x192": "dist/cosign/png/transparent-outline-dark-192x192.png",
+            "256x256": "dist/cosign/png/transparent-outline-dark-256x256.png",
+            "512x512": "dist/cosign/png/transparent-outline-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-outline-dark-1024x1024.png"
+          }
+        },
+        "transparent-outline-light": {
+          "svg": "dist/cosign/svg/transparent-outline-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/transparent-outline-light-16x16.png",
+            "32x32": "dist/cosign/png/transparent-outline-light-32x32.png",
+            "48x48": "dist/cosign/png/transparent-outline-light-48x48.png",
+            "64x64": "dist/cosign/png/transparent-outline-light-64x64.png",
+            "128x128": "dist/cosign/png/transparent-outline-light-128x128.png",
+            "180x180": "dist/cosign/png/transparent-outline-light-180x180.png",
+            "192x192": "dist/cosign/png/transparent-outline-light-192x192.png",
+            "256x256": "dist/cosign/png/transparent-outline-light-256x256.png",
+            "512x512": "dist/cosign/png/transparent-outline-light-512x512.png",
+            "1024x1024": "dist/cosign/png/transparent-outline-light-1024x1024.png"
+          }
+        },
+        "og-on-dark": {
+          "svg": "dist/cosign/svg/og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/cosign/og/og-on-dark-1200x630.png"
+          }
+        },
+        "og-on-light": {
+          "svg": "dist/cosign/svg/og-on-light.svg",
+          "png": {
+            "1200x630": "dist/cosign/og/og-on-light-1200x630.png"
+          }
+        },
+        "og-white-on-orange": {
+          "svg": "dist/cosign/svg/og-white-on-orange.svg",
+          "png": {
+            "1200x630": "dist/cosign/og/og-white-on-orange-1200x630.png"
+          }
+        },
+        "og-black-on-orange": {
+          "svg": "dist/cosign/svg/og-black-on-orange.svg",
+          "png": {
+            "1200x630": "dist/cosign/og/og-black-on-orange-1200x630.png"
+          }
+        },
+        "aurora-on-dark": {
+          "svg": "dist/cosign/svg/aurora-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/aurora-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/aurora-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/aurora-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/aurora-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/aurora-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/aurora-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/aurora-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/aurora-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-on-dark-1024x1024.png"
+          }
+        },
+        "aurora-on-light": {
+          "svg": "dist/cosign/svg/aurora-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-on-light-16x16.png",
+            "32x32": "dist/cosign/png/aurora-on-light-32x32.png",
+            "48x48": "dist/cosign/png/aurora-on-light-48x48.png",
+            "64x64": "dist/cosign/png/aurora-on-light-64x64.png",
+            "128x128": "dist/cosign/png/aurora-on-light-128x128.png",
+            "180x180": "dist/cosign/png/aurora-on-light-180x180.png",
+            "192x192": "dist/cosign/png/aurora-on-light-192x192.png",
+            "256x256": "dist/cosign/png/aurora-on-light-256x256.png",
+            "512x512": "dist/cosign/png/aurora-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-on-light-1024x1024.png"
+          }
+        },
+        "aurora-rounded-on-dark": {
+          "svg": "dist/cosign/svg/aurora-rounded-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-rounded-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/aurora-rounded-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/aurora-rounded-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/aurora-rounded-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/aurora-rounded-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/aurora-rounded-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/aurora-rounded-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/aurora-rounded-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/aurora-rounded-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-rounded-on-dark-1024x1024.png"
+          }
+        },
+        "aurora-rounded-on-light": {
+          "svg": "dist/cosign/svg/aurora-rounded-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-rounded-on-light-16x16.png",
+            "32x32": "dist/cosign/png/aurora-rounded-on-light-32x32.png",
+            "48x48": "dist/cosign/png/aurora-rounded-on-light-48x48.png",
+            "64x64": "dist/cosign/png/aurora-rounded-on-light-64x64.png",
+            "128x128": "dist/cosign/png/aurora-rounded-on-light-128x128.png",
+            "180x180": "dist/cosign/png/aurora-rounded-on-light-180x180.png",
+            "192x192": "dist/cosign/png/aurora-rounded-on-light-192x192.png",
+            "256x256": "dist/cosign/png/aurora-rounded-on-light-256x256.png",
+            "512x512": "dist/cosign/png/aurora-rounded-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-rounded-on-light-1024x1024.png"
+          }
+        },
+        "aurora-circle-on-dark": {
+          "svg": "dist/cosign/svg/aurora-circle-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-circle-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/aurora-circle-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/aurora-circle-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/aurora-circle-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/aurora-circle-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/aurora-circle-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/aurora-circle-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/aurora-circle-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/aurora-circle-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-circle-on-dark-1024x1024.png"
+          }
+        },
+        "aurora-circle-on-light": {
+          "svg": "dist/cosign/svg/aurora-circle-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-circle-on-light-16x16.png",
+            "32x32": "dist/cosign/png/aurora-circle-on-light-32x32.png",
+            "48x48": "dist/cosign/png/aurora-circle-on-light-48x48.png",
+            "64x64": "dist/cosign/png/aurora-circle-on-light-64x64.png",
+            "128x128": "dist/cosign/png/aurora-circle-on-light-128x128.png",
+            "180x180": "dist/cosign/png/aurora-circle-on-light-180x180.png",
+            "192x192": "dist/cosign/png/aurora-circle-on-light-192x192.png",
+            "256x256": "dist/cosign/png/aurora-circle-on-light-256x256.png",
+            "512x512": "dist/cosign/png/aurora-circle-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-circle-on-light-1024x1024.png"
+          }
+        },
+        "aurora-safearea-on-dark": {
+          "svg": "dist/cosign/svg/aurora-safearea-on-dark.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-safearea-on-dark-16x16.png",
+            "32x32": "dist/cosign/png/aurora-safearea-on-dark-32x32.png",
+            "48x48": "dist/cosign/png/aurora-safearea-on-dark-48x48.png",
+            "64x64": "dist/cosign/png/aurora-safearea-on-dark-64x64.png",
+            "128x128": "dist/cosign/png/aurora-safearea-on-dark-128x128.png",
+            "180x180": "dist/cosign/png/aurora-safearea-on-dark-180x180.png",
+            "192x192": "dist/cosign/png/aurora-safearea-on-dark-192x192.png",
+            "256x256": "dist/cosign/png/aurora-safearea-on-dark-256x256.png",
+            "512x512": "dist/cosign/png/aurora-safearea-on-dark-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-safearea-on-dark-1024x1024.png"
+          }
+        },
+        "aurora-safearea-on-light": {
+          "svg": "dist/cosign/svg/aurora-safearea-on-light.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-safearea-on-light-16x16.png",
+            "32x32": "dist/cosign/png/aurora-safearea-on-light-32x32.png",
+            "48x48": "dist/cosign/png/aurora-safearea-on-light-48x48.png",
+            "64x64": "dist/cosign/png/aurora-safearea-on-light-64x64.png",
+            "128x128": "dist/cosign/png/aurora-safearea-on-light-128x128.png",
+            "180x180": "dist/cosign/png/aurora-safearea-on-light-180x180.png",
+            "192x192": "dist/cosign/png/aurora-safearea-on-light-192x192.png",
+            "256x256": "dist/cosign/png/aurora-safearea-on-light-256x256.png",
+            "512x512": "dist/cosign/png/aurora-safearea-on-light-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-safearea-on-light-1024x1024.png"
+          }
+        },
+        "aurora-transparent": {
+          "svg": "dist/cosign/svg/aurora-transparent.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-transparent-16x16.png",
+            "32x32": "dist/cosign/png/aurora-transparent-32x32.png",
+            "48x48": "dist/cosign/png/aurora-transparent-48x48.png",
+            "64x64": "dist/cosign/png/aurora-transparent-64x64.png",
+            "128x128": "dist/cosign/png/aurora-transparent-128x128.png",
+            "180x180": "dist/cosign/png/aurora-transparent-180x180.png",
+            "192x192": "dist/cosign/png/aurora-transparent-192x192.png",
+            "256x256": "dist/cosign/png/aurora-transparent-256x256.png",
+            "512x512": "dist/cosign/png/aurora-transparent-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-transparent-1024x1024.png"
+          }
+        },
+        "aurora-transparent-light-ink": {
+          "svg": "dist/cosign/svg/aurora-transparent-light-ink.svg",
+          "png": {
+            "16x16": "dist/cosign/png/aurora-transparent-light-ink-16x16.png",
+            "32x32": "dist/cosign/png/aurora-transparent-light-ink-32x32.png",
+            "48x48": "dist/cosign/png/aurora-transparent-light-ink-48x48.png",
+            "64x64": "dist/cosign/png/aurora-transparent-light-ink-64x64.png",
+            "128x128": "dist/cosign/png/aurora-transparent-light-ink-128x128.png",
+            "180x180": "dist/cosign/png/aurora-transparent-light-ink-180x180.png",
+            "192x192": "dist/cosign/png/aurora-transparent-light-ink-192x192.png",
+            "256x256": "dist/cosign/png/aurora-transparent-light-ink-256x256.png",
+            "512x512": "dist/cosign/png/aurora-transparent-light-ink-512x512.png",
+            "1024x1024": "dist/cosign/png/aurora-transparent-light-ink-1024x1024.png"
+          }
+        },
+        "aurora-og-on-dark": {
+          "svg": "dist/cosign/svg/aurora-og-on-dark.svg",
+          "png": {
+            "1200x630": "dist/cosign/og/aurora-og-on-dark-1200x630.png"
+          }
+        },
+        "aurora-og-on-light": {
+          "svg": "dist/cosign/svg/aurora-og-on-light.svg",
+          "png": {
+            "1200x630": "dist/cosign/og/aurora-og-on-light-1200x630.png"
+          }
+        }
+      },
+      "favicon": {
+        "svg": "dist/cosign/favicon/favicon.svg",
+        "png_16": "dist/cosign/favicon/favicon-16x16.png",
+        "png_32": "dist/cosign/favicon/favicon-32x32.png",
+        "png_48": "dist/cosign/favicon/favicon-48x48.png",
+        "ico": "dist/cosign/favicon/favicon.ico",
+        "apple_touch": "dist/cosign/favicon/apple-touch-icon.png",
+        "android_chrome_192": "dist/cosign/favicon/android-chrome-192x192.png",
+        "android_chrome_512": "dist/cosign/favicon/android-chrome-512x512.png",
+        "webmanifest": "dist/cosign/favicon/site.webmanifest"
+      },
+      "og": {
+        "og-on-dark": "dist/cosign/og/og-on-dark-1200x630.png",
+        "og-on-light": "dist/cosign/og/og-on-light-1200x630.png",
+        "og-white-on-orange": "dist/cosign/og/og-white-on-orange-1200x630.png",
+        "og-black-on-orange": "dist/cosign/og/og-black-on-orange-1200x630.png",
+        "aurora-og-on-dark": "dist/cosign/og/aurora-og-on-dark-1200x630.png",
+        "aurora-og-on-light": "dist/cosign/og/aurora-og-on-light-1200x630.png"
+      },
+      "skins": {
+        "phosphor": {
+          "favicon": {
+            "svg": "dist/cosign/skins/phosphor/favicon/favicon.svg",
+            "png_16": "dist/cosign/skins/phosphor/favicon/favicon-16x16.png",
+            "png_32": "dist/cosign/skins/phosphor/favicon/favicon-32x32.png",
+            "png_48": "dist/cosign/skins/phosphor/favicon/favicon-48x48.png",
+            "ico": "dist/cosign/skins/phosphor/favicon/favicon.ico",
+            "apple_touch": "dist/cosign/skins/phosphor/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/cosign/skins/phosphor/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/cosign/skins/phosphor/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/cosign/skins/phosphor/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/cosign/skins/phosphor/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/cosign/skins/phosphor/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/cosign/skins/phosphor/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/cosign/skins/phosphor/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/cosign/skins/phosphor/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/cosign/skins/phosphor/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-transparent-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/phosphor/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/cosign/skins/phosphor/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/phosphor/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/cosign/skins/phosphor/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/phosphor/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
+        },
+        "lightning": {
+          "favicon": {
+            "svg": "dist/cosign/skins/lightning/favicon/favicon.svg",
+            "png_16": "dist/cosign/skins/lightning/favicon/favicon-16x16.png",
+            "png_32": "dist/cosign/skins/lightning/favicon/favicon-32x32.png",
+            "png_48": "dist/cosign/skins/lightning/favicon/favicon-48x48.png",
+            "ico": "dist/cosign/skins/lightning/favicon/favicon.ico",
+            "apple_touch": "dist/cosign/skins/lightning/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/cosign/skins/lightning/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/cosign/skins/lightning/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/cosign/skins/lightning/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/cosign/skins/lightning/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/cosign/skins/lightning/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/cosign/skins/lightning/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/cosign/skins/lightning/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/cosign/skins/lightning/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/cosign/skins/lightning/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-transparent-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/lightning/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/cosign/skins/lightning/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/lightning/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/cosign/skins/lightning/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/lightning/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
+        },
+        "gold": {
+          "favicon": {
+            "svg": "dist/cosign/skins/gold/favicon/favicon.svg",
+            "png_16": "dist/cosign/skins/gold/favicon/favicon-16x16.png",
+            "png_32": "dist/cosign/skins/gold/favicon/favicon-32x32.png",
+            "png_48": "dist/cosign/skins/gold/favicon/favicon-48x48.png",
+            "ico": "dist/cosign/skins/gold/favicon/favicon.ico",
+            "apple_touch": "dist/cosign/skins/gold/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/cosign/skins/gold/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/cosign/skins/gold/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/cosign/skins/gold/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/cosign/skins/gold/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/cosign/skins/gold/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/cosign/skins/gold/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/cosign/skins/gold/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/cosign/skins/gold/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/cosign/skins/gold/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-transparent-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/gold/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/cosign/skins/gold/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/gold/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/cosign/skins/gold/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/gold/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
+        }
+      },
+      "banners": {
+        "og": {
+          "w": 1200,
+          "h": 630,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/cosign/banners/og-orangecheck-dark.svg",
+                "png": "dist/cosign/banners/og-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/og-orangecheck-light.svg",
+                "png": "dist/cosign/banners/og-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/cosign/banners/og-phosphor-dark.svg",
+                "png": "dist/cosign/banners/og-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/og-phosphor-light.svg",
+                "png": "dist/cosign/banners/og-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/cosign/banners/og-lightning-dark.svg",
+                "png": "dist/cosign/banners/og-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/og-lightning-light.svg",
+                "png": "dist/cosign/banners/og-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/cosign/banners/og-gold-dark.svg",
+                "png": "dist/cosign/banners/og-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/og-gold-light.svg",
+                "png": "dist/cosign/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/cosign/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-post-orangecheck-light.svg",
+                "png": "dist/cosign/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-post-phosphor-dark.svg",
+                "png": "dist/cosign/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-post-phosphor-light.svg",
+                "png": "dist/cosign/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-post-lightning-dark.svg",
+                "png": "dist/cosign/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-post-lightning-light.svg",
+                "png": "dist/cosign/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-post-gold-dark.svg",
+                "png": "dist/cosign/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-post-gold-light.svg",
+                "png": "dist/cosign/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-header": {
+          "w": 1500,
+          "h": 500,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-header-orangecheck-dark.svg",
+                "png": "dist/cosign/banners/x-header-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-header-orangecheck-light.svg",
+                "png": "dist/cosign/banners/x-header-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-header-phosphor-dark.svg",
+                "png": "dist/cosign/banners/x-header-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-header-phosphor-light.svg",
+                "png": "dist/cosign/banners/x-header-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-header-lightning-dark.svg",
+                "png": "dist/cosign/banners/x-header-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-header-lightning-light.svg",
+                "png": "dist/cosign/banners/x-header-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-header-gold-dark.svg",
+                "png": "dist/cosign/banners/x-header-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-header-gold-light.svg",
+                "png": "dist/cosign/banners/x-header-gold-light.png"
+              }
+            }
+          }
+        },
+        "linkedin": {
+          "w": 1584,
+          "h": 396,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/cosign/banners/linkedin-orangecheck-dark.svg",
+                "png": "dist/cosign/banners/linkedin-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/linkedin-orangecheck-light.svg",
+                "png": "dist/cosign/banners/linkedin-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/cosign/banners/linkedin-phosphor-dark.svg",
+                "png": "dist/cosign/banners/linkedin-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/linkedin-phosphor-light.svg",
+                "png": "dist/cosign/banners/linkedin-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/cosign/banners/linkedin-lightning-dark.svg",
+                "png": "dist/cosign/banners/linkedin-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/linkedin-lightning-light.svg",
+                "png": "dist/cosign/banners/linkedin-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/cosign/banners/linkedin-gold-dark.svg",
+                "png": "dist/cosign/banners/linkedin-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/linkedin-gold-light.svg",
+                "png": "dist/cosign/banners/linkedin-gold-light.png"
+              }
+            }
+          }
+        },
+        "github": {
+          "w": 1280,
+          "h": 640,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/cosign/banners/github-orangecheck-dark.svg",
+                "png": "dist/cosign/banners/github-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/github-orangecheck-light.svg",
+                "png": "dist/cosign/banners/github-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/cosign/banners/github-phosphor-dark.svg",
+                "png": "dist/cosign/banners/github-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/github-phosphor-light.svg",
+                "png": "dist/cosign/banners/github-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/cosign/banners/github-lightning-dark.svg",
+                "png": "dist/cosign/banners/github-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/github-lightning-light.svg",
+                "png": "dist/cosign/banners/github-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/cosign/banners/github-gold-dark.svg",
+                "png": "dist/cosign/banners/github-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/github-gold-light.svg",
+                "png": "dist/cosign/banners/github-gold-light.png"
               }
             }
           }
@@ -8240,6 +9654,52 @@
               "light": {
                 "svg": "dist/lock/banners/og-gold-light.svg",
                 "png": "dist/lock/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/lock/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/lock/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-post-orangecheck-light.svg",
+                "png": "dist/lock/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/lock/banners/x-post-phosphor-dark.svg",
+                "png": "dist/lock/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-post-phosphor-light.svg",
+                "png": "dist/lock/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/lock/banners/x-post-lightning-dark.svg",
+                "png": "dist/lock/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-post-lightning-light.svg",
+                "png": "dist/lock/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/lock/banners/x-post-gold-dark.svg",
+                "png": "dist/lock/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-post-gold-light.svg",
+                "png": "dist/lock/banners/x-post-gold-light.png"
               }
             }
           }
@@ -9290,6 +10750,52 @@
             }
           }
         },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/vote/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/vote/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-post-orangecheck-light.svg",
+                "png": "dist/vote/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/vote/banners/x-post-phosphor-dark.svg",
+                "png": "dist/vote/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-post-phosphor-light.svg",
+                "png": "dist/vote/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/vote/banners/x-post-lightning-dark.svg",
+                "png": "dist/vote/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-post-lightning-light.svg",
+                "png": "dist/vote/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/vote/banners/x-post-gold-dark.svg",
+                "png": "dist/vote/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-post-gold-light.svg",
+                "png": "dist/vote/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
         "x-header": {
           "w": 1500,
           "h": 500,
@@ -10332,6 +11838,52 @@
               "light": {
                 "svg": "dist/stamp/banners/og-gold-light.svg",
                 "png": "dist/stamp/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/stamp/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-post-orangecheck-light.svg",
+                "png": "dist/stamp/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-post-phosphor-dark.svg",
+                "png": "dist/stamp/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-post-phosphor-light.svg",
+                "png": "dist/stamp/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-post-lightning-dark.svg",
+                "png": "dist/stamp/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-post-lightning-light.svg",
+                "png": "dist/stamp/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-post-gold-dark.svg",
+                "png": "dist/stamp/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-post-gold-light.svg",
+                "png": "dist/stamp/banners/x-post-gold-light.png"
               }
             }
           }
@@ -11382,6 +12934,52 @@
             }
           }
         },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/agent/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/agent/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-post-orangecheck-light.svg",
+                "png": "dist/agent/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/agent/banners/x-post-phosphor-dark.svg",
+                "png": "dist/agent/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-post-phosphor-light.svg",
+                "png": "dist/agent/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/agent/banners/x-post-lightning-dark.svg",
+                "png": "dist/agent/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-post-lightning-light.svg",
+                "png": "dist/agent/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/agent/banners/x-post-gold-dark.svg",
+                "png": "dist/agent/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-post-gold-light.svg",
+                "png": "dist/agent/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
         "x-header": {
           "w": 1500,
           "h": 500,
@@ -12428,6 +14026,52 @@
             }
           }
         },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/pledge/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-post-orangecheck-light.svg",
+                "png": "dist/pledge/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-post-phosphor-dark.svg",
+                "png": "dist/pledge/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-post-phosphor-light.svg",
+                "png": "dist/pledge/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-post-lightning-dark.svg",
+                "png": "dist/pledge/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-post-lightning-light.svg",
+                "png": "dist/pledge/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-post-gold-dark.svg",
+                "png": "dist/pledge/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-post-gold-light.svg",
+                "png": "dist/pledge/banners/x-post-gold-light.png"
+              }
+            }
+          }
+        },
         "x-header": {
           "w": 1500,
           "h": 500,
@@ -13470,6 +15114,52 @@
               "light": {
                 "svg": "dist/analytics/banners/og-gold-light.svg",
                 "png": "dist/analytics/banners/og-gold-light.png"
+              }
+            }
+          }
+        },
+        "x-post": {
+          "w": 1600,
+          "h": 900,
+          "skins": {
+            "orangecheck": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-post-orangecheck-dark.svg",
+                "png": "dist/analytics/banners/x-post-orangecheck-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-post-orangecheck-light.svg",
+                "png": "dist/analytics/banners/x-post-orangecheck-light.png"
+              }
+            },
+            "phosphor": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-post-phosphor-dark.svg",
+                "png": "dist/analytics/banners/x-post-phosphor-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-post-phosphor-light.svg",
+                "png": "dist/analytics/banners/x-post-phosphor-light.png"
+              }
+            },
+            "lightning": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-post-lightning-dark.svg",
+                "png": "dist/analytics/banners/x-post-lightning-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-post-lightning-light.svg",
+                "png": "dist/analytics/banners/x-post-lightning-light.png"
+              }
+            },
+            "gold": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-post-gold-dark.svg",
+                "png": "dist/analytics/banners/x-post-gold-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-post-gold-light.svg",
+                "png": "dist/analytics/banners/x-post-gold-light.png"
               }
             }
           }
