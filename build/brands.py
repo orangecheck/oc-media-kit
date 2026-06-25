@@ -100,6 +100,45 @@ def orangecheck_glyph_svg(fg: str, bg: str, ink: str, canvas: int = 1024,
 
 
 # ---------------------------------------------------------------------------
+# btc (bitcoin market desk, btc.ochk.io)
+# ---------------------------------------------------------------------------
+# The ₿ (BITCOIN SIGN, U+20BF) glyph extracted from Inter-SemiBold as raw SVG
+# path data — no font dependency at render time, same approach as the § mark.
+# The path is authored in font coordinates (y-up); the render function below
+# handles centering + the Y-flip, exactly like orangecheck_glyph_svg. A single
+# filled path, so it reads as a glyph-only mark (orange-dominant, white-on-
+# orange favicon) and its silhouette doubles as the aurora-aperture clip.
+
+BTC_GLYPH_D = (
+    "M373 1414V1676H531V1414ZM670 1414V1676H829V1414ZM373 -186V76H531V-186ZM670 -186V76H829V-186Z"
+    "M129 0V1490H705Q863 1490 972.50 1441Q1082 1392 1139 1305.50Q1196 1219 1196 1103Q1196 1016 1164 951"
+    "Q1132 886 1074 843Q1016 800 937 779V774Q1024 765 1095.50 721Q1167 677 1210 600.50Q1253 524 1253 416"
+    "Q1253 293 1194.50 199Q1136 105 1020 52.50Q904 0 731 0ZM391 217H700Q838 217 910.50 272.50"
+    "Q983 328 983 428Q983 497 950 547.50Q917 598 855.50 626Q794 654 707 654H391ZM391 858H688"
+    "Q762 858 817 883.50Q872 909 902 956Q932 1003 932 1068Q932 1161 868 1217.50Q804 1274 689 1274H391Z"
+)
+# Inter-SemiBold U+20BF bounding box: xMin=129 yMin=-186 xMax=1253 yMax=1676
+BTC_BBOX = (129.0, -186.0, 1253.0, 1676.0)
+
+
+def btc_glyph_svg(fg: str, bg: str, ink: str, canvas: int = 1024,
+                  glyph_frac: float = 0.72) -> str:
+    """Render the ₿ glyph centered in a `canvas`-square viewBox.
+    fg=glyph color, bg=ignored (handled by variant wrapper), ink=ignored.
+    Same centering/Y-flip contract as orangecheck_glyph_svg."""
+    x_min, y_min, x_max, y_max = BTC_BBOX
+    gw = x_max - x_min
+    gh = y_max - y_min
+    scale = (canvas * glyph_frac) / max(gw, gh)
+    tx = (canvas - scale * (x_max + x_min)) / 2
+    ty = (canvas + scale * (y_max + y_min)) / 2
+    return (
+        f'<path d="{BTC_GLYPH_D}" fill="{fg}" '
+        f'transform="translate({tx:.4f} {ty:.4f}) scale({scale:.6f} -{scale:.6f})"/>'
+    )
+
+
+# ---------------------------------------------------------------------------
 # Sub-brand glyphs (24×24 viewBox authored, scaled by wrapper)
 #
 # Each function returns the inner SVG body. The full mark (the "filled
@@ -458,6 +497,21 @@ BRANDS: list[Brand] = [
         hostname="analytics.ochk.io",
         tagline="owner cockpit for the orangecheck family",
         glyph=analytics_glyph,
+    ),
+    Brand(
+        slug="btc",
+        label="oc·btc",
+        hostname="btc.ochk.io",
+        tagline="read the bitcoin market",
+        glyph=lambda fg, bg, ink, canvas=1024: btc_glyph_svg(fg, bg, ink, canvas, 0.72),
+        glyph_frac=0.72,
+        is_glyph_only=True,
+        # The mark IS the orange tile: ₿ rendered white on a rounded orange
+        # square reads at favicon scale and leads with the family color, same
+        # treatment as the orangecheck § and vote bars (a glyph-only mark on a
+        # dark backdrop disappears at 16×16).
+        favicon_variant="rounded-white-on-orange",
+        apple_touch_variant="rounded-white-on-orange",
     ),
 ]
 
