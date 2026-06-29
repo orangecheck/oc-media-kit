@@ -39,6 +39,7 @@ MUTED = "#737373"
 #   phosphor     oklch(0.78 0.18 148) → #55d671 (node green)
 #   lightning    oklch(0.72 0.20 305) → #c27dff (network violet)
 #   gold         oklch(0.80 0.15 90)  → #e3b831 (sound-money gold)
+#   ember        oklch(0.645 0.158 42) → #da6736 (warm terracotta, consumer skin)
 #
 # build.py emits the DEFAULT_SKIN to dist/<brand>/ (unchanged) and every other
 # skin to dist/<brand>/skins/<skin>/. Runtime favicon/theme-color swapping is
@@ -49,6 +50,7 @@ SKINS: dict[str, str] = {
     "phosphor": "#55d671",
     "lightning": "#c27dff",
     "gold": "#e3b831",
+    "ember": "#da6736",
 }
 
 # Some sub-site favicons currently use #0b0909 as the dark backdrop.

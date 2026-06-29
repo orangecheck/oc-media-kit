@@ -13,7 +13,8 @@
     "orangecheck": "#f97316",
     "phosphor": "#55d671",
     "lightning": "#c27dff",
-    "gold": "#e3b831"
+    "gold": "#e3b831",
+    "ember": "#da6736"
   },
   "brands": [
     {
@@ -873,6 +874,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/orangecheck/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/orangecheck/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/orangecheck/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/orangecheck/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/orangecheck/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/orangecheck/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/orangecheck/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/orangecheck/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/orangecheck/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/orangecheck/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/orangecheck/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/orangecheck/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/orangecheck/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/orangecheck/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/orangecheck/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/orangecheck/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/orangecheck/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/orangecheck/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/orangecheck/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/orangecheck/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -918,6 +1024,16 @@
               "light": {
                 "svg": "dist/orangecheck/banners/og-gold-light.svg",
                 "png": "dist/orangecheck/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/og-ember-dark.svg",
+                "png": "dist/orangecheck/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/og-ember-light.svg",
+                "png": "dist/orangecheck/banners/og-ember-light.png"
               }
             }
           }
@@ -965,6 +1081,16 @@
                 "svg": "dist/orangecheck/banners/x-post-gold-light.svg",
                 "png": "dist/orangecheck/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-post-ember-dark.svg",
+                "png": "dist/orangecheck/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-post-ember-light.svg",
+                "png": "dist/orangecheck/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -1010,6 +1136,16 @@
               "light": {
                 "svg": "dist/orangecheck/banners/x-header-gold-light.svg",
                 "png": "dist/orangecheck/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/x-header-ember-dark.svg",
+                "png": "dist/orangecheck/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/x-header-ember-light.svg",
+                "png": "dist/orangecheck/banners/x-header-ember-light.png"
               }
             }
           }
@@ -1057,6 +1193,16 @@
                 "svg": "dist/orangecheck/banners/linkedin-gold-light.svg",
                 "png": "dist/orangecheck/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/linkedin-ember-dark.svg",
+                "png": "dist/orangecheck/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/linkedin-ember-light.svg",
+                "png": "dist/orangecheck/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -1102,6 +1248,16 @@
               "light": {
                 "svg": "dist/orangecheck/banners/github-gold-light.svg",
                 "png": "dist/orangecheck/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/orangecheck/banners/github-ember-dark.svg",
+                "png": "dist/orangecheck/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/orangecheck/banners/github-ember-light.svg",
+                "png": "dist/orangecheck/banners/github-ember-light.png"
               }
             }
           }
@@ -1965,6 +2121,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/attest/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/attest/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/attest/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/attest/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/attest/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/attest/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/attest/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/attest/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/attest/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/attest/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/attest/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/attest/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/attest/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/attest/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/attest/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/attest/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/attest/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/attest/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/attest/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/attest/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/attest/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/attest/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/attest/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/attest/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/attest/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/attest/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/attest/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/attest/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/attest/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/attest/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/attest/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -2010,6 +2271,16 @@
               "light": {
                 "svg": "dist/attest/banners/og-gold-light.svg",
                 "png": "dist/attest/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/attest/banners/og-ember-dark.svg",
+                "png": "dist/attest/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/og-ember-light.svg",
+                "png": "dist/attest/banners/og-ember-light.png"
               }
             }
           }
@@ -2057,6 +2328,16 @@
                 "svg": "dist/attest/banners/x-post-gold-light.svg",
                 "png": "dist/attest/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/attest/banners/x-post-ember-dark.svg",
+                "png": "dist/attest/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-post-ember-light.svg",
+                "png": "dist/attest/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -2102,6 +2383,16 @@
               "light": {
                 "svg": "dist/attest/banners/x-header-gold-light.svg",
                 "png": "dist/attest/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/attest/banners/x-header-ember-dark.svg",
+                "png": "dist/attest/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/x-header-ember-light.svg",
+                "png": "dist/attest/banners/x-header-ember-light.png"
               }
             }
           }
@@ -2149,6 +2440,16 @@
                 "svg": "dist/attest/banners/linkedin-gold-light.svg",
                 "png": "dist/attest/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/attest/banners/linkedin-ember-dark.svg",
+                "png": "dist/attest/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/linkedin-ember-light.svg",
+                "png": "dist/attest/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -2194,6 +2495,16 @@
               "light": {
                 "svg": "dist/attest/banners/github-gold-light.svg",
                 "png": "dist/attest/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/attest/banners/github-ember-dark.svg",
+                "png": "dist/attest/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/attest/banners/github-ember-light.svg",
+                "png": "dist/attest/banners/github-ember-light.png"
               }
             }
           }
@@ -3057,6 +3368,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/docs/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/docs/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/docs/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/docs/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/docs/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/docs/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/docs/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/docs/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/docs/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/docs/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/docs/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/docs/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/docs/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/docs/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/docs/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/docs/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/docs/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/docs/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/docs/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/docs/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/docs/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/docs/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/docs/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/docs/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/docs/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/docs/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/docs/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/docs/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/docs/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/docs/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/docs/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -3102,6 +3518,16 @@
               "light": {
                 "svg": "dist/docs/banners/og-gold-light.svg",
                 "png": "dist/docs/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/docs/banners/og-ember-dark.svg",
+                "png": "dist/docs/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/og-ember-light.svg",
+                "png": "dist/docs/banners/og-ember-light.png"
               }
             }
           }
@@ -3149,6 +3575,16 @@
                 "svg": "dist/docs/banners/x-post-gold-light.svg",
                 "png": "dist/docs/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/docs/banners/x-post-ember-dark.svg",
+                "png": "dist/docs/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-post-ember-light.svg",
+                "png": "dist/docs/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -3194,6 +3630,16 @@
               "light": {
                 "svg": "dist/docs/banners/x-header-gold-light.svg",
                 "png": "dist/docs/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/docs/banners/x-header-ember-dark.svg",
+                "png": "dist/docs/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/x-header-ember-light.svg",
+                "png": "dist/docs/banners/x-header-ember-light.png"
               }
             }
           }
@@ -3241,6 +3687,16 @@
                 "svg": "dist/docs/banners/linkedin-gold-light.svg",
                 "png": "dist/docs/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/docs/banners/linkedin-ember-dark.svg",
+                "png": "dist/docs/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/linkedin-ember-light.svg",
+                "png": "dist/docs/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -3286,6 +3742,16 @@
               "light": {
                 "svg": "dist/docs/banners/github-gold-light.svg",
                 "png": "dist/docs/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/docs/banners/github-ember-dark.svg",
+                "png": "dist/docs/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/docs/banners/github-ember-light.svg",
+                "png": "dist/docs/banners/github-ember-light.png"
               }
             }
           }
@@ -4149,6 +4615,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/me/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/me/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/me/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/me/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/me/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/me/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/me/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/me/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/me/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/me/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/me/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/me/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/me/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/me/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/me/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/me/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/me/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/me/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/me/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/me/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/me/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/me/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/me/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/me/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/me/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/me/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/me/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/me/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/me/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/me/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/me/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -4194,6 +4765,16 @@
               "light": {
                 "svg": "dist/me/banners/og-gold-light.svg",
                 "png": "dist/me/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/me/banners/og-ember-dark.svg",
+                "png": "dist/me/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/og-ember-light.svg",
+                "png": "dist/me/banners/og-ember-light.png"
               }
             }
           }
@@ -4241,6 +4822,16 @@
                 "svg": "dist/me/banners/x-post-gold-light.svg",
                 "png": "dist/me/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/me/banners/x-post-ember-dark.svg",
+                "png": "dist/me/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-post-ember-light.svg",
+                "png": "dist/me/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -4286,6 +4877,16 @@
               "light": {
                 "svg": "dist/me/banners/x-header-gold-light.svg",
                 "png": "dist/me/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/me/banners/x-header-ember-dark.svg",
+                "png": "dist/me/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/x-header-ember-light.svg",
+                "png": "dist/me/banners/x-header-ember-light.png"
               }
             }
           }
@@ -4333,6 +4934,16 @@
                 "svg": "dist/me/banners/linkedin-gold-light.svg",
                 "png": "dist/me/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/me/banners/linkedin-ember-dark.svg",
+                "png": "dist/me/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/linkedin-ember-light.svg",
+                "png": "dist/me/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -4378,6 +4989,16 @@
               "light": {
                 "svg": "dist/me/banners/github-gold-light.svg",
                 "png": "dist/me/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/me/banners/github-ember-dark.svg",
+                "png": "dist/me/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/me/banners/github-ember-light.svg",
+                "png": "dist/me/banners/github-ember-light.png"
               }
             }
           }
@@ -5241,6 +5862,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/vault/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/vault/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/vault/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/vault/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/vault/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/vault/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vault/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vault/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vault/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vault/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vault/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vault/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vault/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/vault/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/vault/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/vault/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/vault/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/vault/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/vault/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/vault/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/vault/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/vault/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/vault/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/vault/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/vault/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/vault/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/vault/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/vault/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/vault/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/vault/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/vault/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -5286,6 +6012,16 @@
               "light": {
                 "svg": "dist/vault/banners/og-gold-light.svg",
                 "png": "dist/vault/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vault/banners/og-ember-dark.svg",
+                "png": "dist/vault/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/og-ember-light.svg",
+                "png": "dist/vault/banners/og-ember-light.png"
               }
             }
           }
@@ -5333,6 +6069,16 @@
                 "svg": "dist/vault/banners/x-post-gold-light.svg",
                 "png": "dist/vault/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vault/banners/x-post-ember-dark.svg",
+                "png": "dist/vault/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-post-ember-light.svg",
+                "png": "dist/vault/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -5378,6 +6124,16 @@
               "light": {
                 "svg": "dist/vault/banners/x-header-gold-light.svg",
                 "png": "dist/vault/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vault/banners/x-header-ember-dark.svg",
+                "png": "dist/vault/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/x-header-ember-light.svg",
+                "png": "dist/vault/banners/x-header-ember-light.png"
               }
             }
           }
@@ -5425,6 +6181,16 @@
                 "svg": "dist/vault/banners/linkedin-gold-light.svg",
                 "png": "dist/vault/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vault/banners/linkedin-ember-dark.svg",
+                "png": "dist/vault/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/linkedin-ember-light.svg",
+                "png": "dist/vault/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -5470,6 +6236,16 @@
               "light": {
                 "svg": "dist/vault/banners/github-gold-light.svg",
                 "png": "dist/vault/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vault/banners/github-ember-dark.svg",
+                "png": "dist/vault/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vault/banners/github-ember-light.svg",
+                "png": "dist/vault/banners/github-ember-light.png"
               }
             }
           }
@@ -6333,6 +7109,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/fleet/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/fleet/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/fleet/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/fleet/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/fleet/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/fleet/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/fleet/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/fleet/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/fleet/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/fleet/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/fleet/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/fleet/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/fleet/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/fleet/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/fleet/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/fleet/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/fleet/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/fleet/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/fleet/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/fleet/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -6378,6 +7259,16 @@
               "light": {
                 "svg": "dist/fleet/banners/og-gold-light.svg",
                 "png": "dist/fleet/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/fleet/banners/og-ember-dark.svg",
+                "png": "dist/fleet/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/og-ember-light.svg",
+                "png": "dist/fleet/banners/og-ember-light.png"
               }
             }
           }
@@ -6425,6 +7316,16 @@
                 "svg": "dist/fleet/banners/x-post-gold-light.svg",
                 "png": "dist/fleet/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-post-ember-dark.svg",
+                "png": "dist/fleet/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-post-ember-light.svg",
+                "png": "dist/fleet/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -6470,6 +7371,16 @@
               "light": {
                 "svg": "dist/fleet/banners/x-header-gold-light.svg",
                 "png": "dist/fleet/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/fleet/banners/x-header-ember-dark.svg",
+                "png": "dist/fleet/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/x-header-ember-light.svg",
+                "png": "dist/fleet/banners/x-header-ember-light.png"
               }
             }
           }
@@ -6517,6 +7428,16 @@
                 "svg": "dist/fleet/banners/linkedin-gold-light.svg",
                 "png": "dist/fleet/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/fleet/banners/linkedin-ember-dark.svg",
+                "png": "dist/fleet/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/linkedin-ember-light.svg",
+                "png": "dist/fleet/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -6562,6 +7483,16 @@
               "light": {
                 "svg": "dist/fleet/banners/github-gold-light.svg",
                 "png": "dist/fleet/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/fleet/banners/github-ember-dark.svg",
+                "png": "dist/fleet/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/fleet/banners/github-ember-light.svg",
+                "png": "dist/fleet/banners/github-ember-light.png"
               }
             }
           }
@@ -7425,6 +8356,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/chat/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/chat/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/chat/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/chat/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/chat/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/chat/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/chat/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/chat/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/chat/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/chat/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/chat/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/chat/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/chat/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/chat/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/chat/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/chat/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/chat/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/chat/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/chat/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/chat/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/chat/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/chat/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/chat/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/chat/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/chat/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/chat/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/chat/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/chat/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/chat/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/chat/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/chat/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -7470,6 +8506,16 @@
               "light": {
                 "svg": "dist/chat/banners/og-gold-light.svg",
                 "png": "dist/chat/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/chat/banners/og-ember-dark.svg",
+                "png": "dist/chat/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/og-ember-light.svg",
+                "png": "dist/chat/banners/og-ember-light.png"
               }
             }
           }
@@ -7517,6 +8563,16 @@
                 "svg": "dist/chat/banners/x-post-gold-light.svg",
                 "png": "dist/chat/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/chat/banners/x-post-ember-dark.svg",
+                "png": "dist/chat/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/x-post-ember-light.svg",
+                "png": "dist/chat/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -7562,6 +8618,16 @@
               "light": {
                 "svg": "dist/chat/banners/x-header-gold-light.svg",
                 "png": "dist/chat/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/chat/banners/x-header-ember-dark.svg",
+                "png": "dist/chat/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/x-header-ember-light.svg",
+                "png": "dist/chat/banners/x-header-ember-light.png"
               }
             }
           }
@@ -7609,6 +8675,16 @@
                 "svg": "dist/chat/banners/linkedin-gold-light.svg",
                 "png": "dist/chat/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/chat/banners/linkedin-ember-dark.svg",
+                "png": "dist/chat/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/linkedin-ember-light.svg",
+                "png": "dist/chat/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -7654,6 +8730,16 @@
               "light": {
                 "svg": "dist/chat/banners/github-gold-light.svg",
                 "png": "dist/chat/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/chat/banners/github-ember-dark.svg",
+                "png": "dist/chat/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/chat/banners/github-ember-light.svg",
+                "png": "dist/chat/banners/github-ember-light.png"
               }
             }
           }
@@ -8517,6 +9603,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/cosign/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/cosign/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/cosign/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/cosign/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/cosign/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/cosign/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/cosign/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/cosign/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/cosign/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/cosign/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/cosign/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/cosign/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/cosign/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/cosign/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/cosign/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/cosign/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/cosign/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/cosign/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/cosign/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -8562,6 +9753,16 @@
               "light": {
                 "svg": "dist/cosign/banners/og-gold-light.svg",
                 "png": "dist/cosign/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/cosign/banners/og-ember-dark.svg",
+                "png": "dist/cosign/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/og-ember-light.svg",
+                "png": "dist/cosign/banners/og-ember-light.png"
               }
             }
           }
@@ -8609,6 +9810,16 @@
                 "svg": "dist/cosign/banners/x-post-gold-light.svg",
                 "png": "dist/cosign/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-post-ember-dark.svg",
+                "png": "dist/cosign/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-post-ember-light.svg",
+                "png": "dist/cosign/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -8654,6 +9865,16 @@
               "light": {
                 "svg": "dist/cosign/banners/x-header-gold-light.svg",
                 "png": "dist/cosign/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/cosign/banners/x-header-ember-dark.svg",
+                "png": "dist/cosign/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/x-header-ember-light.svg",
+                "png": "dist/cosign/banners/x-header-ember-light.png"
               }
             }
           }
@@ -8701,6 +9922,16 @@
                 "svg": "dist/cosign/banners/linkedin-gold-light.svg",
                 "png": "dist/cosign/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/cosign/banners/linkedin-ember-dark.svg",
+                "png": "dist/cosign/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/linkedin-ember-light.svg",
+                "png": "dist/cosign/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -8746,6 +9977,16 @@
               "light": {
                 "svg": "dist/cosign/banners/github-gold-light.svg",
                 "png": "dist/cosign/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/cosign/banners/github-ember-dark.svg",
+                "png": "dist/cosign/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/cosign/banners/github-ember-light.svg",
+                "png": "dist/cosign/banners/github-ember-light.png"
               }
             }
           }
@@ -9609,6 +10850,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/lock/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/lock/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/lock/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/lock/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/lock/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/lock/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/lock/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/lock/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/lock/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/lock/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/lock/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/lock/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/lock/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/lock/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/lock/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/lock/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/lock/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/lock/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/lock/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/lock/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/lock/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/lock/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/lock/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/lock/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/lock/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/lock/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/lock/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/lock/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/lock/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/lock/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/lock/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -9654,6 +11000,16 @@
               "light": {
                 "svg": "dist/lock/banners/og-gold-light.svg",
                 "png": "dist/lock/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/lock/banners/og-ember-dark.svg",
+                "png": "dist/lock/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/og-ember-light.svg",
+                "png": "dist/lock/banners/og-ember-light.png"
               }
             }
           }
@@ -9701,6 +11057,16 @@
                 "svg": "dist/lock/banners/x-post-gold-light.svg",
                 "png": "dist/lock/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/lock/banners/x-post-ember-dark.svg",
+                "png": "dist/lock/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-post-ember-light.svg",
+                "png": "dist/lock/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -9746,6 +11112,16 @@
               "light": {
                 "svg": "dist/lock/banners/x-header-gold-light.svg",
                 "png": "dist/lock/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/lock/banners/x-header-ember-dark.svg",
+                "png": "dist/lock/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/x-header-ember-light.svg",
+                "png": "dist/lock/banners/x-header-ember-light.png"
               }
             }
           }
@@ -9793,6 +11169,16 @@
                 "svg": "dist/lock/banners/linkedin-gold-light.svg",
                 "png": "dist/lock/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/lock/banners/linkedin-ember-dark.svg",
+                "png": "dist/lock/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/linkedin-ember-light.svg",
+                "png": "dist/lock/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -9838,6 +11224,16 @@
               "light": {
                 "svg": "dist/lock/banners/github-gold-light.svg",
                 "png": "dist/lock/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/lock/banners/github-ember-dark.svg",
+                "png": "dist/lock/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/lock/banners/github-ember-light.svg",
+                "png": "dist/lock/banners/github-ember-light.png"
               }
             }
           }
@@ -10701,6 +12097,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/vote/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/vote/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/vote/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/vote/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/vote/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/vote/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/vote/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/vote/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/vote/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/vote/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/vote/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/vote/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/vote/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/vote/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/vote/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/vote/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/vote/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/vote/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/vote/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/vote/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/vote/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/vote/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/vote/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/vote/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/vote/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/vote/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/vote/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/vote/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/vote/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/vote/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/vote/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -10746,6 +12247,16 @@
               "light": {
                 "svg": "dist/vote/banners/og-gold-light.svg",
                 "png": "dist/vote/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vote/banners/og-ember-dark.svg",
+                "png": "dist/vote/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/og-ember-light.svg",
+                "png": "dist/vote/banners/og-ember-light.png"
               }
             }
           }
@@ -10793,6 +12304,16 @@
                 "svg": "dist/vote/banners/x-post-gold-light.svg",
                 "png": "dist/vote/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vote/banners/x-post-ember-dark.svg",
+                "png": "dist/vote/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-post-ember-light.svg",
+                "png": "dist/vote/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -10838,6 +12359,16 @@
               "light": {
                 "svg": "dist/vote/banners/x-header-gold-light.svg",
                 "png": "dist/vote/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vote/banners/x-header-ember-dark.svg",
+                "png": "dist/vote/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/x-header-ember-light.svg",
+                "png": "dist/vote/banners/x-header-ember-light.png"
               }
             }
           }
@@ -10885,6 +12416,16 @@
                 "svg": "dist/vote/banners/linkedin-gold-light.svg",
                 "png": "dist/vote/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vote/banners/linkedin-ember-dark.svg",
+                "png": "dist/vote/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/linkedin-ember-light.svg",
+                "png": "dist/vote/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -10930,6 +12471,16 @@
               "light": {
                 "svg": "dist/vote/banners/github-gold-light.svg",
                 "png": "dist/vote/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/vote/banners/github-ember-dark.svg",
+                "png": "dist/vote/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/vote/banners/github-ember-light.svg",
+                "png": "dist/vote/banners/github-ember-light.png"
               }
             }
           }
@@ -11793,6 +13344,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/stamp/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/stamp/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/stamp/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/stamp/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/stamp/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/stamp/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/stamp/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/stamp/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/stamp/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/stamp/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/stamp/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/stamp/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/stamp/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/stamp/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/stamp/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/stamp/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/stamp/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/stamp/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/stamp/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/stamp/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -11838,6 +13494,16 @@
               "light": {
                 "svg": "dist/stamp/banners/og-gold-light.svg",
                 "png": "dist/stamp/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/stamp/banners/og-ember-dark.svg",
+                "png": "dist/stamp/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/og-ember-light.svg",
+                "png": "dist/stamp/banners/og-ember-light.png"
               }
             }
           }
@@ -11885,6 +13551,16 @@
                 "svg": "dist/stamp/banners/x-post-gold-light.svg",
                 "png": "dist/stamp/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-post-ember-dark.svg",
+                "png": "dist/stamp/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-post-ember-light.svg",
+                "png": "dist/stamp/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -11930,6 +13606,16 @@
               "light": {
                 "svg": "dist/stamp/banners/x-header-gold-light.svg",
                 "png": "dist/stamp/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/stamp/banners/x-header-ember-dark.svg",
+                "png": "dist/stamp/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/x-header-ember-light.svg",
+                "png": "dist/stamp/banners/x-header-ember-light.png"
               }
             }
           }
@@ -11977,6 +13663,16 @@
                 "svg": "dist/stamp/banners/linkedin-gold-light.svg",
                 "png": "dist/stamp/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/stamp/banners/linkedin-ember-dark.svg",
+                "png": "dist/stamp/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/linkedin-ember-light.svg",
+                "png": "dist/stamp/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -12022,6 +13718,16 @@
               "light": {
                 "svg": "dist/stamp/banners/github-gold-light.svg",
                 "png": "dist/stamp/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/stamp/banners/github-ember-dark.svg",
+                "png": "dist/stamp/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/stamp/banners/github-ember-light.svg",
+                "png": "dist/stamp/banners/github-ember-light.png"
               }
             }
           }
@@ -12885,6 +14591,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/agent/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/agent/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/agent/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/agent/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/agent/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/agent/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/agent/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/agent/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/agent/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/agent/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/agent/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/agent/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/agent/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/agent/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/agent/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/agent/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/agent/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/agent/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/agent/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/agent/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/agent/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/agent/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/agent/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/agent/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/agent/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/agent/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/agent/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/agent/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/agent/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/agent/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/agent/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -12930,6 +14741,16 @@
               "light": {
                 "svg": "dist/agent/banners/og-gold-light.svg",
                 "png": "dist/agent/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/agent/banners/og-ember-dark.svg",
+                "png": "dist/agent/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/og-ember-light.svg",
+                "png": "dist/agent/banners/og-ember-light.png"
               }
             }
           }
@@ -12977,6 +14798,16 @@
                 "svg": "dist/agent/banners/x-post-gold-light.svg",
                 "png": "dist/agent/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/agent/banners/x-post-ember-dark.svg",
+                "png": "dist/agent/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-post-ember-light.svg",
+                "png": "dist/agent/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -13022,6 +14853,16 @@
               "light": {
                 "svg": "dist/agent/banners/x-header-gold-light.svg",
                 "png": "dist/agent/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/agent/banners/x-header-ember-dark.svg",
+                "png": "dist/agent/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/x-header-ember-light.svg",
+                "png": "dist/agent/banners/x-header-ember-light.png"
               }
             }
           }
@@ -13069,6 +14910,16 @@
                 "svg": "dist/agent/banners/linkedin-gold-light.svg",
                 "png": "dist/agent/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/agent/banners/linkedin-ember-dark.svg",
+                "png": "dist/agent/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/linkedin-ember-light.svg",
+                "png": "dist/agent/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -13114,6 +14965,16 @@
               "light": {
                 "svg": "dist/agent/banners/github-gold-light.svg",
                 "png": "dist/agent/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/agent/banners/github-ember-dark.svg",
+                "png": "dist/agent/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/agent/banners/github-ember-light.svg",
+                "png": "dist/agent/banners/github-ember-light.png"
               }
             }
           }
@@ -13977,6 +15838,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/pledge/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/pledge/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/pledge/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/pledge/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/pledge/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/pledge/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/pledge/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/pledge/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/pledge/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/pledge/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/pledge/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/pledge/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/pledge/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/pledge/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/pledge/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/pledge/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/pledge/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/pledge/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/pledge/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/pledge/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -14022,6 +15988,16 @@
               "light": {
                 "svg": "dist/pledge/banners/og-gold-light.svg",
                 "png": "dist/pledge/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/pledge/banners/og-ember-dark.svg",
+                "png": "dist/pledge/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/og-ember-light.svg",
+                "png": "dist/pledge/banners/og-ember-light.png"
               }
             }
           }
@@ -14069,6 +16045,16 @@
                 "svg": "dist/pledge/banners/x-post-gold-light.svg",
                 "png": "dist/pledge/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-post-ember-dark.svg",
+                "png": "dist/pledge/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-post-ember-light.svg",
+                "png": "dist/pledge/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -14114,6 +16100,16 @@
               "light": {
                 "svg": "dist/pledge/banners/x-header-gold-light.svg",
                 "png": "dist/pledge/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/pledge/banners/x-header-ember-dark.svg",
+                "png": "dist/pledge/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/x-header-ember-light.svg",
+                "png": "dist/pledge/banners/x-header-ember-light.png"
               }
             }
           }
@@ -14161,6 +16157,16 @@
                 "svg": "dist/pledge/banners/linkedin-gold-light.svg",
                 "png": "dist/pledge/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/pledge/banners/linkedin-ember-dark.svg",
+                "png": "dist/pledge/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/linkedin-ember-light.svg",
+                "png": "dist/pledge/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -14206,6 +16212,16 @@
               "light": {
                 "svg": "dist/pledge/banners/github-gold-light.svg",
                 "png": "dist/pledge/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/pledge/banners/github-ember-dark.svg",
+                "png": "dist/pledge/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/pledge/banners/github-ember-light.svg",
+                "png": "dist/pledge/banners/github-ember-light.png"
               }
             }
           }
@@ -15069,6 +17085,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/analytics/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/analytics/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/analytics/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/analytics/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/analytics/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/analytics/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/analytics/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/analytics/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/analytics/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/analytics/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/analytics/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/analytics/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/analytics/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/analytics/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/analytics/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/analytics/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/analytics/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/analytics/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/analytics/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/analytics/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -15114,6 +17235,16 @@
               "light": {
                 "svg": "dist/analytics/banners/og-gold-light.svg",
                 "png": "dist/analytics/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/analytics/banners/og-ember-dark.svg",
+                "png": "dist/analytics/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/og-ember-light.svg",
+                "png": "dist/analytics/banners/og-ember-light.png"
               }
             }
           }
@@ -15161,6 +17292,16 @@
                 "svg": "dist/analytics/banners/x-post-gold-light.svg",
                 "png": "dist/analytics/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-post-ember-dark.svg",
+                "png": "dist/analytics/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-post-ember-light.svg",
+                "png": "dist/analytics/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -15206,6 +17347,16 @@
               "light": {
                 "svg": "dist/analytics/banners/x-header-gold-light.svg",
                 "png": "dist/analytics/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/analytics/banners/x-header-ember-dark.svg",
+                "png": "dist/analytics/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/x-header-ember-light.svg",
+                "png": "dist/analytics/banners/x-header-ember-light.png"
               }
             }
           }
@@ -15253,6 +17404,16 @@
                 "svg": "dist/analytics/banners/linkedin-gold-light.svg",
                 "png": "dist/analytics/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/analytics/banners/linkedin-ember-dark.svg",
+                "png": "dist/analytics/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/linkedin-ember-light.svg",
+                "png": "dist/analytics/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -15298,6 +17459,16 @@
               "light": {
                 "svg": "dist/analytics/banners/github-gold-light.svg",
                 "png": "dist/analytics/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/analytics/banners/github-ember-dark.svg",
+                "png": "dist/analytics/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/analytics/banners/github-ember-light.svg",
+                "png": "dist/analytics/banners/github-ember-light.png"
               }
             }
           }
@@ -16161,6 +18332,111 @@
               }
             }
           }
+        },
+        "ember": {
+          "favicon": {
+            "svg": "dist/btc/skins/ember/favicon/favicon.svg",
+            "png_16": "dist/btc/skins/ember/favicon/favicon-16x16.png",
+            "png_32": "dist/btc/skins/ember/favicon/favicon-32x32.png",
+            "png_48": "dist/btc/skins/ember/favicon/favicon-48x48.png",
+            "ico": "dist/btc/skins/ember/favicon/favicon.ico",
+            "apple_touch": "dist/btc/skins/ember/favicon/apple-touch-icon.png",
+            "android_chrome_192": "dist/btc/skins/ember/favicon/android-chrome-192x192.png",
+            "android_chrome_512": "dist/btc/skins/ember/favicon/android-chrome-512x512.png",
+            "webmanifest": "dist/btc/skins/ember/favicon/site.webmanifest"
+          },
+          "og": {
+            "og-on-dark": "dist/btc/skins/ember/og/og-on-dark-1200x630.png",
+            "og-on-light": "dist/btc/skins/ember/og/og-on-light-1200x630.png",
+            "og-white-on-orange": "dist/btc/skins/ember/og/og-white-on-orange-1200x630.png",
+            "og-black-on-orange": "dist/btc/skins/ember/og/og-black-on-orange-1200x630.png",
+            "aurora-og-on-dark": "dist/btc/skins/ember/og/aurora-og-on-dark-1200x630.png",
+            "aurora-og-on-light": "dist/btc/skins/ember/og/aurora-og-on-light-1200x630.png"
+          },
+          "aurora": {
+            "aurora-on-dark": {
+              "svg": "dist/btc/skins/ember/svg/aurora-on-dark.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-on-dark-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-on-dark-512x512.png"
+              }
+            },
+            "aurora-on-light": {
+              "svg": "dist/btc/skins/ember/svg/aurora-on-light.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-on-light-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-on-light-512x512.png"
+              }
+            },
+            "aurora-rounded-on-dark": {
+              "svg": "dist/btc/skins/ember/svg/aurora-rounded-on-dark.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-rounded-on-dark-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-rounded-on-dark-512x512.png"
+              }
+            },
+            "aurora-rounded-on-light": {
+              "svg": "dist/btc/skins/ember/svg/aurora-rounded-on-light.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-rounded-on-light-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-rounded-on-light-512x512.png"
+              }
+            },
+            "aurora-circle-on-dark": {
+              "svg": "dist/btc/skins/ember/svg/aurora-circle-on-dark.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-circle-on-dark-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-circle-on-dark-512x512.png"
+              }
+            },
+            "aurora-circle-on-light": {
+              "svg": "dist/btc/skins/ember/svg/aurora-circle-on-light.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-circle-on-light-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-circle-on-light-512x512.png"
+              }
+            },
+            "aurora-safearea-on-dark": {
+              "svg": "dist/btc/skins/ember/svg/aurora-safearea-on-dark.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-safearea-on-dark-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-safearea-on-dark-512x512.png"
+              }
+            },
+            "aurora-safearea-on-light": {
+              "svg": "dist/btc/skins/ember/svg/aurora-safearea-on-light.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-safearea-on-light-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-safearea-on-light-512x512.png"
+              }
+            },
+            "aurora-transparent": {
+              "svg": "dist/btc/skins/ember/svg/aurora-transparent.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-transparent-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-transparent-512x512.png"
+              }
+            },
+            "aurora-transparent-light-ink": {
+              "svg": "dist/btc/skins/ember/svg/aurora-transparent-light-ink.svg",
+              "png": {
+                "256x256": "dist/btc/skins/ember/png/aurora-transparent-light-ink-256x256.png",
+                "512x512": "dist/btc/skins/ember/png/aurora-transparent-light-ink-512x512.png"
+              }
+            },
+            "aurora-og-on-dark": {
+              "svg": "dist/btc/skins/ember/svg/aurora-og-on-dark.svg",
+              "png": {
+                "1200x630": "dist/btc/skins/ember/og/aurora-og-on-dark-1200x630.png"
+              }
+            },
+            "aurora-og-on-light": {
+              "svg": "dist/btc/skins/ember/svg/aurora-og-on-light.svg",
+              "png": {
+                "1200x630": "dist/btc/skins/ember/og/aurora-og-on-light-1200x630.png"
+              }
+            }
+          }
         }
       },
       "banners": {
@@ -16206,6 +18482,16 @@
               "light": {
                 "svg": "dist/btc/banners/og-gold-light.svg",
                 "png": "dist/btc/banners/og-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/btc/banners/og-ember-dark.svg",
+                "png": "dist/btc/banners/og-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/btc/banners/og-ember-light.svg",
+                "png": "dist/btc/banners/og-ember-light.png"
               }
             }
           }
@@ -16253,6 +18539,16 @@
                 "svg": "dist/btc/banners/x-post-gold-light.svg",
                 "png": "dist/btc/banners/x-post-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/btc/banners/x-post-ember-dark.svg",
+                "png": "dist/btc/banners/x-post-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/btc/banners/x-post-ember-light.svg",
+                "png": "dist/btc/banners/x-post-ember-light.png"
+              }
             }
           }
         },
@@ -16298,6 +18594,16 @@
               "light": {
                 "svg": "dist/btc/banners/x-header-gold-light.svg",
                 "png": "dist/btc/banners/x-header-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/btc/banners/x-header-ember-dark.svg",
+                "png": "dist/btc/banners/x-header-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/btc/banners/x-header-ember-light.svg",
+                "png": "dist/btc/banners/x-header-ember-light.png"
               }
             }
           }
@@ -16345,6 +18651,16 @@
                 "svg": "dist/btc/banners/linkedin-gold-light.svg",
                 "png": "dist/btc/banners/linkedin-gold-light.png"
               }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/btc/banners/linkedin-ember-dark.svg",
+                "png": "dist/btc/banners/linkedin-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/btc/banners/linkedin-ember-light.svg",
+                "png": "dist/btc/banners/linkedin-ember-light.png"
+              }
             }
           }
         },
@@ -16390,6 +18706,16 @@
               "light": {
                 "svg": "dist/btc/banners/github-gold-light.svg",
                 "png": "dist/btc/banners/github-gold-light.png"
+              }
+            },
+            "ember": {
+              "dark": {
+                "svg": "dist/btc/banners/github-ember-dark.svg",
+                "png": "dist/btc/banners/github-ember-dark.png"
+              },
+              "light": {
+                "svg": "dist/btc/banners/github-ember-light.svg",
+                "png": "dist/btc/banners/github-ember-light.png"
               }
             }
           }
