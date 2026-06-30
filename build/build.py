@@ -58,6 +58,7 @@ from brands import (
 
 import aurorabanner as banner
 import auroramark as au
+import youtube as yt
 
 REPO = Path(__file__).resolve().parent.parent
 DIST = REPO / "dist"
@@ -677,6 +678,69 @@ def build_banners(brand: Brand) -> dict:
 
 
 # ---------------------------------------------------------------------------
+# YouTube channel kit
+# ---------------------------------------------------------------------------
+
+def build_youtube(brand: Brand) -> dict:
+    """Render the YouTube channel kit for one brand: channel-art (2048×1152,
+    safe-area-aware) + thumbnail (1280×720) + avatar (800×800 circle), each ×
+    every skin × {dark, light}. Files encode skin+mode in the name so the whole
+    kit lives flat in dist/<brand>/youtube/. Returns a manifest section keyed
+    asset → skin → mode."""
+    ydir = DIST / brand.slug / "youtube"
+    ydir.mkdir(parents=True, exist_ok=True)
+    section: dict[str, dict] = {"channel-art": {}, "thumbnail": {}, "avatar": {}}
+
+    for skin, accent in SKINS.items():
+        for s in section.values():
+            s[skin] = {}
+        for mode in BANNER_MODES:
+            bg = banner.DARK_BG if mode == "dark" else banner.LIGHT_BG
+            # Lockup glyph: accent body, engraving in the backdrop tone — same
+            # treatment as the favicon marks and social banners.
+            glyph_body = brand.glyph(accent, "none", bg, CANVAS)
+
+            def _emit(asset: str, svg_text: str) -> None:
+                stem = f"{asset}-{skin}-{mode}"
+                svg_path = ydir / f"{stem}.svg"
+                svg_path.write_text(svg_text)
+                w, h = (
+                    (yt.AVATAR_PX, yt.AVATAR_PX) if asset == "avatar"
+                    else yt.YOUTUBE_SIZES[asset]
+                )
+                png_path = ydir / f"{stem}.png"
+                render_master(svg_text, w, h).save(png_path, optimize=True)
+                section[asset][skin][mode] = {
+                    "svg": str(svg_path.relative_to(REPO)),
+                    "png": str(png_path.relative_to(REPO)),
+                }
+
+            ca_w, ca_h = yt.YOUTUBE_SIZES["channel-art"]
+            _emit("channel-art", yt.landscape_svg(
+                w=ca_w, h=ca_h, safe_w=yt.CHANNEL_SAFE_W, safe_h=yt.CHANNEL_SAFE_H,
+                fill=0.88, mode=mode, accent=accent, glyph_body=glyph_body,
+                glyph_native=CANVAS, wordmark=brand.label, tagline=brand.tagline,
+                hostname=brand.hostname,
+                label=f"{brand.label} — YouTube channel art ({skin}/{mode})",
+            ))
+            th_w, th_h = yt.YOUTUBE_SIZES["thumbnail"]
+            _emit("thumbnail", yt.landscape_svg(
+                w=th_w, h=th_h,
+                safe_w=th_w * (1 - 2 * yt.THUMB_INSET),
+                safe_h=th_h * (1 - 2 * yt.THUMB_INSET),
+                fill=1.0, mode=mode, accent=accent, glyph_body=glyph_body,
+                glyph_native=CANVAS, wordmark=brand.label, tagline=brand.tagline,
+                hostname=brand.hostname,
+                label=f"{brand.label} — YouTube thumbnail ({skin}/{mode})",
+            ))
+            _emit("avatar", yt.avatar_svg(
+                mode=mode, glyph_body=glyph_body, glyph_native=CANVAS,
+                label=f"{brand.label} — YouTube avatar ({skin}/{mode})",
+            ))
+    return section
+
+
+# ---------------------------------------------------------------------------
 # Top-level
 # ---------------------------------------------------------------------------
 
@@ -687,7 +751,7 @@ def main() -> None:
 
     manifest = {
         "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-        "version": "1.4.0",
+        "version": "1.5.0",
         "palette": {
             "orange": ORANGE,
             "orange_deep": "#ea580c",
@@ -732,12 +796,14 @@ def main() -> None:
                 }
         assert entry is not None
         entry["banners"] = build_banners(brand)
+        entry["youtube"] = build_youtube(brand)
         n_svg = sum(1 for v in entry["variants"].values())
         n_png = sum(len(v["png"]) for v in entry["variants"].values())
         n_fav = sum(1 for k in entry["favicon"])
         n_ban = len(banner.BANNER_SIZES) * len(SKINS) * len(BANNER_MODES)
+        n_yt = 3 * len(SKINS) * len(BANNER_MODES)
         print(f"    {n_svg:3d} svgs · {n_png:4d} pngs · {n_fav} favicon files "
-              f"· {n_ban} banners · ×{len(SKINS)} skins")
+              f"· {n_ban} banners · {n_yt} youtube · ×{len(SKINS)} skins")
         manifest["brands"].append(entry)
 
     (REPO / "manifest.json").write_text(json.dumps(manifest, indent=2) + "\n")
@@ -751,9 +817,14 @@ def main() -> None:
         sum(len(sz["skins"]) * len(BANNER_MODES) for sz in b["banners"].values())
         for b in manifest["brands"]
     )
+    total_youtube = sum(
+        sum(len(skins) * len(BANNER_MODES) for skins in b["youtube"].values())
+        for b in manifest["brands"]
+    )
     print(f"\ndone. {len(manifest['brands'])} brands × {len(SKINS)} skins · "
           f"{total_svg} default-skin svgs · {total_png} default-skin pngs "
-          f"(+ alternate-skin favicon/og bundles) · {total_banners} aurora banners.")
+          f"(+ alternate-skin favicon/og bundles) · {total_banners} aurora banners "
+          f"· {total_youtube} youtube assets.")
     print(f"manifest: {REPO / 'manifest.json'}")
 
 

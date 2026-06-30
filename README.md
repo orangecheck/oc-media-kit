@@ -3,14 +3,15 @@
 The single-source-of-truth media kit for the OrangeCheck family —
 every brand mark, every variant, every size, in SVG and PNG.
 
-Thirteen brands. 494 SVGs. 4,238 PNGs. 416 aurora social banners. One
-machine-readable manifest.
+Fifteen brands. 570 SVGs. 4,890 PNGs. 750 aurora social banners. 450
+YouTube channel assets. One machine-readable manifest.
 No words inside the marks, ever — icon-only.
 
 ```
 ochk.io       attest.ochk.io   docs.ochk.io   me.ochk.io
 vault.ochk.io fleet.ochk.io    lock.ochk.io   vote.ochk.io
 stamp.ochk.io agent.ochk.io    pledge.ochk.io analytics.ochk.io
+btc.ochk.io   chat.ochk.io     cosign.ochk.io
 ```
 
 ## How to use
@@ -67,6 +68,7 @@ dist/<slug>/
 ├── favicon/         # web-ready bundle (favicon.ico, apple-touch-icon.png, …)
 ├── og/              # open-graph cards · 1200×630 (flat-color + aurora)
 ├── banners/         # aurora social banners · <size>-<skin>-<mode>.{svg,png}
+├── youtube/         # youtube channel kit · <asset>-<skin>-<mode>.{svg,png}
 └── skins/<skin>/    # phosphor / lightning / gold recolours (favicon, og, aurora)
 ```
 
@@ -176,19 +178,43 @@ paths, so the assets carry no font dependency.
 | Size       | Dimensions | Surface                          |
 |------------|------------|----------------------------------|
 | `og`       | 1200×630   | Open Graph / general share card  |
+| `x-post`   | 1600×900   | X / Twitter in-feed landscape    |
 | `x-header` | 1500×500   | X / Twitter profile header       |
 | `linkedin` | 1584×396   | LinkedIn personal / company banner |
 | `github`   | 1280×640   | GitHub repo social-preview       |
 
-Each size renders for all **4 skins** (`orangecheck` · `phosphor` · `lightning`
-· `gold`) × **2 modes** (`dark` · `light`) = 32 per brand, 384 total. The skin
-accent recolours the brand/primary aurora clouds exactly like the runtime;
-green/blue stay stable. Index under each brand's `banners` key in `manifest.json`
-(`size → skins → skin → mode → {svg, png}`).
+Each size renders for all **5 skins** (`orangecheck` · `phosphor` · `lightning`
+· `gold` · `ember`) × **2 modes** (`dark` · `light`) = 50 per brand, 750 total.
+The skin accent recolours the brand/primary aurora clouds exactly like the
+runtime; green/blue stay stable. Index under each brand's `banners` key in
+`manifest.json` (`size → skins → skin → mode → {svg, png}`).
 
 ```
 # X header for stamp, dark, default skin:
 dist/stamp/banners/x-header-orangecheck-dark.png
+```
+
+## YouTube channel kit
+
+The three image surfaces a YouTube channel consumes — which are **not** the same
+shapes as the social banners above, so they get their own set. Same baked-aurora
+field + outline-path text, recoloured per skin.
+
+`dist/<slug>/youtube/<asset>-<skin>-<mode>.{svg,png}`
+
+| Asset         | Dimensions | Surface                                            |
+|---------------|------------|----------------------------------------------------|
+| `channel-art` | 2048×1152  | Channel banner. Lockup is **center-anchored inside YouTube's 1546×423 text-&-logo safe area** — the only region visible across every device (incl. TV), where the left-aligned social banners would be cropped off. |
+| `thumbnail`   | 1280×720   | Video thumbnail · true 16:9                         |
+| `avatar`      | 800×800    | Channel profile picture · circle, accent glyph, no aurora (the icon also renders at 98px, so legibility-first) |
+
+Each renders for all **5 skins** × **2 modes** = 30 per brand, 450 total. Index
+under each brand's `youtube` key in `manifest.json`
+(`asset → skin → mode → {svg, png}`).
+
+```
+# Channel banner for stamp, dark, default skin:
+dist/stamp/youtube/channel-art-orangecheck-dark.png
 ```
 
 ## Favicon bundle (per brand)

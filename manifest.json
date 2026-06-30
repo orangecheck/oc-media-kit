@@ -1,6 +1,6 @@
 {
   "$schema": "https://ochk.io/schemas/media-kit-manifest.v1.json",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "palette": {
     "orange": "#f97316",
     "orange_deep": "#ea580c",
@@ -1262,6 +1262,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/orangecheck/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/orangecheck/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/orangecheck/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/orangecheck/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/orangecheck/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/channel-art-lightning-light.svg",
+              "png": "dist/orangecheck/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/channel-art-gold-dark.svg",
+              "png": "dist/orangecheck/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/channel-art-gold-light.svg",
+              "png": "dist/orangecheck/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/channel-art-ember-dark.svg",
+              "png": "dist/orangecheck/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/channel-art-ember-light.svg",
+              "png": "dist/orangecheck/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/thumbnail-gold-light.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/thumbnail-ember-light.svg",
+              "png": "dist/orangecheck/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/orangecheck/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/orangecheck/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/orangecheck/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/avatar-phosphor-light.svg",
+              "png": "dist/orangecheck/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/avatar-lightning-dark.svg",
+              "png": "dist/orangecheck/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/avatar-lightning-light.svg",
+              "png": "dist/orangecheck/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/avatar-gold-dark.svg",
+              "png": "dist/orangecheck/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/avatar-gold-light.svg",
+              "png": "dist/orangecheck/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/orangecheck/youtube/avatar-ember-dark.svg",
+              "png": "dist/orangecheck/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/orangecheck/youtube/avatar-ember-light.svg",
+              "png": "dist/orangecheck/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -2506,6 +2664,164 @@
                 "svg": "dist/attest/banners/github-ember-light.svg",
                 "png": "dist/attest/banners/github-ember-light.png"
               }
+            }
+          }
+        }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/attest/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/attest/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/attest/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/attest/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/attest/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/attest/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/attest/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/attest/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/channel-art-lightning-light.svg",
+              "png": "dist/attest/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/attest/youtube/channel-art-gold-dark.svg",
+              "png": "dist/attest/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/channel-art-gold-light.svg",
+              "png": "dist/attest/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/attest/youtube/channel-art-ember-dark.svg",
+              "png": "dist/attest/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/channel-art-ember-light.svg",
+              "png": "dist/attest/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/attest/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/attest/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/attest/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/attest/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/attest/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/attest/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/attest/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/attest/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/attest/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/attest/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/attest/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/thumbnail-gold-light.svg",
+              "png": "dist/attest/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/attest/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/attest/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/thumbnail-ember-light.svg",
+              "png": "dist/attest/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/attest/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/attest/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/attest/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/attest/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/attest/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/avatar-phosphor-light.svg",
+              "png": "dist/attest/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/attest/youtube/avatar-lightning-dark.svg",
+              "png": "dist/attest/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/avatar-lightning-light.svg",
+              "png": "dist/attest/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/attest/youtube/avatar-gold-dark.svg",
+              "png": "dist/attest/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/avatar-gold-light.svg",
+              "png": "dist/attest/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/attest/youtube/avatar-ember-dark.svg",
+              "png": "dist/attest/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/attest/youtube/avatar-ember-light.svg",
+              "png": "dist/attest/youtube/avatar-ember-light.png"
             }
           }
         }
@@ -3756,6 +4072,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/docs/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/docs/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/docs/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/docs/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/docs/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/docs/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/docs/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/docs/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/channel-art-lightning-light.svg",
+              "png": "dist/docs/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/docs/youtube/channel-art-gold-dark.svg",
+              "png": "dist/docs/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/channel-art-gold-light.svg",
+              "png": "dist/docs/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/docs/youtube/channel-art-ember-dark.svg",
+              "png": "dist/docs/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/channel-art-ember-light.svg",
+              "png": "dist/docs/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/docs/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/docs/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/docs/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/docs/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/docs/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/docs/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/docs/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/docs/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/docs/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/docs/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/docs/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/thumbnail-gold-light.svg",
+              "png": "dist/docs/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/docs/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/docs/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/thumbnail-ember-light.svg",
+              "png": "dist/docs/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/docs/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/docs/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/docs/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/docs/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/docs/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/avatar-phosphor-light.svg",
+              "png": "dist/docs/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/docs/youtube/avatar-lightning-dark.svg",
+              "png": "dist/docs/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/avatar-lightning-light.svg",
+              "png": "dist/docs/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/docs/youtube/avatar-gold-dark.svg",
+              "png": "dist/docs/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/avatar-gold-light.svg",
+              "png": "dist/docs/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/docs/youtube/avatar-ember-dark.svg",
+              "png": "dist/docs/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/docs/youtube/avatar-ember-light.svg",
+              "png": "dist/docs/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -5000,6 +5474,164 @@
                 "svg": "dist/me/banners/github-ember-light.svg",
                 "png": "dist/me/banners/github-ember-light.png"
               }
+            }
+          }
+        }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/me/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/me/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/me/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/me/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/me/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/me/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/me/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/me/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/channel-art-lightning-light.svg",
+              "png": "dist/me/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/me/youtube/channel-art-gold-dark.svg",
+              "png": "dist/me/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/channel-art-gold-light.svg",
+              "png": "dist/me/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/me/youtube/channel-art-ember-dark.svg",
+              "png": "dist/me/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/channel-art-ember-light.svg",
+              "png": "dist/me/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/me/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/me/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/me/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/me/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/me/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/me/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/me/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/me/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/me/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/me/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/me/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/thumbnail-gold-light.svg",
+              "png": "dist/me/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/me/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/me/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/thumbnail-ember-light.svg",
+              "png": "dist/me/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/me/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/me/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/me/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/me/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/me/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/avatar-phosphor-light.svg",
+              "png": "dist/me/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/me/youtube/avatar-lightning-dark.svg",
+              "png": "dist/me/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/avatar-lightning-light.svg",
+              "png": "dist/me/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/me/youtube/avatar-gold-dark.svg",
+              "png": "dist/me/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/avatar-gold-light.svg",
+              "png": "dist/me/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/me/youtube/avatar-ember-dark.svg",
+              "png": "dist/me/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/me/youtube/avatar-ember-light.svg",
+              "png": "dist/me/youtube/avatar-ember-light.png"
             }
           }
         }
@@ -6250,6 +6882,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/vault/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/vault/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/vault/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/vault/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/vault/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/vault/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/vault/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/vault/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/channel-art-lightning-light.svg",
+              "png": "dist/vault/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/vault/youtube/channel-art-gold-dark.svg",
+              "png": "dist/vault/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/channel-art-gold-light.svg",
+              "png": "dist/vault/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/vault/youtube/channel-art-ember-dark.svg",
+              "png": "dist/vault/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/channel-art-ember-light.svg",
+              "png": "dist/vault/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/vault/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/vault/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/vault/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/vault/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/vault/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/vault/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/vault/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/vault/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/vault/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/vault/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/vault/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/thumbnail-gold-light.svg",
+              "png": "dist/vault/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/vault/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/vault/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/thumbnail-ember-light.svg",
+              "png": "dist/vault/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/vault/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/vault/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/vault/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/vault/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/vault/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/avatar-phosphor-light.svg",
+              "png": "dist/vault/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/vault/youtube/avatar-lightning-dark.svg",
+              "png": "dist/vault/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/avatar-lightning-light.svg",
+              "png": "dist/vault/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/vault/youtube/avatar-gold-dark.svg",
+              "png": "dist/vault/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/avatar-gold-light.svg",
+              "png": "dist/vault/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/vault/youtube/avatar-ember-dark.svg",
+              "png": "dist/vault/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/vault/youtube/avatar-ember-light.svg",
+              "png": "dist/vault/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -7494,6 +8284,164 @@
                 "svg": "dist/fleet/banners/github-ember-light.svg",
                 "png": "dist/fleet/banners/github-ember-light.png"
               }
+            }
+          }
+        }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/fleet/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/fleet/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/fleet/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/fleet/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/fleet/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/fleet/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/fleet/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/fleet/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/channel-art-lightning-light.svg",
+              "png": "dist/fleet/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/fleet/youtube/channel-art-gold-dark.svg",
+              "png": "dist/fleet/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/channel-art-gold-light.svg",
+              "png": "dist/fleet/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/fleet/youtube/channel-art-ember-dark.svg",
+              "png": "dist/fleet/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/channel-art-ember-light.svg",
+              "png": "dist/fleet/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/fleet/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/fleet/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/fleet/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/fleet/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/fleet/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/fleet/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/fleet/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/fleet/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/fleet/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/fleet/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/fleet/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/thumbnail-gold-light.svg",
+              "png": "dist/fleet/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/fleet/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/fleet/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/thumbnail-ember-light.svg",
+              "png": "dist/fleet/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/fleet/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/fleet/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/fleet/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/fleet/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/fleet/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/avatar-phosphor-light.svg",
+              "png": "dist/fleet/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/fleet/youtube/avatar-lightning-dark.svg",
+              "png": "dist/fleet/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/avatar-lightning-light.svg",
+              "png": "dist/fleet/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/fleet/youtube/avatar-gold-dark.svg",
+              "png": "dist/fleet/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/avatar-gold-light.svg",
+              "png": "dist/fleet/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/fleet/youtube/avatar-ember-dark.svg",
+              "png": "dist/fleet/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/fleet/youtube/avatar-ember-light.svg",
+              "png": "dist/fleet/youtube/avatar-ember-light.png"
             }
           }
         }
@@ -8744,6 +9692,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/chat/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/chat/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/chat/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/chat/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/chat/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/chat/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/chat/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/chat/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/channel-art-lightning-light.svg",
+              "png": "dist/chat/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/chat/youtube/channel-art-gold-dark.svg",
+              "png": "dist/chat/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/channel-art-gold-light.svg",
+              "png": "dist/chat/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/chat/youtube/channel-art-ember-dark.svg",
+              "png": "dist/chat/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/channel-art-ember-light.svg",
+              "png": "dist/chat/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/chat/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/chat/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/chat/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/chat/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/chat/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/chat/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/chat/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/chat/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/chat/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/chat/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/chat/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/thumbnail-gold-light.svg",
+              "png": "dist/chat/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/chat/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/chat/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/thumbnail-ember-light.svg",
+              "png": "dist/chat/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/chat/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/chat/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/chat/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/chat/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/chat/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/avatar-phosphor-light.svg",
+              "png": "dist/chat/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/chat/youtube/avatar-lightning-dark.svg",
+              "png": "dist/chat/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/avatar-lightning-light.svg",
+              "png": "dist/chat/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/chat/youtube/avatar-gold-dark.svg",
+              "png": "dist/chat/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/avatar-gold-light.svg",
+              "png": "dist/chat/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/chat/youtube/avatar-ember-dark.svg",
+              "png": "dist/chat/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/chat/youtube/avatar-ember-light.svg",
+              "png": "dist/chat/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -9988,6 +11094,164 @@
                 "svg": "dist/cosign/banners/github-ember-light.svg",
                 "png": "dist/cosign/banners/github-ember-light.png"
               }
+            }
+          }
+        }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/cosign/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/cosign/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/cosign/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/cosign/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/cosign/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/cosign/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/cosign/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/cosign/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/channel-art-lightning-light.svg",
+              "png": "dist/cosign/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/cosign/youtube/channel-art-gold-dark.svg",
+              "png": "dist/cosign/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/channel-art-gold-light.svg",
+              "png": "dist/cosign/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/cosign/youtube/channel-art-ember-dark.svg",
+              "png": "dist/cosign/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/channel-art-ember-light.svg",
+              "png": "dist/cosign/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/cosign/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/cosign/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/cosign/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/cosign/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/cosign/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/cosign/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/cosign/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/cosign/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/cosign/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/cosign/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/cosign/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/thumbnail-gold-light.svg",
+              "png": "dist/cosign/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/cosign/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/cosign/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/thumbnail-ember-light.svg",
+              "png": "dist/cosign/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/cosign/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/cosign/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/cosign/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/cosign/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/cosign/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/avatar-phosphor-light.svg",
+              "png": "dist/cosign/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/cosign/youtube/avatar-lightning-dark.svg",
+              "png": "dist/cosign/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/avatar-lightning-light.svg",
+              "png": "dist/cosign/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/cosign/youtube/avatar-gold-dark.svg",
+              "png": "dist/cosign/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/avatar-gold-light.svg",
+              "png": "dist/cosign/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/cosign/youtube/avatar-ember-dark.svg",
+              "png": "dist/cosign/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/cosign/youtube/avatar-ember-light.svg",
+              "png": "dist/cosign/youtube/avatar-ember-light.png"
             }
           }
         }
@@ -11238,6 +12502,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/lock/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/lock/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/lock/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/lock/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/lock/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/lock/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/lock/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/lock/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/channel-art-lightning-light.svg",
+              "png": "dist/lock/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/lock/youtube/channel-art-gold-dark.svg",
+              "png": "dist/lock/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/channel-art-gold-light.svg",
+              "png": "dist/lock/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/lock/youtube/channel-art-ember-dark.svg",
+              "png": "dist/lock/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/channel-art-ember-light.svg",
+              "png": "dist/lock/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/lock/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/lock/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/lock/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/lock/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/lock/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/lock/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/lock/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/lock/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/lock/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/lock/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/lock/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/thumbnail-gold-light.svg",
+              "png": "dist/lock/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/lock/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/lock/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/thumbnail-ember-light.svg",
+              "png": "dist/lock/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/lock/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/lock/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/lock/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/lock/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/lock/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/avatar-phosphor-light.svg",
+              "png": "dist/lock/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/lock/youtube/avatar-lightning-dark.svg",
+              "png": "dist/lock/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/avatar-lightning-light.svg",
+              "png": "dist/lock/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/lock/youtube/avatar-gold-dark.svg",
+              "png": "dist/lock/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/avatar-gold-light.svg",
+              "png": "dist/lock/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/lock/youtube/avatar-ember-dark.svg",
+              "png": "dist/lock/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/lock/youtube/avatar-ember-light.svg",
+              "png": "dist/lock/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -12482,6 +13904,164 @@
                 "svg": "dist/vote/banners/github-ember-light.svg",
                 "png": "dist/vote/banners/github-ember-light.png"
               }
+            }
+          }
+        }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/vote/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/vote/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/vote/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/vote/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/vote/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/vote/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/vote/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/vote/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/channel-art-lightning-light.svg",
+              "png": "dist/vote/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/vote/youtube/channel-art-gold-dark.svg",
+              "png": "dist/vote/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/channel-art-gold-light.svg",
+              "png": "dist/vote/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/vote/youtube/channel-art-ember-dark.svg",
+              "png": "dist/vote/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/channel-art-ember-light.svg",
+              "png": "dist/vote/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/vote/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/vote/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/vote/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/vote/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/vote/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/vote/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/vote/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/vote/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/vote/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/vote/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/vote/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/thumbnail-gold-light.svg",
+              "png": "dist/vote/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/vote/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/vote/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/thumbnail-ember-light.svg",
+              "png": "dist/vote/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/vote/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/vote/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/vote/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/vote/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/vote/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/avatar-phosphor-light.svg",
+              "png": "dist/vote/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/vote/youtube/avatar-lightning-dark.svg",
+              "png": "dist/vote/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/avatar-lightning-light.svg",
+              "png": "dist/vote/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/vote/youtube/avatar-gold-dark.svg",
+              "png": "dist/vote/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/avatar-gold-light.svg",
+              "png": "dist/vote/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/vote/youtube/avatar-ember-dark.svg",
+              "png": "dist/vote/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/vote/youtube/avatar-ember-light.svg",
+              "png": "dist/vote/youtube/avatar-ember-light.png"
             }
           }
         }
@@ -13732,6 +15312,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/stamp/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/stamp/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/stamp/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/stamp/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/stamp/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/stamp/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/stamp/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/stamp/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/channel-art-lightning-light.svg",
+              "png": "dist/stamp/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/stamp/youtube/channel-art-gold-dark.svg",
+              "png": "dist/stamp/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/channel-art-gold-light.svg",
+              "png": "dist/stamp/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/stamp/youtube/channel-art-ember-dark.svg",
+              "png": "dist/stamp/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/channel-art-ember-light.svg",
+              "png": "dist/stamp/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/stamp/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/stamp/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/stamp/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/stamp/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/stamp/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/stamp/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/stamp/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/stamp/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/stamp/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/stamp/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/stamp/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/thumbnail-gold-light.svg",
+              "png": "dist/stamp/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/stamp/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/stamp/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/thumbnail-ember-light.svg",
+              "png": "dist/stamp/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/stamp/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/stamp/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/stamp/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/stamp/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/stamp/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/avatar-phosphor-light.svg",
+              "png": "dist/stamp/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/stamp/youtube/avatar-lightning-dark.svg",
+              "png": "dist/stamp/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/avatar-lightning-light.svg",
+              "png": "dist/stamp/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/stamp/youtube/avatar-gold-dark.svg",
+              "png": "dist/stamp/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/avatar-gold-light.svg",
+              "png": "dist/stamp/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/stamp/youtube/avatar-ember-dark.svg",
+              "png": "dist/stamp/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/stamp/youtube/avatar-ember-light.svg",
+              "png": "dist/stamp/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -14976,6 +16714,164 @@
                 "svg": "dist/agent/banners/github-ember-light.svg",
                 "png": "dist/agent/banners/github-ember-light.png"
               }
+            }
+          }
+        }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/agent/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/agent/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/agent/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/agent/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/agent/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/agent/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/agent/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/agent/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/channel-art-lightning-light.svg",
+              "png": "dist/agent/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/agent/youtube/channel-art-gold-dark.svg",
+              "png": "dist/agent/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/channel-art-gold-light.svg",
+              "png": "dist/agent/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/agent/youtube/channel-art-ember-dark.svg",
+              "png": "dist/agent/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/channel-art-ember-light.svg",
+              "png": "dist/agent/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/agent/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/agent/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/agent/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/agent/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/agent/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/agent/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/agent/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/agent/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/agent/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/agent/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/agent/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/thumbnail-gold-light.svg",
+              "png": "dist/agent/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/agent/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/agent/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/thumbnail-ember-light.svg",
+              "png": "dist/agent/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/agent/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/agent/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/agent/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/agent/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/agent/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/avatar-phosphor-light.svg",
+              "png": "dist/agent/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/agent/youtube/avatar-lightning-dark.svg",
+              "png": "dist/agent/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/avatar-lightning-light.svg",
+              "png": "dist/agent/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/agent/youtube/avatar-gold-dark.svg",
+              "png": "dist/agent/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/avatar-gold-light.svg",
+              "png": "dist/agent/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/agent/youtube/avatar-ember-dark.svg",
+              "png": "dist/agent/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/agent/youtube/avatar-ember-light.svg",
+              "png": "dist/agent/youtube/avatar-ember-light.png"
             }
           }
         }
@@ -16226,6 +18122,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/pledge/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/pledge/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/pledge/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/pledge/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/pledge/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/pledge/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/pledge/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/pledge/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/channel-art-lightning-light.svg",
+              "png": "dist/pledge/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/pledge/youtube/channel-art-gold-dark.svg",
+              "png": "dist/pledge/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/channel-art-gold-light.svg",
+              "png": "dist/pledge/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/pledge/youtube/channel-art-ember-dark.svg",
+              "png": "dist/pledge/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/channel-art-ember-light.svg",
+              "png": "dist/pledge/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/pledge/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/pledge/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/pledge/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/pledge/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/pledge/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/pledge/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/pledge/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/pledge/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/pledge/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/pledge/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/pledge/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/thumbnail-gold-light.svg",
+              "png": "dist/pledge/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/pledge/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/pledge/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/thumbnail-ember-light.svg",
+              "png": "dist/pledge/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/pledge/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/pledge/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/pledge/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/pledge/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/pledge/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/avatar-phosphor-light.svg",
+              "png": "dist/pledge/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/pledge/youtube/avatar-lightning-dark.svg",
+              "png": "dist/pledge/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/avatar-lightning-light.svg",
+              "png": "dist/pledge/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/pledge/youtube/avatar-gold-dark.svg",
+              "png": "dist/pledge/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/avatar-gold-light.svg",
+              "png": "dist/pledge/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/pledge/youtube/avatar-ember-dark.svg",
+              "png": "dist/pledge/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/pledge/youtube/avatar-ember-light.svg",
+              "png": "dist/pledge/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -17473,6 +19527,164 @@
             }
           }
         }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/analytics/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/analytics/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/analytics/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/analytics/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/analytics/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/analytics/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/analytics/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/analytics/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/channel-art-lightning-light.svg",
+              "png": "dist/analytics/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/analytics/youtube/channel-art-gold-dark.svg",
+              "png": "dist/analytics/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/channel-art-gold-light.svg",
+              "png": "dist/analytics/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/analytics/youtube/channel-art-ember-dark.svg",
+              "png": "dist/analytics/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/channel-art-ember-light.svg",
+              "png": "dist/analytics/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/analytics/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/analytics/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/analytics/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/analytics/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/analytics/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/analytics/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/analytics/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/analytics/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/analytics/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/analytics/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/analytics/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/thumbnail-gold-light.svg",
+              "png": "dist/analytics/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/analytics/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/analytics/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/thumbnail-ember-light.svg",
+              "png": "dist/analytics/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/analytics/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/analytics/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/analytics/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/analytics/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/analytics/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/avatar-phosphor-light.svg",
+              "png": "dist/analytics/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/analytics/youtube/avatar-lightning-dark.svg",
+              "png": "dist/analytics/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/avatar-lightning-light.svg",
+              "png": "dist/analytics/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/analytics/youtube/avatar-gold-dark.svg",
+              "png": "dist/analytics/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/avatar-gold-light.svg",
+              "png": "dist/analytics/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/analytics/youtube/avatar-ember-dark.svg",
+              "png": "dist/analytics/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/analytics/youtube/avatar-ember-light.svg",
+              "png": "dist/analytics/youtube/avatar-ember-light.png"
+            }
+          }
+        }
       }
     },
     {
@@ -18717,6 +20929,164 @@
                 "svg": "dist/btc/banners/github-ember-light.svg",
                 "png": "dist/btc/banners/github-ember-light.png"
               }
+            }
+          }
+        }
+      },
+      "youtube": {
+        "channel-art": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/btc/youtube/channel-art-orangecheck-dark.svg",
+              "png": "dist/btc/youtube/channel-art-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/channel-art-orangecheck-light.svg",
+              "png": "dist/btc/youtube/channel-art-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/btc/youtube/channel-art-phosphor-dark.svg",
+              "png": "dist/btc/youtube/channel-art-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/channel-art-phosphor-light.svg",
+              "png": "dist/btc/youtube/channel-art-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/btc/youtube/channel-art-lightning-dark.svg",
+              "png": "dist/btc/youtube/channel-art-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/channel-art-lightning-light.svg",
+              "png": "dist/btc/youtube/channel-art-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/btc/youtube/channel-art-gold-dark.svg",
+              "png": "dist/btc/youtube/channel-art-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/channel-art-gold-light.svg",
+              "png": "dist/btc/youtube/channel-art-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/btc/youtube/channel-art-ember-dark.svg",
+              "png": "dist/btc/youtube/channel-art-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/channel-art-ember-light.svg",
+              "png": "dist/btc/youtube/channel-art-ember-light.png"
+            }
+          }
+        },
+        "thumbnail": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/btc/youtube/thumbnail-orangecheck-dark.svg",
+              "png": "dist/btc/youtube/thumbnail-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/thumbnail-orangecheck-light.svg",
+              "png": "dist/btc/youtube/thumbnail-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/btc/youtube/thumbnail-phosphor-dark.svg",
+              "png": "dist/btc/youtube/thumbnail-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/thumbnail-phosphor-light.svg",
+              "png": "dist/btc/youtube/thumbnail-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/btc/youtube/thumbnail-lightning-dark.svg",
+              "png": "dist/btc/youtube/thumbnail-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/thumbnail-lightning-light.svg",
+              "png": "dist/btc/youtube/thumbnail-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/btc/youtube/thumbnail-gold-dark.svg",
+              "png": "dist/btc/youtube/thumbnail-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/thumbnail-gold-light.svg",
+              "png": "dist/btc/youtube/thumbnail-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/btc/youtube/thumbnail-ember-dark.svg",
+              "png": "dist/btc/youtube/thumbnail-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/thumbnail-ember-light.svg",
+              "png": "dist/btc/youtube/thumbnail-ember-light.png"
+            }
+          }
+        },
+        "avatar": {
+          "orangecheck": {
+            "dark": {
+              "svg": "dist/btc/youtube/avatar-orangecheck-dark.svg",
+              "png": "dist/btc/youtube/avatar-orangecheck-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/avatar-orangecheck-light.svg",
+              "png": "dist/btc/youtube/avatar-orangecheck-light.png"
+            }
+          },
+          "phosphor": {
+            "dark": {
+              "svg": "dist/btc/youtube/avatar-phosphor-dark.svg",
+              "png": "dist/btc/youtube/avatar-phosphor-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/avatar-phosphor-light.svg",
+              "png": "dist/btc/youtube/avatar-phosphor-light.png"
+            }
+          },
+          "lightning": {
+            "dark": {
+              "svg": "dist/btc/youtube/avatar-lightning-dark.svg",
+              "png": "dist/btc/youtube/avatar-lightning-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/avatar-lightning-light.svg",
+              "png": "dist/btc/youtube/avatar-lightning-light.png"
+            }
+          },
+          "gold": {
+            "dark": {
+              "svg": "dist/btc/youtube/avatar-gold-dark.svg",
+              "png": "dist/btc/youtube/avatar-gold-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/avatar-gold-light.svg",
+              "png": "dist/btc/youtube/avatar-gold-light.png"
+            }
+          },
+          "ember": {
+            "dark": {
+              "svg": "dist/btc/youtube/avatar-ember-dark.svg",
+              "png": "dist/btc/youtube/avatar-ember-dark.png"
+            },
+            "light": {
+              "svg": "dist/btc/youtube/avatar-ember-light.svg",
+              "png": "dist/btc/youtube/avatar-ember-light.png"
             }
           }
         }
