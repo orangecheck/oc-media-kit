@@ -31,9 +31,21 @@ OUT = pathlib.Path(__file__).resolve().parent.parent / "dist" / "glyphs" / "glyp
 
 
 def main() -> None:
+    # Emit each glyph in its CORRECT display form for a 3D emboss:
+    #  - is_glyph_only marks (§, vote bars, ₿) are pure fills with no ink
+    #    detail — emit solid, filled with __INK__ (→ currentColor at runtime),
+    #    so they extrude as a clean solid slab.
+    #  - every other mark is a filled tile + frame + detail (or a body-fill
+    #    shape with an outline mode). Call it with fg="none" so its built-in
+    #    outline branch fires: the tile/body drops away and the frame + detail
+    #    are stroked in __INK__, leaving a recognizable extrudable outline.
+    # (The old emitter froze every glyph in filled mode because it passed the
+    #  "__FG__" sentinel, which is never == "none", so no outline branch ran —
+    #  that made tiles render as solid blocks and pure-fill marks vanish.)
     entries: list[tuple[str, str]] = []
     for brand in BRANDS:
-        inner = brand.glyph(FG, BG, INK, 1024)
+        fg_arg = INK if brand.is_glyph_only else "none"
+        inner = brand.glyph(fg_arg, BG, INK, 1024)
         if "`" in inner or "${" in inner:  # would break the TS template literal
             raise ValueError(f"glyph '{brand.slug}' contains TS-hostile characters")
         entries.append((brand.slug, inner))
