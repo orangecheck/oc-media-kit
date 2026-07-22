@@ -12,6 +12,7 @@ ochk.io       attest.ochk.io   docs.ochk.io   me.ochk.io
 vault.ochk.io fleet.ochk.io    lock.ochk.io   vote.ochk.io
 stamp.ochk.io agent.ochk.io    pledge.ochk.io analytics.ochk.io
 btc.ochk.io   chat.ochk.io     cosign.ochk.io
+globe.ochk.io
 ```
 
 ## How to use

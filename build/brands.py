@@ -366,6 +366,22 @@ def cosign_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa
     )
 
 
+def globe_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
+    """globe.ochk.io — the bitcoin network on a sphere: a filled square with a
+    meridian globe and one lit node. Mirrors the oc-globe-web LogoMark exactly
+    (square body, equator + meridian, a single node lit on the sphere)."""
+    s = canvas / 24.0
+    return (
+        f'<g transform="scale({s:.6f} {s:.6f})">'
+        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
+        f'<circle cx="12" cy="12" r="6" fill="none" stroke="{ink}" stroke-width="1.4"/>'
+        f'<line x1="6" y1="12" x2="18" y2="12" stroke="{ink}" stroke-width="1.2"/>'
+        f'<ellipse cx="12" cy="12" rx="2.8" ry="6" fill="none" stroke="{ink}" stroke-width="1.2"/>'
+        f'<circle cx="15" cy="9" r="1.15" fill="{ink}"/>'
+        f'</g>'
+    )
+
+
 # ---------------------------------------------------------------------------
 
 @dataclass(frozen=True)
@@ -514,6 +530,13 @@ BRANDS: list[Brand] = [
         # dark backdrop disappears at 16×16).
         favicon_variant="rounded-white-on-orange",
         apple_touch_variant="rounded-white-on-orange",
+    ),
+    Brand(
+        slug="globe",
+        label="oc·globe",
+        hostname="globe.ochk.io",
+        tagline="the whole bitcoin network, in one living world",
+        glyph=globe_glyph,
     ),
 ]
 
