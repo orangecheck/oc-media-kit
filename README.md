@@ -9,7 +9,7 @@ No words inside the marks, ever — icon-only.
 
 ```
 ochk.io       attest.ochk.io   docs.ochk.io   me.ochk.io
-vault.ochk.io fleet.ochk.io    lock.ochk.io   vote.ochk.io
+vault.ochk.io lock.ochk.io     vote.ochk.io
 stamp.ochk.io agent.ochk.io    pledge.ochk.io analytics.ochk.io
 btc.ochk.io   chat.ochk.io     cosign.ochk.io
 globe.ochk.io
@@ -283,7 +283,6 @@ Every `dist/<slug>/favicon/` carries:
 | `docs`        | `docs.ochk.io`      | page with three text-lines                                          |
 | `me`          | `me.ochk.io`        | person silhouette in a stamp frame                                  |
 | `vault`       | `vault.ochk.io`     | shackle + safe body + dial                                          |
-| `fleet`       | `fleet.ochk.io`     | terminal prompt — chevron + cursor                                  |
 | `chat`        | `chat.ochk.io`      | speech bubble + three message dots                                 |
 | `lock`        | `lock.ochk.io`      | padlock                                                             |
 | `vote`        | `vote.ochk.io`      | three ascending tally bars                                          |

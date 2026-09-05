@@ -219,20 +219,6 @@ def vault_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa:
     )
 
 
-def fleet_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:
-    """fleet.ochk.io — terminal prompt (chevron + cursor line)."""
-    s = canvas / 24.0
-    return (
-        f'<g transform="scale({s:.6f} {s:.6f})">'
-        f'<rect x="3" y="3" width="18" height="18" fill="{fg}"/>'
-        f'<rect x="6" y="6" width="12" height="12" fill="none" stroke="{ink}" stroke-width="1.5"/>'
-        f'<path d="M8.5 9.5 L11 12 L8.5 14.5" fill="none" stroke="{ink}" stroke-width="1.6" '
-        f'stroke-linejoin="miter" stroke-linecap="square"/>'
-        f'<rect x="12" y="14" width="4" height="1.4" fill="{ink}"/>'
-        f'</g>'
-    )
-
-
 def lock_glyph(fg: str, bg: str, ink: str, canvas: int = 1024) -> str:  # noqa: ARG001
     """lock.ochk.io — padlock (shackle + body + keyhole).
 
@@ -447,13 +433,6 @@ BRANDS: list[Brand] = [
         hostname="vault.ochk.io",
         tagline="encrypted personal secret storage",
         glyph=vault_glyph,
-    ),
-    Brand(
-        slug="fleet",
-        label="oc·fleet",
-        hostname="fleet.ochk.io",
-        tagline="managed agent + pledge for teams",
-        glyph=fleet_glyph,
     ),
     Brand(
         slug="chat",
