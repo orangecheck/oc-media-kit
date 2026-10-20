@@ -8,7 +8,7 @@ YouTube channel assets. One machine-readable manifest.
 No words inside the marks, ever — icon-only.
 
 ```
-ochk.io       attest.ochk.io   docs.ochk.io   me.ochk.io
+ochk.io       attest.ochk.io   ochk.io/docs   me.ochk.io
 vault.ochk.io lock.ochk.io     vote.ochk.io
 stamp.ochk.io agent.ochk.io    pledge.ochk.io analytics.ochk.io
 btc.ochk.io   chat.ochk.io     cosign.ochk.io
@@ -280,7 +280,7 @@ Every `dist/<slug>/favicon/` carries:
 |---------------|---------------------|---------------------------------------------------------------------|
 | `orangecheck` | `ochk.io`           | `§` (section sign) — root umbrella                                  |
 | `attest`      | `attest.ochk.io`    | scalloped badge + check (the original OrangeCheck protocol)         |
-| `docs`        | `docs.ochk.io`      | page with three text-lines                                          |
+| `docs`        | `ochk.io/docs`      | page with three text-lines                                          |
 | `me`          | `me.ochk.io`        | person silhouette in a stamp frame                                  |
 | `vault`       | `vault.ochk.io`     | shackle + safe body + dial                                          |
 | `chat`        | `chat.ochk.io`      | speech bubble + three message dots                                 |
