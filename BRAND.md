@@ -23,6 +23,13 @@ Two glyphs break the chrome on purpose: `orangecheck` is the §
 section sign on a backdrop, and `vote` is three ascending bars on
 transparency.
 
+The family's own mark is the isometric check, not the §. It is drawn
+in [`@orangecheck/mark`](https://www.npmjs.com/package/@orangecheck/mark),
+not in this kit, and ochk.io and ochk.io/docs take their icons from its
+`assets/favicon/` set. The kit's `orangecheck` (§) and `docs` entries
+stay for artwork made with them; do not use them for a new icon of
+orangecheck itself.
+
 ### When to use which variant
 
 - **favicon** → `square-on-dark` (or `favicon.svg` from the bundle).
@@ -69,7 +76,9 @@ extension-store thumbnail) will crop the mark from the edges in.
 ## Trademark
 
 `OrangeCheck` and the family marks are trademarks of OrangeCheck.
-Use is permitted under CC-BY-4.0 with attribution to `ochk.io`.
+The files in this kit are licensed CC BY 4.0, with attribution to
+`ochk.io`. That licence covers the files; it grants no right to use
+the marks themselves, which the trademark policy governs.
 
 See the family `TRADEMARK.md` in `oc-packages` for the legal
 trademark notice that ships with every package.

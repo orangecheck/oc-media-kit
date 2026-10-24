@@ -278,9 +278,9 @@ Every `dist/<slug>/favicon/` carries:
 
 | Slug          | Host                | Mark                                                                |
 |---------------|---------------------|---------------------------------------------------------------------|
-| `orangecheck` | `ochk.io`           | `§` (section sign) — root umbrella                                  |
+| `orangecheck` | —                   | `§` (section sign); ochk.io now shows the check, see below          |
 | `attest`      | `attest.ochk.io`    | scalloped badge + check (the original OrangeCheck protocol)         |
-| `docs`        | `ochk.io/docs`      | page with three text-lines                                          |
+| `docs`        | —                   | page with three text-lines; ochk.io/docs now shows the check        |
 | `me`          | `me.ochk.io`        | person silhouette in a stamp frame                                  |
 | `vault`       | `vault.ochk.io`     | shackle + safe body + dial                                          |
 | `chat`        | `chat.ochk.io`      | speech bubble + three message dots                                 |
@@ -292,6 +292,11 @@ Every `dist/<slug>/favicon/` carries:
 | `analytics`   | `analytics.ochk.io` | rising line chart                                                   |
 
 No wordmarks. Marks are icon-only.
+
+orangecheck's own mark is the isometric check, drawn in
+[`@orangecheck/mark`](https://www.npmjs.com/package/@orangecheck/mark).
+ochk.io and ochk.io/docs take their favicons from its `assets/favicon/`
+set, not from `dist/orangecheck/` or `dist/docs/`.
 
 ## Regenerating
 
@@ -311,7 +316,9 @@ mark and every variant.
 
 ## License
 
-CC-BY-4.0 · attribute to `ochk.io`.
+The files are CC-BY-4.0 · attribute to `ochk.io`. The licence covers
+the files, not the marks: using a mark is governed by the trademark
+policy (`TRADEMARK.md` in `oc-packages`).
 
 The `archive/` directory preserves the 2026-05 §-mark generation
 experiment that seeded this repo.
