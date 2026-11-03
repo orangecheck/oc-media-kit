@@ -274,7 +274,7 @@ Every `dist/<slug>/favicon/` carries:
 `dark` is `#0a0a0a` everywhere. Some legacy per-site favicon SVGs used
 `#0b0909`; the kit normalizes to `#0a0a0a` and acts as the new SoT.
 
-## The 13 brand marks
+## The 15 brand marks
 
 | Slug          | Host                | Mark                                                                |
 |---------------|---------------------|---------------------------------------------------------------------|
@@ -284,12 +284,15 @@ Every `dist/<slug>/favicon/` carries:
 | `me`          | `me.ochk.io`        | person silhouette in a stamp frame                                  |
 | `vault`       | `vault.ochk.io`     | shackle + safe body + dial                                          |
 | `chat`        | `chat.ochk.io`      | speech bubble + three message dots                                 |
+| `cosign`      | `cosign.ochk.io`    | two people side by side inside the stamp frame                      |
 | `lock`        | `lock.ochk.io`      | padlock                                                             |
 | `vote`        | `vote.ochk.io`      | three ascending tally bars                                          |
 | `stamp`       | `stamp.ochk.io`     | notary stamp + anchor glyph                                         |
 | `agent`       | `agent.ochk.io`     | "A" pennant + crossbar                                              |
 | `pledge`      | `pledge.ochk.io`    | stylized "P" in an envelope frame                                   |
 | `analytics`   | `analytics.ochk.io` | rising line chart                                                   |
+| `btc`         | `btc.ochk.io`       | the `₿` glyph                                                       |
+| `globe`       | `globe.ochk.io`     | a filled square with a meridian globe and one lit node              |
 
 No wordmarks. Marks are icon-only.
 
